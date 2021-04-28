@@ -2,5 +2,6 @@
 name: ET
 position: Elsewhere
 homepage: https://stellarium-web.org
+output: false
 ---
-Go home?
+Went home

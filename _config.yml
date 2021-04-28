@@ -2,4 +2,9 @@ theme: jekyll-theme-slate
 
 collections:
   members:
+    order:
+      - fredrik.md
+      - martin.md
+      - bahareh.md
+      - graham.md
     output: true
