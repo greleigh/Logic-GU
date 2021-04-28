@@ -2,14 +2,14 @@
 
 A list of current members with links to GU homepages
 
-# Current members
+## Current members
 
-<ol>
+<ul>
 {% for member in site.members %}
 <li> <strong><a href="{{ member.homepage }}">{{ member.name }}</a> – {{ member.position }}</strong> {{ member.content | markdownify }} </li>
 {% endfor %}
-</ol>
+</ul>
 
-# PhD students
+## PhD students
 
-# Previous and associate members
+## Previous and associate members
