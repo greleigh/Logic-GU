@@ -5,6 +5,7 @@ collections:
     order:
       - fredrik.md
       - martin.md
+      - rasmus.md
       - bahareh.md
       - graham.md
     output: true
