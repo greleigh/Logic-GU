@@ -2,9 +2,11 @@
 
 A list of current members with links to GU homepages
 
+# Current members
+
 {% for member in site.members %}
-  <h3><a href="{{ member.homepage }}">{{ member.name }}</a> – {{ member.position }}</h3>
-  <p>{{ member.content | markdownify }}</p>
+* **[{{ member.name }}]({{ member.homepage }}) – {{ member.position }}**
+  {{ member.content | markdownify }}
 {% endfor %}
 
-Previous and associate members
+# Previous and associate members
