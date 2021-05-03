@@ -1,4 +1,6 @@
 ---
+layout: page
+# title: Home
 ---
 ## The Logic Group at GU
 

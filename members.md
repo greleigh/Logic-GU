@@ -1,4 +1,6 @@
 ---
+layout: page
+title: Members
 ---
 ## Members of the Logic Group at GU
 
