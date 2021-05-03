@@ -1,1 +1,19 @@
-theme: jekyll-theme-slate
+title: Logic Group at University of Gothenburg
+author: G.E. Leigh
+email: graham.leigh@gu.se
+description: > # this means to ignore newlines until "baseurl:"
+  Homepage of the Logic Group at the University of Gothenburg.
+  Seminars, projects, etc.
+
+theme: slate
+
+collections:
+#   seminars:
+#     - speaker # date is inferred from file
+#     - affil
+#     - homepage
+#     - title
+#     - location
+  members:
+    sortby: position
+    output: true
