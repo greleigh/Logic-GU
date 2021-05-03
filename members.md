@@ -1,3 +1,5 @@
+---
+---
 ## Members of the Logic Group at GU
 
 A list of current members with links to GU homepages
