@@ -4,10 +4,16 @@ email: graham.leigh@gu.se
 description: > # this means to ignore newlines until "baseurl:"
   Homepage of the Logic Group at the University of Gothenburg.
   Seminars, projects, etc.
-  
+
 theme: jekyll-theme-slate
 
 collections:
+#   seminars:
+#     - speaker # date is inferred from file
+#     - affil
+#     - homepage
+#     - title
+#     - location
   members:
     order:
       - fredrik.md
@@ -16,3 +22,4 @@ collections:
       - bahareh.md
       - graham.md
       - paul.md
+    output: true
