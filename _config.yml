@@ -1,9 +1,8 @@
-title: Logic Group at University of Gothenburg
+title: Logic@GU
 author: G.E. Leigh
 email: graham.leigh@gu.se
 description: > # this means to ignore newlines until "baseurl:"
   Homepage of the Logic Group at the University of Gothenburg.
-  Seminars, projects, etc.
 
 baseurl: "/"
 theme: jekyll-theme-slate
