@@ -1,7 +1,7 @@
 ---
+layout: page
 title: Projects
+permalink: projects
 ---
-
-## {{ page.title }}
 
 ### Current and ongoing research projects
