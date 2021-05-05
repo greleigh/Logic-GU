@@ -8,12 +8,9 @@ baseurl: "/"
 theme: jekyll-theme-slate
 
 collections:
-#   seminars:
-#     - speaker # date is inferred from file
-#     - affil
-#     - homepage
-#     - title
-#     - location
+  seminars:
+    output: true
+    layout: page
   members:
     order:
       - fredrik.md
@@ -22,4 +19,4 @@ collections:
       - bahareh.md
       - graham.md
       - paul.md
-    output: true
+    # output: true

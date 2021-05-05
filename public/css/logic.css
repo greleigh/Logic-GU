@@ -1,3 +1,25 @@
 .sidebar-footer {
     font-size: 15px;
 }
+
+.seminar p {
+    margin-bottom: 0rem;
+}
+
+.seminar-speaker {
+    font-weight: bold;
+}
+
+.seminar-title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.seminar-date {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.abstract {
+    font-size: medium;
+}
