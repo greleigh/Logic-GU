@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Seminars
+  link: /seminars
+- name: Research Projects
+  link: /projects
+- name: Master in Logic
+  link: /MiL
