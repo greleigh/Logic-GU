@@ -3,18 +3,18 @@ layout: page
 title: About
 permalink: about
 ---
-## Members of the Logic Group at GU
 
-A list of current members with links to GU homepages
+The logic group is part of the [Department of Philosophy, Linguistics and Theory of Science](https://www.gu.se/flov) at the University of Gothenburg.
 
-## Current members
+We organise [bi-weekly research seminar]({% link seminars.md %}), the annual Lindström Lectures plus various other [logic-themed events]({% link events.md %}).
+Plus the [Master in Logic]({% link _pages/MiL.md %}).
+
+### Current members
 
 <ul>
 {% for member in site.data.members %}
-<li> <strong><a href="{{ member.homepage }}">{{ member.name }}</a> – {{ member.position }}</strong> {{ member.description | markdownify }} </li>
+<li> <strong>{% if member.homepage %} <a href="{{ member.homepage }}">{% endif %}{{ member.name }}{% if member.homepage %}</a>{% endif %} – {{ member.position }}</strong> {{ member.description | markdownify }} </li>
 {% endfor %}
 </ul>
 
-## PhD students
-
-## Previous and associate members
+### Previous and associate members

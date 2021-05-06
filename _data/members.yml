@@ -24,27 +24,32 @@
   homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
   description: Undefinable
 
+- name: Ali Enayat
+  position: Emeritus Professor of Logic
+  homepage: https://www.gu.se/en/about/find-staff/alienayat
+  description: Builds models
+
 - name: Paul Kindvall Gorbow
   position: Postdoc
   homepage: https://www.gu.se/en/about/find-staff/paulgorbow
-  description: A bit non-standard
+  description: Non-standard
 
 - name: Anton Pertun Broberg
   position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/
+  # homepage: https://www.gu.se/en/about/find-staff/antonbroberg
   description: 
 
 - name: Mattias Granberg Olsson
   position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/
+  homepage: https://www.gu.se/en/about/find-staff/mattiasgranbergolsson
   description: 
 
 - name: Tjeerd Fokkens
   position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/
+  homepage: https://www.gu.se/en/about/find-staff/tjeerdfokkens
   description: 
 
 - name: Giacomo Barlucchi
   position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/
+  homepage: https://www.gu.se/en/about/find-staff/giacomobarlucchi
   description: 
