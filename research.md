@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: projects
+permalink: research
 ---
 
 ### Current and ongoing research projects
