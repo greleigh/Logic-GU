@@ -1,3 +1,33 @@
 .sidebar-footer {
     font-size: 15px;
+<<<<<<< Updated upstream
+=======
+}
+
+.seminar p {
+    margin-bottom: 0rem;
+}
+
+.seminar ul {
+    list-style-type: square;
+    padding: 0em;
+}
+
+.seminar-speaker {
+    font-weight: bold;
+}
+
+.seminar-title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.seminar-date {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.abstract {
+    font-size: medium;
+>>>>>>> Stashed changes
 }
