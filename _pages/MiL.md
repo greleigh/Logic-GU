@@ -1,6 +1,8 @@
 ---
 layout: page
-name: Master in Logic
+title: Master in Logic
+permalink: MiL
 ---
+
 
 Information about the Master in Logic
