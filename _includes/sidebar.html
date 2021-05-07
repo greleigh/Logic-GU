@@ -22,13 +22,10 @@
         <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.link }}">{{ node.name }}</a>
         {% endif %}
       {% endfor %}
-
-      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
-      <a class="sidebar-nav-item">Learn More</a>
-      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 
     <p class="sidebar-footer">&copy; {{ site.time | date: '%Y' }}. All rights reserved.<br/>
+      <!-- Maintained by <a href="https://www.gu.se/en/about/find-staff/grahamleigh">Graham Leigh</a>.<br/> -->
       Created with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://hyde.getpoole.com">Hyde</a>.</p>
   </div>
 </div>
