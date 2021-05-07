@@ -2,6 +2,7 @@
 layout: page
 title: Master in Logic
 permalink: MiL
+published: true
 ---
 
 

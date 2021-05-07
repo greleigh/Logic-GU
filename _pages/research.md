@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: research
+published: false
 ---
 
 ### Current and ongoing research projects
