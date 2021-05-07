@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: The group
 permalink: about
+published: true
 ---
 
 The logic group is part of the [Department of Philosophy, Linguistics and Theory of Science](https://www.gu.se/flov) at the University of Gothenburg.
