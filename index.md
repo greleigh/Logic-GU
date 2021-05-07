@@ -15,8 +15,9 @@ More detailed information is available through the [personal pages]({% link _pag
 
 For up to date information, including location of talks, sign up to the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
 
+{% assign sorted = site.seminars | reverse %}
 <ul class="seminar">
-  {% for seminar in site.seminars %}
+  {% for seminar in sorted %}
   {% if seminar.tags contains page.listPeriod %}
     <li>
       <span class="seminar-speaker">{{ seminar.speaker }}</span> (<span class="seminar-affil">{{ seminar.affil }}</span>) – <span class="seminar-title">{{ seminar.title }}</span>
