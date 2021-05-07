@@ -10,8 +10,22 @@ tagline: The logic group at the University of Gothenburg
 baseurl: "/"
 # theme: jekyll-theme-slate
 
+future: true
+
 include:
   - _pages
+
+exclude:
+  - TODO.md
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "seminars"
+    values:
+      layout: seminar
+      excerpt_separator: <!--more-->
 
 collections:
   seminars:
