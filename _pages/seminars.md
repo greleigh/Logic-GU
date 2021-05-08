@@ -4,7 +4,7 @@ title: Seminars
 permalink: seminars
 published: true
 ---
-For up to date information, including location of talks, sign up to the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
+Up to date information, including location of talks, is distributed via the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
 
 {% assign sorted = site.seminars | reverse %}
 {% for talk in sorted %}
