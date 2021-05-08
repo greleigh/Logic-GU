@@ -29,6 +29,10 @@ defaults:
       excerpt_separator: <!--more-->
 
 collections:
+  static_sites:
+    output: true
+    permalink: /:path
+
   seminars:
     output: true
 
