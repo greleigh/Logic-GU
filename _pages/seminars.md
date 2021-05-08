@@ -17,4 +17,4 @@ Up to date information, including location of talks, is distributed via the [GU 
   </div>
 {% endfor %}
 
-Research seminars prior to 2021 are in a [separate archive]({% link _pages/archive/seminar-archive.md %}).
+Research seminars prior to 2021 are in a [separate archive]({% link _pages/archive/seminar-2014-2019.md %}).
