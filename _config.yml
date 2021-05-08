@@ -32,7 +32,8 @@ collections:
   seminars:
     output: true
 
-  # projects:
+  projects:
+    output: true
 
   members:
     order:
