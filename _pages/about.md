@@ -18,4 +18,3 @@ Plus the [Master in Logic]({% link _pages/MiL.md %}).
 {% endfor %}
 </ul>
 
-### Previous and associate members
