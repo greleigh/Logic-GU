@@ -5,7 +5,7 @@ listPeriod: 21VT
 ---
 **NB. This website is under construction.**
 
-## The Logic Group at GU
+## The Logic Group at the University of Gothenburg
 
 Welcome to the webpage of the logic group at the [University of Gothenburg](https://www.gu.se).
 Information about our research and activities can be found through the links to the left.
