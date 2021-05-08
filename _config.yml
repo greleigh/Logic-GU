@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 tagline: The logic group at the University of Gothenburg
 
 
-baseurl: "/Logic-GU/"
+baseurl: "/Logic-GU"
 # theme: jekyll-theme-slate
 
 future: true
@@ -17,6 +17,7 @@ include:
 
 exclude:
   - TODO.md
+  - README.md
 
 defaults:
   -
