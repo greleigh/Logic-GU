@@ -1,10 +1,8 @@
 - name: Home
   link: /
 - name: Group
-  link: /about
+  link: about
 - name: Seminars
-  link: /seminars
-- name: Research
-  link: /research
+  link: seminars
 - name: Master in Logic
-  link: /MiL
+  link: MiL
