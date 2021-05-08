@@ -4,6 +4,8 @@
   link: about
 - name: Seminars
   link: seminars
+- name: Activities
+  link: activities
 - name: Master in Logic
   link: MiL
 - name: Lindström Lectures
