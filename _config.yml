@@ -17,6 +17,7 @@ include:
 
 exclude:
   - TODO.md
+  - README.md
 
 defaults:
   -
