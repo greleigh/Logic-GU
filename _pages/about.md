@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The group
+title: The Group
 permalink: about
 published: true
 ---
