@@ -1,4 +1,14 @@
 ---
+layout: page
 title: Activities
+permalink: activities
 ---
-We organise seminars, more seminars, conferences and social events
+
+Below is a list of upcoming and recent activities of the research group.
+
+- [Research seminar in logic]({% link _pages/seminars.md %}) at the University of Gothenburg.
+- Nordic online logic seminar.
+- [The Lindström Lectures]({% link _pages/lindstrom-lectures.md %}), distinguished lecture series in logic.
+- Circularity in Syntax and Semantics (CiSS), November 2019.
+- [Gothenburg--Warsaw Workshop on Truth]({% link  _events/2018-12-06-gu-war-workshop.markdown %}), December 2018.
+- Tenth Scandinavian Logic Symposium, June 2018.
