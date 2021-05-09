@@ -9,6 +9,6 @@ A cross-disciplinary research project lead by {{ page.pi }} examining the crucia
 
 Funded by FAS ({{ page.funder }}).
 
-## Upcoming event
+## Project events
 
 * {{ page.pi }} is giving a talk entitled "On kings" at the [Gothenburg Logic Seminar]({% link _seminars/2021-06-14-dennis-the-peasant.markdown %}).
