@@ -1,0 +1,8 @@
+<span class="seminar-speaker">{{ include.seminar.speaker }}</span> (<span class="seminar-affil">{{ include.seminar.affil }}</span>) – <span class="seminar-title">{{ include.seminar.title }}</span>
+      <div class="seminar-date">{{ include.seminar.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div>
+      <div class="abstract">{{ include.seminar.excerpt }}
+      {% if include.seminar.excerpt != include.seminar.content %}
+        {% assign link = include.seminar.title | slugify %}
+        <p><a href="{% link _pages/seminars.md %}#{{ link }}">(&#8230; read full abstract &#8230;)</a></p>
+      {% endif %}
+      </div>
