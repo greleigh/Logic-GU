@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "On kings"
-pi: Denis the peasant
+pi: Denis
 funder: Federal Association of Serfs
 ---
 

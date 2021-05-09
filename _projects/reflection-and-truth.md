@@ -1,6 +1,6 @@
 ---
-layout: page
 title: "Reflecting on Truth"
+pi: graham
 published: false
 ---
 

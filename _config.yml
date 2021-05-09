@@ -27,6 +27,12 @@ defaults:
     values:
       layout: seminar
       excerpt_separator: <!--more-->
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
 
 collections:
   events:
