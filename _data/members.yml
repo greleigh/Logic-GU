@@ -1,23 +1,7 @@
-- name: Fredrik Engström
-  position: Senior Lecturer
-  homepage: https://www.gu.se/en/about/find-staff/fredrikengstrom
-  description: >
-    Team player
-
-- name: Martin Kaså
-  position: Senior Lecturer
-  homepage: https://www.gu.se/en/about/find-staff/martinkasa
-  description: True in the limit
-
 - name: Bahareh Afshari
   position: Researcher
   homepage: https://www.gu.se/en/about/find-staff/baharehafshari
   description: Rides modal cycles
-
-- name: Graham Leigh
-  position: Researcher
-  homepage: https://www.gu.se/en/about/find-staff/grahamleigh
-  description: Is big on proofs
 
 - name: Rasmus Blanck
   position: Senior Lecturer
@@ -29,14 +13,30 @@
   homepage: https://www.gu.se/en/about/find-staff/alienayat
   description: A model mathematician
 
+- name: Fredrik Engström
+  position: Senior Lecturer
+  homepage: https://www.gu.se/en/about/find-staff/fredrikengstrom
+  description: >
+    Team player
+
+- name: Martin Kaså
+  position: Senior Lecturer
+  homepage: https://www.gu.se/en/about/find-staff/martinkasa
+  description: True in the limit
+
 - name: Paul Kindvall Gorbow
   position: Postdoc
   homepage: https://www.gu.se/en/about/find-staff/paulgorbow
   description: Non-standard
 
+- name: Graham Leigh
+  position: Researcher
+  homepage: https://www.gu.se/en/about/find-staff/grahamleigh
+  description: Is big on proofs
+
 - name: Anton Pertun Broberg
   position: PhD student
-  # homepage: https://www.gu.se/en/about/find-staff/antonbroberg
+  # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
   description: 
 
 - name: Mattias Granberg Olsson

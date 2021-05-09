@@ -29,6 +29,9 @@ defaults:
       excerpt_separator: <!--more-->
 
 collections:
+  events:
+    output: true
+    
   seminars:
     output: true
 
