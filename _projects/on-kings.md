@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "On kings"
-pi: Dennis the peasant
+pi: Denis the peasant
 funder: Federal Association of Serfs
 ---
 
@@ -11,4 +11,4 @@ Funded by FAS ({{ page.funder }}).
 
 ## Project events
 
-* {{ page.pi }} is giving a talk entitled "On kings" at the [Gothenburg Logic Seminar]({% link _seminars/2021-06-14-dennis-the-peasant.markdown %}).
+* {{ page.pi }} is giving a talk entitled "On kings" at the [Gothenburg Logic Seminar]({% link _pages/seminars.md %}).
