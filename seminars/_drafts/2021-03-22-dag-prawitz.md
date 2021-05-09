@@ -7,6 +7,7 @@ tags: NOL
 ---
 An account of inferences should take into account not only inferences from established premisses but also inferences made under assumptions.
 This makes it necessary to consider arguments, chains of inferences in which assumptions and variables may become bound.
+<!--more-->
 An argument is valid when all its inferences are valid, and it then amounts to a proof in case it has no unbound assumptions or variables.
 The validity of an inference – not to confuse with the conclusion being a logical consequence of the premisses – seems in turn best explained in terms of proofs.
 This means that the concepts of valid inference and valid argument depend on each other and cannot be defined independently but have to be described by principles that state how they are related.

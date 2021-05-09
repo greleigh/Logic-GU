@@ -4,8 +4,9 @@ affil: UCL
 title: Focused nested calculi for modal and substructural logics
 date: 2021-05-07 10:15:00 +02:00
 ---
-Focusing is a general technique for syntactically compartmentalising the non-deterministic choices in a proof system, which not only improves proof search but also has the representational benefit of distilling sequent proofs into synthetic normal forms. However, since focusing was traditionally specified as a restriction of the sequent calculus, the technique had not been transferred to logics that lack a (shallow) sequent presentation, as is the case for some modal or substructural logics.
+Focusing is a general technique for syntactically compartmentalising the non-deterministic choices in a proof system, which not only improves proof search but also has the representational benefit of distilling sequent proofs into synthetic normal forms.
 <!--more-->
+However, since focusing was traditionally specified as a restriction of the sequent calculus, the technique had not been transferred to logics that lack a (shallow) sequent presentation, as is the case for some modal or substructural logics.
 
 With K. Chaudhuri and L. Straßburger, we extended the focusing technique to nested sequents, a generalisation of ordinary sequents, which allows us to capture all the logics of the classical and intuitionistic S5 cube in a modular fashion. This relied on an adequate polarisation of the syntax and an internal cut-elimination procedure for the focused system which in turn is used to show its completeness.
 

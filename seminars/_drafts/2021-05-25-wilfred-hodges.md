@@ -8,6 +8,7 @@ tags: NOL
 Almost exactly a thousand years ago a teenager known today as Avicenna lived in what is now Uzbekistan.
 He made a resolution to teach himself Aristotelian logic, armed with an Arabic translation of Aristotle and a century-old Arabic textbook of logic.
 A couple of years later, around his eighteenth birthday, he wrote a brief report of what he had learned.
+<!--more-->
 Six months ago I started to examine this report - I suspect I am the first logician to do that.
 It contains many surprising things.
 Besides introducing some new ideas that readers of Avicenna know from his later works, it also identifies some specific points of modal logic where Avicenna was sure that Aristotle had made a mistake.
