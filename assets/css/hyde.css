@@ -79,8 +79,10 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  /* font-size: 3.25rem; */
+  font-family: minion-3-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.75rem;
 }
 
 /* Sidebar nav */
