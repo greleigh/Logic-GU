@@ -21,19 +21,14 @@ More detailed information is available through the [personal pages]({% link _pag
 ## Research seminars in {{ site.data.semesters[page.seminarBlock].name }}
 
 For up to date information, including location of talks, sign up to the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
-
-<ul class="seminar">
-  {% for seminar in seminars %}
-    <li>
-      <span class="seminar-speaker">{{ seminar.speaker }}</span> (<span class="seminar-affil">{{ seminar.affil }}</span>) – <span class="seminar-title">{{ seminar.title }}</span>
-      <div class="seminar-date">{{ seminar.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div>
-      <div class="abstract">{{ seminar.excerpt }}
-      {% if seminar.excerpt != seminar.content %}
-        <p><a href="{% link _pages/seminars.md %}#{{ seminar.speaker | append: '-' | append: seminar.title | slugify }}">(&#8230; read full abstract &#8230;)</a></p>
-      {% endif %}
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-
 Details of past seminars can be found in the [archive]({% link _pages/seminars.md %}).
+
+{% for seminar in seminars %}
+{% if seminar.excerpt == seminar.content %}
+{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt tags=seminar.tags %}
+{% else %}
+{% assign link = seminar.speaker | append: '-' | append: seminar.title | slugify %}
+{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=link tags=seminar.tags %}
+{% endif %}
+{% endfor %}
+

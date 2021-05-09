@@ -21,13 +21,7 @@ Up-to-date information, including location of talks, is distributed via the [GU 
 ## {{ semester.name }}
 
 {% for talk in seminars %}
-<div class="seminar" id="{{ talk.speaker | append: '-' | append: talk.title | slugify }}">
-    <span class="seminar-speaker">{{ talk.speaker }}</span> (<span class="seminar-affil">{{ talk.affil }}</span>) – <span class="seminar-title">{{ talk.title }}</span>
-    <div class="seminar-date">{{ talk.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div>
-    <div class="abstract">
-      {{ talk.content }}
-    </div>
-  </div>
+{% include seminar-entry.html speaker=talk.speaker affil=talk.affil title=talk.title date=talk.date abstract=talk.content tags=talk.tags %}
 {% endfor %}
 
 {% endunless %}
