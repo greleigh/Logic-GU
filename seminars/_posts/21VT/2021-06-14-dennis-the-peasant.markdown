@@ -1,5 +1,5 @@
 ---
-speaker: Dennis
+speaker: Denis
 title: On kings
 affil: A field in England
 homepage: https://www.imdb.com/title/tt0071853/
