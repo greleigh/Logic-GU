@@ -3,7 +3,6 @@ speaker: Fredrik Engström
 affil: FLoV
 title: Dependence logic and generalized quantifiers
 date: 2020-05-08 10:15:00 +02:00
-tags: 20VT
 ---
 
 Dependence logic, proposed by Väänänen, is an elegant way of introducing dependencies between variables into the object language.
