@@ -2,7 +2,7 @@
 speaker: Rasmus Blanck
 affil: FLoV
 title: Interpretability and flexible formulas
-date: 2020-12-18 10:15:00 +02:00
+date: 2020-12-18 10:15:00 +01:00
 ---
 
 This talk is about two different generalisations of Gödel’s incompleteness theorems and the (natural?) idea of trying to merge the two into a stronger result.

@@ -10,6 +10,8 @@ tagline: The logic group at the University of Gothenburg
 baseurl: "/Logic-GU/"
 # theme: jekyll-theme-slate
 
+timezone: Europe/Stockholm
+
 future: true
 
 include:
