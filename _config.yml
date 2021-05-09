@@ -22,8 +22,8 @@ exclude:
 defaults:
   -
     scope:
-      path: ""
-      type: "seminars"
+      path: "seminars/"
+      type: "posts"
     values:
       layout: seminar
       excerpt_separator: <!--more-->
