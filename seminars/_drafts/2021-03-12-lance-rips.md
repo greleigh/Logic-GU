@@ -2,7 +2,7 @@
 speaker: Lance Rips
 affil: Northwestern University
 title: Experimenting with (Conditional) Perfection
-date: 2021-03-12 16:15:00 +02:00
+date: 2021-03-12 16:15:00 +01:00
 ---
 Conditional perfection is the phenomenon in which conditionals are strengthened to biconditionals.
 In some contexts, “If A, B” is understood as if it meant “A if and only if B.” I’ll present and discuss a series of experiments designed to test one of the most promising pragmatic accounts of conditional perfection.
