@@ -27,8 +27,8 @@ Details of past seminars can be found in the [archive]({% link _pages/seminars.m
 {% if seminar.excerpt == seminar.content %}
 {% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt tags=seminar.tags %}
 {% else %}
-{% assign link = seminar.speaker | append: '-' | append: seminar.title | slugify %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=link tags=seminar.tags %}
+{% capture forward %}{% link _pages/seminars.md %}#{{ seminar.speaker | append: '-' | append: seminar.title | slugify}}{% endcapture %}
+{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=forward tags=seminar.tags %}
 {% endif %}
 {% endfor %}
 
