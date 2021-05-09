@@ -3,7 +3,7 @@ speaker: Dag Prawitz
 affil: Stockholm
 title: Validity of inference and argument
 date: 2021-03-22 16:00:00 +01:00
-tags: 21VT NOL
+tags: NOL
 ---
 An account of inferences should take into account not only inferences from established premisses but also inferences made under assumptions.
 This makes it necessary to consider arguments, chains of inferences in which assumptions and variables may become bound.

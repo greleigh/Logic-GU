@@ -3,7 +3,6 @@ speaker: Rajeev Goré
 affil: Australian National University
 title: "Bi-Intuitionistic Logics: a New Instance of an Old Problem"
 date: 2020-11-20 10:15:00 +02:00
-tags: 20HT
 ---
 
 As anyone who reads the literature on bi-intuitionistic logic will know, the numerous papers by Cecylia Rauszer are foundational but confusing.

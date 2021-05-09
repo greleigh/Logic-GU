@@ -2,8 +2,7 @@
 speaker: Sonia Marin 
 affil: UCL
 title: Focused nested calculi for modal and substructural logics
-date: 2021-06-04 10:15:00 +02:00
-tags: 21VT
+date: 2021-05-07 10:15:00 +02:00
 ---
 Focusing is a general technique for syntactically compartmentalising the non-deterministic choices in a proof system, which not only improves proof search but also has the representational benefit of distilling sequent proofs into synthetic normal forms. However, since focusing was traditionally specified as a restriction of the sequent calculus, the technique had not been transferred to logics that lack a (shallow) sequent presentation, as is the case for some modal or substructural logics.
 <!--more-->

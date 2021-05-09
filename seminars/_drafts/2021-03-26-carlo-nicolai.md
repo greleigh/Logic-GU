@@ -3,7 +3,6 @@ speaker: Carlo Nicolai
 affil: King's College
 title: A New Look at Cut Elimination for Compositional Truth
 date: 2021-03-26 10:15:00 +02:00
-tags: 21VT
 ---
 In the field of axiomatic theories of truth, conservativity properties of theories are much investigated.
 Conservativity can be used to argue that, despite the well-known undefinability of truth, there is a sense in which a primitive truth predicate can be reduced to the resources of an underlying mathematical theory that provides basic syntactic structure to truth ascriptions.

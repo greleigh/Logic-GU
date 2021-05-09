@@ -2,8 +2,7 @@
 speaker: Mateusz Łełyk
 affil: Warsaw
 title: Between Disquotation and Compositionality
-date: 2021-09-25 10:15:00 +02:00
-tags: 20HT
+date: 2020-09-25 10:15:00 +02:00
 ---
 
 The talk will be devoted to the formal connections between two canonical types of axiomatizations for the truth predicate: the disquotational scheme and the compositional clauses.

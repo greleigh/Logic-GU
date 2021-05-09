@@ -3,7 +3,6 @@ speaker: Benno van den Berg
 affil: ILLC, Amsterdam
 title: Quadratic type checking for objective type theory
 date: 2020-10-09 10:15:00 +02:00
-tags: 20HT
 ---
 
 An important fact about type theory, and something which is also heavily exploited in implementations, is that type checking is decidable

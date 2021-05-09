@@ -3,7 +3,6 @@ speaker: Stefan Hetzl
 affil: TU Wien
 title: Formula equations
 date: 2020-10-23 10:15:00 +02:00
-tags: 20HT
 ---
 
 A formula equation is a formula in first-order logic with unknowns representing predicates.

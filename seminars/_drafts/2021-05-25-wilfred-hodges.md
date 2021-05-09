@@ -2,8 +2,8 @@
 speaker: Wilfred Hodges
 affil: 
 title: How the teenage Avicenna planned out several new logics
-date: 2021-06-04 10:15:00 +02:00
-tags: 21VT NOL
+date: 2021-05-25 10:15:00 +02:00
+tags: NOL
 ---
 Almost exactly a thousand years ago a teenager known today as Avicenna lived in what is now Uzbekistan.
 He made a resolution to teach himself Aristotelian logic, armed with an Arabic translation of Aristotle and a century-old Arabic textbook of logic.

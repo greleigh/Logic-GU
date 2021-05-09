@@ -2,8 +2,8 @@
 speaker: Jouko Väänänen
 affil: Helsinki
 title: "Dependence logic: Some recent developments"
-date: 2021-06-04 16:00:00 +02:00
-tags: 21VT NOL
+date: 2021-04-26 16:00:00 +02:00
+tags: NOL
 ---
 In the traditional so-called Tarski’s Truth Definition the semantics of first order logic is defined with respect to an assignment of values to the free variables.
 A richer family of semantic concepts can be modelled if semantics is defined with respect to a set (a “team”) of such assignments.
