@@ -37,6 +37,10 @@ defaults:
       layout: project
 
 collections:
+  static_sites:
+    output: true
+    permalink: /:path
+
   events:
     output: true
     
