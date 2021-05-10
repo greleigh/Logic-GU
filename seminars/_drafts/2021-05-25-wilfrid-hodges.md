@@ -1,6 +1,6 @@
 ---
 speaker: Wilfrid Hodges
-affil: 
+affil: Fellow of the British Academy
 title: How the teenage Avicenna planned out several new logics
 date: 2021-05-24 16:00:00 +02:00
 tags: NOL
