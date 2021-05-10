@@ -32,16 +32,12 @@
 - name: Graham Leigh
   position: Researcher
   homepage: https://www.gu.se/en/about/find-staff/grahamleigh
+  email: graham.leigh@gu.se
   description: Is big on proofs
 
-- name: Anton Pertun Broberg
+- name: Giacomo Barlucchi
   position: PhD student
-  # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
-  description: 
-
-- name: Mattias Granberg Olsson
-  position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/mattiasgranbergolsson
+  homepage: https://www.gu.se/en/about/find-staff/giacomobarlucchi
   description: 
 
 - name: Tjeerd Fokkens
@@ -49,7 +45,12 @@
   homepage: https://www.gu.se/en/about/find-staff/tjeerdfokkens
   description: 
 
-- name: Giacomo Barlucchi
+- name: Mattias Granberg Olsson
   position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/giacomobarlucchi
+  homepage: https://www.gu.se/en/about/find-staff/mattiasgranbergolsson
+  description: 
+
+- name: Anton Pertun Broberg
+  position: PhD student
+  # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
   description: 

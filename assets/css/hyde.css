@@ -32,16 +32,16 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: cronos-pro, Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
     text-align: left;
   }
 }
@@ -79,8 +79,10 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  /* font-size: 3.25rem; */
+  font-family: minion-3-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */
@@ -129,14 +131,14 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    margin-left: 18rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 18rem;
     margin-right: 4rem;
   }
 }
