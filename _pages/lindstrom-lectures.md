@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Lindström Lectures
+title: The Lindström Lectures
+permalink: lindstrom-lectures
 ---
 
 (under construction)

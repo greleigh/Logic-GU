@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The group
+title: The Group
 permalink: about
 published: true
 ---
@@ -18,4 +18,3 @@ Plus the [Master in Logic]({% link _pages/MiL.md %}).
 {% endfor %}
 </ul>
 
-### Previous and associate members

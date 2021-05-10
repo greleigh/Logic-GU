@@ -10,6 +10,8 @@ tagline: The logic group at the University of Gothenburg
 baseurl: "/Logic-GU/"
 # theme: jekyll-theme-slate
 
+timezone: Europe/Stockholm
+
 future: true
 
 include:
@@ -22,21 +24,31 @@ exclude:
 defaults:
   -
     scope:
-      path: ""
-      type: "seminars"
+      path: "seminars/"
+      type: "posts"
     values:
       layout: seminar
       excerpt_separator: <!--more-->
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
 
 collections:
   static_sites:
     output: true
     permalink: /:path
 
+  events:
+    output: true
+    
   seminars:
     output: true
 
-  # projects:
+  projects:
+    output: true
 
   members:
     order:
