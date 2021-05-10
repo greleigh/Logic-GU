@@ -5,7 +5,6 @@ permalink: seminars
 contact: graham
 ---
 See below for a list of all previous and upcoming seminars.
-
 Up-to-date information, including location of talks, is distributed via the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
 
 {% comment %}
