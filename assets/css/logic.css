@@ -5,6 +5,7 @@
 .seminar {
     margin-top: 1em;
     margin-bottom: 1em;
+    line-height: normal;
 }
 .seminar p {
     margin-bottom: 0rem;
@@ -31,4 +32,13 @@
 
 .abstract {
     font-size: medium;
+    line-height: normal;
+}
+
+.abstract p {
+    margin-bottom: 0.5em;
+}
+
+.abstract p:last-of-type {
+    margin-bottom: 0em;
 }
