@@ -1,0 +1,23 @@
+gu-mailing-list:
+  name: GU Logic mailing list
+  short-name: Logic@GU
+  link: https://listserv.gu.se/sympa/subscribe/logic
+
+nol-mailing-list:
+  name: Nordic Online Logic Seminar
+  short-name: NOL Seminar
+  link: https://listserv.gu.se/sympa/subscribe/nordiclogic
+
+MiL:
+  name: Masters Programme in Logic
+  short-name: MiL
+  link: https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log
+
+logic-group-flov:
+  name: university homepage
+  link: https://www.gu.se/en/flov/our-research/research-areas/research-in-logic-and-mathematical-methodology
+
+flov:
+  name: Department of Philosophy, Linguistics and Theory of Science
+  short-name: FLoV
+  link: https://www.gu.se/flov
