@@ -5,9 +5,9 @@
     {% if include.forward %}
     <p><a href="{{ include.forward }}">(&#8230; read full abstract &#8230;)</a></p>
     {% endif %}
-    {% if include.tags contains "NOL" %}
+    {% if include.nol %}
     {% assign nol = site.data.nol %}
-    <em>This talk is part of the <a href="{{ nol.url }}" title="{{ nol.title }}">{{ nol.title }}</a>.</em>
+    <em>This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }}">{{ nol.title }}</a>.</em>
     {% endif %}
   </div>
 </div>

@@ -24,11 +24,20 @@ For up to date information, including location of talks, sign up to the [GU Logi
 Details of past seminars can be found in the [archive]({% link _pages/seminars.md %}).
 
 {% for seminar in seminars %}
+{% comment %}
+  Check if seminar is in NOL.
+  Then determine whether to print whole abstract or excerpt.
+{% endcomment %}
+{% if seminar.tags contains "NOL" %}
+  {% assign is-nol = true %}
+{% else %}
+  {% assign is-nol = false %}
+{% endif %}
 {% if seminar.excerpt == seminar.content %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt tags=seminar.tags %}
+{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt nol=is-nol %}
 {% else %}
 {% capture forward %}{% link _pages/seminars.md %}#{{ seminar.speaker | append: '-' | append: seminar.title | slugify}}{% endcapture %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=forward tags=seminar.tags %}
+{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=forward nol=is-nol %}
 {% endif %}
 {% endfor %}
 

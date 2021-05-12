@@ -20,7 +20,12 @@ Up-to-date information, including location of talks, is distributed via the [GU 
 ## {{ semester.name }}
 
 {% for talk in seminars %}
-{% include seminar-entry.html speaker=talk.speaker affil=talk.affil title=talk.title date=talk.date abstract=talk.content tags=talk.tags %}
+{% if talk.tags contains "NOL" %}
+  {% assign is-nol = true %}
+{% else %}
+  {% assign is-nol = false %}
+{% endif %}
+{% include seminar-entry.html speaker=talk.speaker affil=talk.affil title=talk.title date=talk.date abstract=talk.content nol=is-nol %}
 {% endfor %}
 
 {% endunless %}
