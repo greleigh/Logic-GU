@@ -1,13 +1,13 @@
 <div class="seminar" id="{{ include.speaker | append: '-' | append: include.title | slugify }}">
-  <span class="seminar-speaker">{{ include.speaker }}</span> {% if include.affil %}(<span class="seminar-affil">{{ include.affil }}</span>){% endif %} – <span class="seminar-title">{{ include.title }}</span>
-  <div class="seminar-date">{{ include.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div>
+  <div class="seminar-lead"><span class="seminar-speaker">{{ include.speaker }}</span> {% if include.affil %}(<span class="seminar-affil">{{ include.affil }}</span>){% endif %} – <span class="seminar-title">{{ include.title }}</span>
+  <div class="seminar-date">{{ include.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div></div>
   <div class="abstract">{{ include.abstract }}
     {% if include.forward %}
-    <p><a href="{{ include.forward }}">(&#8230; read full abstract &#8230;)</a></p>
+    <div class="forward"><a href="{{ include.forward }}">(&#8230; read full abstract &#8230;)</a></div>
     {% endif %}
     {% if include.nol %}
     {% assign nol = site.data.nol %}
-    <em>This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }}">{{ nol.title }}</a>.</em>
+    <div class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }}">{{ nol.title }}</a>.</div>
     {% endif %}
   </div>
 </div>
