@@ -14,8 +14,6 @@ timezone: Europe/Stockholm
 
 future: true
 
-permalink: /:categories/:year-:month-:day-:title:output_ext
-
 include:
   - _pages
 
@@ -31,6 +29,8 @@ defaults:
     values:
       layout: seminar
       excerpt_separator: <!--more-->
+      permalink: /:categories/:year-:month-:day-:title:output_ext
+
   -
     scope:
       path: ""
