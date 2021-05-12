@@ -30,4 +30,4 @@ See below for a list of all previous and upcoming seminars. The research seminar
 {% endunless %}
 {% endfor %}
 
-Research seminars prior to 2021 are in a [separate archive]({% link _pages/archive/seminar-2014-2019.md %}).
+Research seminars prior to 2020 are in a [separate archive]({% link _pages/archive/seminar-2014-2019.md %}).
