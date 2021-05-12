@@ -47,12 +47,14 @@ paul:
   description: Non-standard
 
 graham:
-  name: Graham Leigh
+  name: Graham E Leigh
   short_name: graham
   position: Researcher
   homepage: https://www.gu.se/en/about/find-staff/grahamleigh
   email: graham.leigh@gu.se
-  description: Is big on proofs
+  description: >
+    My research interests sit at the interface between the fields of mathematical, philosophical and computational logic.
+    In particular, formal theories of truth, non-classical and modal logics, computational content of theories, and notions of provability.
 
 giacomo:
   name: Giacomo Barlucchi
