@@ -1,0 +1,78 @@
+bahareh:
+  name: Bahareh Afshari
+  short_name: bahareh
+  position: Researcher
+  homepage: https://www.gu.se/en/about/find-staff/baharehafshari
+  description: Rides modal cycles
+
+rasmus:
+  name: Rasmus Blanck
+  short_name: rasmus
+  position: Senior Lecturer
+  homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
+  description: Flexible
+
+ali:
+  name: Ali Enayat
+  short_name: ali
+  position: Emeritus Professor of Logic
+  homepage: https://www.gu.se/en/about/find-staff/alienayat
+  description: A model mathematician
+
+fredrik:
+  name: Fredrik Engström
+  short_name: fredrik
+  position: Senior Lecturer
+  homepage: https://www.gu.se/en/about/find-staff/fredrikengstrom
+  description: >
+    Team player
+
+martin:
+  name: Martin Kaså
+  short_name: martin
+  position: Senior Lecturer
+  homepage: https://www.gu.se/en/about/find-staff/martinkasa
+  description: True in the limit
+
+paul:
+  name: Paul Kindvall Gorbow
+  short_name: paul
+  position: Postdoc
+  homepage: https://www.gu.se/en/about/find-staff/paulgorbow
+  description: Non-standard
+
+graham:
+  name: Graham Leigh
+  short_name: graham
+  position: Researcher
+  homepage: https://www.gu.se/en/about/find-staff/grahamleigh
+  email: graham.leigh@gu.se
+  description: Is big on proofs
+
+giacomo:
+  name: Giacomo Barlucchi
+  short_name: giacomo
+  position: PhD student
+  homepage: https://www.gu.se/en/about/find-staff/giacomobarlucchi
+  description: 
+
+tjeerd:
+  name: Tjeerd Fokkens
+  short_name: tjeerd
+  position: PhD student
+  homepage: https://www.gu.se/en/about/find-staff/tjeerdfokkens
+  description: 
+
+mattias:
+  name: Mattias Granberg Olsson
+  short_name: mattias
+  position: PhD student
+  homepage: https://www.gu.se/en/about/find-staff/mattiasgranbergolsson
+  description: 
+
+anton:
+  name: Anton Pertun Broberg
+  short_name: anton
+  position: PhD student
+  # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
+  description: 

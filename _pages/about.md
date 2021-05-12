@@ -12,9 +12,11 @@ Plus the [Master in Logic]({% link _pages/MiL.md %}).
 
 ### Current members
 
-<ul>
+
 {% for member in site.data.members %}
-<li> <strong>{% if member.homepage %} <a href="{{ member.homepage }}">{% endif %}{{ member.name }}{% if member.homepage %}</a>{% endif %} – {{ member.position }}</strong> {{ member.description | markdownify }} </li>
+{% assign person = site.data.people[member] %}
+ - **{% if person.homepage %}[{{ person.name }}]({{ person.homepage }} "{{ person.name }}"){% else %}{{ person.name }}{% endif %}** – {{ person.position }}
+    {{ person.description | markdownify }}
 {% endfor %}
-</ul>
+
 
