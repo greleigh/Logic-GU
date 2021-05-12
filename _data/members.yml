@@ -1,56 +1,11 @@
-- name: Bahareh Afshari
-  position: Researcher
-  homepage: https://www.gu.se/en/about/find-staff/baharehafshari
-  description: Rides modal cycles
-
-- name: Rasmus Blanck
-  position: Senior Lecturer
-  homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
-  description: Flexible
-
-- name: Ali Enayat
-  position: Emeritus Professor of Logic
-  homepage: https://www.gu.se/en/about/find-staff/alienayat
-  description: A model mathematician
-
-- name: Fredrik Engström
-  position: Senior Lecturer
-  homepage: https://www.gu.se/en/about/find-staff/fredrikengstrom
-  description: >
-    Team player
-
-- name: Martin Kaså
-  position: Senior Lecturer
-  homepage: https://www.gu.se/en/about/find-staff/martinkasa
-  description: True in the limit
-
-- name: Paul Kindvall Gorbow
-  position: Postdoc
-  homepage: https://www.gu.se/en/about/find-staff/paulgorbow
-  description: Non-standard
-
-- name: Graham Leigh
-  position: Researcher
-  homepage: https://www.gu.se/en/about/find-staff/grahamleigh
-  email: graham.leigh@gu.se
-  description: Is big on proofs
-
-- name: Giacomo Barlucchi
-  position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/giacomobarlucchi
-  description: 
-
-- name: Tjeerd Fokkens
-  position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/tjeerdfokkens
-  description: 
-
-- name: Mattias Granberg Olsson
-  position: PhD student
-  homepage: https://www.gu.se/en/about/find-staff/mattiasgranbergolsson
-  description: 
-
-- name: Anton Pertun Broberg
-  position: PhD student
-  # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
-  description: 
+- bahareh
+- rasmus
+- ali
+- fredrik
+- martin
+- paul
+- graham
+- giacomo
+- tjeerd
+- mattias
+- anton
