@@ -1,8 +1,8 @@
 ---
-speaker: Wilfred Hodges
-affil: 
+speaker: Wilfrid Hodges
+affil: Fellow of the British Academy
 title: How the teenage Avicenna planned out several new logics
-date: 2021-05-25 10:15:00 +02:00
+date: 2021-05-24 16:00:00 +02:00
 tags: NOL
 ---
 Almost exactly a thousand years ago a teenager known today as Avicenna lived in what is now Uzbekistan.
