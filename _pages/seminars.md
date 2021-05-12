@@ -4,8 +4,7 @@ title: Seminars
 permalink: seminars
 contact: graham
 ---
-See below for a list of all previous and upcoming seminars.
-Up-to-date information, including location of talks, is distributed via the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
+See below for a list of all previous and upcoming seminars. The research seminar meets on alternate Fridays at 10.15. Talk locations (i.e., Zoom link) are distributed in the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic). Alternatively, contact [Graham Leigh](https://www.gu.se/en/about/find-staff/grahamleigh) directly.
 
 {% comment %}
   Moving on to seminars ...
