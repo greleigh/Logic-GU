@@ -37,8 +37,17 @@
     line-height: 1.5;
 }
 
+.abstract h1 {
+    font-size: larger;
+    font-weight: 600;
+}
+
 .abstract p {
     margin-bottom: 0.25rem;
+}
+
+.abstract sup {
+    line-height: 0em;
 }
 
 .abstract p:last-of-type {
