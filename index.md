@@ -12,7 +12,7 @@ More detailed information is available through the [personal pages]({% link _pag
 
 ## Upcoming seminars
 
-A list of past seminars is available [here]({% link _pages/seminars.md %}).
+The list of past seminars is available [here]({% link _pages/seminars.md %}).
 
 {% comment %}
   Moving on to seminars ...
