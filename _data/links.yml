@@ -13,6 +13,11 @@ MiL:
   short-name: MiL
   link: https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log
 
+MiL-canvas:
+  name: course page of the Master in Logic
+  short-name: MiL
+  link: https://canvas.gu.se/courses/45028/assignments/syllabus
+
 logic-group-flov:
   name: university homepage
   link: https://www.gu.se/en/flov/our-research/research-areas/research-in-logic-and-mathematical-methodology
