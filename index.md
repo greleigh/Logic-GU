@@ -8,7 +8,7 @@ seminarBlock: 21VT
 
 Welcome to the webpage of the logic group at the [University of Gothenburg](https://www.gu.se).
 Information about our research and activities can be found through the links to the left.
-More detailed information is available through the [personal pages]({% link _pages/about.md %}) of group members and our university-hosted [webpage](https://www.gu.se/en/flov/our-research/research-areas/research-in-logic-and-mathematical-methodology).
+More detailed information is available through the [personal pages]({% link _pages/about.md %}) of group members and our university-hosted [webpage]({{ site.data.links['flov-logic-group'].link }}).
 
 ## Upcoming seminars
 
