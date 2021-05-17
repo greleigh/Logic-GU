@@ -13,14 +13,14 @@ rasmus:
   full-name: Rasmus Blanck
   position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
-  description: Flexible
+  description: 
 
 ali:
   name: Ali Enayat
   full-name: Ali Enayat
   position: Emeritus Professor of Logic
   homepage: https://www.gu.se/en/about/find-staff/alienayat
-  description: A model mathematician
+  description: 
 
 fredrik:
   name: Fredrik Engström
@@ -37,14 +37,14 @@ martin:
   full-name: Martin Kaså
   position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/martinkasa
-  description: True in the limit
+  description: 
 
 paul:
   name: Paul Kindvall Gorbow
   full-name: Paul Kindvall Gorbow
   position: Postdoc
   homepage: https://www.gu.se/en/about/find-staff/paulgorbow
-  description: Non-standard
+  description: 
 
 graham:
   name: Graham Leigh
