@@ -6,7 +6,9 @@ contact: graham
 ---
 {% assign contact = site.data.people[page.contact] %}
 
-See below for a list of all previous and upcoming seminars. The research seminar meets on alternate Fridays at 10.15. Talk locations (i.e., Zoom link) are distributed in the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic). Alternatively, contact [{{ contact.name }}]({{ contact.homepage }}) directly.
+See below for a list of all previous and upcoming seminars in the _Gothenburg Research Seminar in Logic_ and the _Nordic Online Logic Seminar_. We also run a bi-weekly _Colloquium in Logic_ focused in the Masters in Logic; details and schedules are listed on the [course page of the Masters Programme](https://canvas.gu.se/courses/45028/assignments/syllabus).
+
+The research seminar meets on alternate Fridays at 10.15. Talk locations (i.e., Zoom link) are distributed in the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic). Alternatively, contact [{{ contact.name }}]({{ contact.homepage }}) directly.
 
 {% comment %}
   Moving on to seminars ...

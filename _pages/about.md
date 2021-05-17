@@ -14,6 +14,6 @@ Plus the [Master in Logic]({% link _pages/MiL.md %}).
 
 {% for member in site.data.members %}
 {% assign person = site.data.people[member] %}
- - **{% if person.homepage %}[{{ person.name }}]({{ person.homepage }} "{{ person.name }}"){% else %}{{ person.name }}{% endif %}** – _{{ person.position }}_
+ - **{% if person.homepage %}[{{ person.full-name }}]({{ person.homepage }} "{{ person.full-name }}"){% else %}{{ person.full-name }}{% endif %}** – _{{ person.position }}_
     {{ person.description | markdownify }}
 {% endfor %}

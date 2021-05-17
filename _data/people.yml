@@ -1,6 +1,6 @@
 bahareh:
   name: Bahareh Afshari
-  short_name: bahareh
+  full-name: Bahareh Afshari
   position: Researcher
   homepage: https://www.gu.se/en/about/find-staff/baharehafshari
   description: >
@@ -10,21 +10,21 @@ bahareh:
 
 rasmus:
   name: Rasmus Blanck
-  short_name: rasmus
+  full-name: Rasmus Blanck
   position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
-  description: Flexible
+  description: 
 
 ali:
   name: Ali Enayat
-  short_name: ali
+  full-name: Ali Enayat
   position: Emeritus Professor of Logic
   homepage: https://www.gu.se/en/about/find-staff/alienayat
-  description: A model mathematician
+  description: 
 
 fredrik:
   name: Fredrik Engström
-  short_name: fredrik
+  full-name: Fredrik Engström
   position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/fredrikengstrom
   description: >
@@ -34,21 +34,21 @@ fredrik:
 
 martin:
   name: Martin Kaså
-  short_name: martin
+  full-name: Martin Kaså
   position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/martinkasa
-  description: True in the limit
+  description: 
 
 paul:
   name: Paul Kindvall Gorbow
-  short_name: paul
+  full-name: Paul Kindvall Gorbow
   position: Postdoc
   homepage: https://www.gu.se/en/about/find-staff/paulgorbow
-  description: Non-standard
+  description: 
 
 graham:
-  name: Graham E Leigh
-  short_name: graham
+  name: Graham Leigh
+  full-name: Graham E Leigh
   position: Researcher
   homepage: https://www.gu.se/en/about/find-staff/grahamleigh
   email: graham.leigh@gu.se
@@ -58,28 +58,28 @@ graham:
 
 giacomo:
   name: Giacomo Barlucchi
-  short_name: giacomo
+  full-name: Giacomo Barlucchi
   position: PhD student
   homepage: https://www.gu.se/en/about/find-staff/giacomobarlucchi
   description: 
 
 tjeerd:
   name: Tjeerd Fokkens
-  short_name: tjeerd
+  full-name: Tjeerd Fokkens
   position: PhD student
   homepage: https://www.gu.se/en/about/find-staff/tjeerdfokkens
   description: 
 
 mattias:
   name: Mattias Granberg Olsson
-  short_name: mattias
+  full-name: Mattias Granberg Olsson
   position: PhD student
   homepage: https://www.gu.se/en/about/find-staff/mattiasgranbergolsson
   description: 
 
 anton:
   name: Anton Pertun Broberg
-  short_name: anton
+  full-name: Anton Pertun Broberg
   position: PhD student
   # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
   description: 
