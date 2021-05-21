@@ -1,7 +1,7 @@
 ---
 speaker: Johan van Benthem
 affil: University of Amsterdam, Stanford University, Tsinghua University Beijing
-title: "Logic and Agency: The Promises and The Challenges"
+title: "Logic and Agency: The Promises and The Challenges (Public Lindström Lecture)"
 date: 2019-11-20 19:00:00 +01:00
 tag: LL
 ---
