@@ -37,7 +37,10 @@ martin:
   full-name: Martin Kaså
   position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/martinkasa
-  description: 
+  description: >
+      My background is in philosophical logic, with a focus on formal systems for trial-and-error processes.
+      Recently, my research interests have shifted somewhat towards argumentation theory and (logical) philosophy of language.
+      In particular the application of foundational theories in philosophical semantics and pragmatics to practically useful argumentation analysis.
 
 paul:
   name: Paul Kindvall Gorbow
