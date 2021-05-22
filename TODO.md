@@ -3,11 +3,16 @@
 * include other seminars:
   * NOL
 * Projects
-* Lindström Lectures
 * static sites
 * Improve type-setting (why does Abril not show?)
 * favicon + "apple touch"
 * RSS ?
+
+## Lindström Lecture pages
+
+* Add 'parent' link
+* Lindstrom header image on main page
+* Speaker photos, assets and videos
 
 ## Layout
 

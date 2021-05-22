@@ -14,9 +14,6 @@ timezone: Europe/Stockholm
 
 future: true
 
-include:
-  - _pages
-
 exclude:
   - TODO.md
   - README.md
@@ -33,12 +30,25 @@ defaults:
 
   -
     scope:
+      path: "_pages/lindstrom-lectures/"
+      type: "pages"
+    values:
+      layout: lindstrom-lectures
+      permalink: /lindstrom-lectures/:title
+      lindstrom-lecture: true
+
+  -
+    scope:
       path: ""
       type: "projects"
     values:
       layout: project
 
 collections:
+  pages:
+    output: true
+    permalink: /:path
+
   static_sites:
     output: true
     permalink: /:path
