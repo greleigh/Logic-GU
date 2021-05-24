@@ -96,6 +96,9 @@ html {
   line-height: 1.75;
 }
 @media (min-width: 48em) {
+  .sidebar-nav {
+    margin-bottom: 1rem;
+  }
   .sidebar-nav-item {
     display: block;
     line-height: 1.75;
