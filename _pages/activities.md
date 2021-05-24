@@ -12,3 +12,4 @@ Below is a list of upcoming and recent activities of the research group.
 - [Circularity in Syntax and Semantics]({% link _static_sites/ciss19/index.html %}) (CiSS), November 2019.
 - [Gothenburg--Warsaw Workshop on Truth]({% link  _events/2018-12-06-gu-war-workshop.markdown %}), December 2018.
 - Tenth Scandinavian Logic Symposium, June 2018.
+- Numbers and Truth Conference, October 2012.
