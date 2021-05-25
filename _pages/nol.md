@@ -7,11 +7,11 @@ contact: graham
 The Nordic Online Logic Seminar (NOL Seminar) is organised monthly over Zoom, with expository talks on topics of interest for the broader logic community.
 The seminar is open for professional or aspiring logicians and logic aficionados worldwide.
 
-The tentative time slot is Monday, 16.00-17.30 (Gothenburg). See the announcement for the next talk below.
-If you wish to receive the Zoom ID and password for it, as well as further announcements, [please subscribe here](https://listserv.gu.se/sympa/subscribe/nordiclogic).
+The tentative time slot is Monday, 16.00-17.30 (Sweden).
+If you wish to receive the Zoom ID and password for it, as well as further announcements, please subscribe to the [NOL Seminar mailing list]({{ site.data.nol.mailing_list }}).
 
-Valentin Goranko and Graham Leigh\
-NOL seminar organisers
+NOL seminar organisers\
+Valentin Goranko and Graham Leigh
 
 {% comment %}
   Moving on to seminars ...
