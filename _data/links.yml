@@ -8,6 +8,11 @@ nol-mailing-list:
   short-name: NOL Seminar
   link: https://listserv.gu.se/sympa/subscribe/nordiclogic
 
+sls:
+  name: Scandinavian Logic Society
+  short-name: SLS
+  link: https://www.scandinavianlogic.org
+
 MiL:
   name: Master Programme in Logic
   short-name: MiL

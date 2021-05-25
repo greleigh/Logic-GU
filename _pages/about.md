@@ -10,6 +10,8 @@ The logic group is part of the [Department of Philosophy, Linguistics and Theory
 We organise [bi-weekly research seminar]({% link _pages/seminars.md %}), the annual [Lindström Lectures]({% link _pages/lindstrom-lectures.md %}) plus various other [logic-themed events]({% link _pages/activities.md %}).
 Plus the [Master in Logic]({% link _pages/MiL.md %}).
 
+More information about logic in Scandinavia is available at the website of the [{{ site.data.links.sls.name }}]({{ site.data.links.sls.link }}).
+
 ## Current members
 
 {% for member in site.data.members %}
