@@ -10,8 +10,6 @@ More detailed information is available through the [personal pages]({% link _pag
 
 ## Upcoming seminars
 
-The list of past seminars is available [here]({% link _pages/seminars.md %}).
-
 {% comment %}
   Moving on to seminars ...
   1- Find the (published) seminars with a future date.
@@ -20,52 +18,9 @@ The list of past seminars is available [here]({% link _pages/seminars.md %}).
 {% endcomment %}
 {% assign build-date = site.time %}
 {% assign upcoming-seminars = site.categories['seminars'] | where_exp:"item", "build-date < item.date" | reverse %}
+{% if upcoming-seminars == empty %}New seminars will be published shortly.{% endif %}
+The list of past seminars is available [here]({% link _pages/seminars.md %}).
 
 {% for seminar in upcoming-seminars %}
-{% comment %}
-  Check if seminar is in NOL.
-  Then determine whether to print whole abstract or excerpt.
-{% endcomment %}
-{% if seminar.tags contains "NOL" %}
-  {% assign is-nol = true %}
-{% else %}
-  {% assign is-nol = false %}
-{% endif %}
-{% if seminar.excerpt == seminar.content %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt nol=is-nol %}
-{% else %}
-{% capture forward %}{% link _pages/seminars.md %}#{{ seminar.speaker | append: '-' | append: seminar.title | slugify}}{% endcapture %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=forward nol=is-nol %}
-{% endif %}
+  {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true %}
 {% endfor %}
-
-{% comment %}
-[comment]: # (Display all seminars in the semester block {{ page.seminarBlock }} )
-
-{% assign semester = site.data.semesters[page.seminarBlock] %}
-{% assign seminars = site.categories['seminars'] | where_exp:"item", "semester.start-date < item.date and item.date < semester.end-date" %}
-
-## Research seminars in {{ site.data.semesters[page.seminarBlock].name }}
-
-For up to date information, including location of talks, sign up to the [GU Logic mailing list](https://listserv.gu.se/sympa/subscribe/logic).
-Details of past seminars can be found in the [archive]({% link _pages/seminars.md %}).
-
-{% for seminar in seminars %}
-{% comment %}
-  Check if seminar is in NOL.
-  Then determine whether to print whole abstract or excerpt.
-{% endcomment %}
-{% if seminar.tags contains "NOL" %}
-  {% assign is-nol = true %}
-{% else %}
-  {% assign is-nol = false %}
-{% endif %}
-{% if seminar.excerpt == seminar.content %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt nol=is-nol %}
-{% else %}
-{% capture forward %}{% link _pages/seminars.md %}#{{ seminar.speaker | append: '-' | append: seminar.title | slugify}}{% endcapture %}
-{% include seminar-entry.html speaker=seminar.speaker affil=seminar.affil title=seminar.title date=seminar.date abstract=seminar.excerpt forward=forward nol=is-nol %}
-{% endif %}
-{% endfor %}
-
-{% endcomment %}

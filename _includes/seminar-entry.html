@@ -1,11 +1,44 @@
-<div class="seminar" id="{{ include.speaker | append: '-' | append: include.title | slugify }}">
-  <div class="seminar-lead"><span class="seminar-speaker">{{ include.speaker }}</span> {% if include.affil %}(<span class="seminar-affil">{{ include.affil }}</span>){% endif %} – <span class="seminar-title">{{ include.title }}</span>
-  <div class="seminar-date">{{ include.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div></div>
-  <div class="abstract">{{ include.abstract }}
-    {% if include.forward %}
-    <div class="forward"><a href="{{ include.forward }}">(&#8230; read full abstract &#8230;)</a></div>
+{%- comment -%}
+  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true %}
+  where
+    seminar: variable holding talk/abstract
+    excerpt-only: true if want to show only abstract excerpt
+{%- endcomment -%}
+{%- comment -%}PREAMBLE{%- endcomment -%}
+{% assign seminar = include.talk %}
+{% assign full_abstract = seminar.content %}
+{% if include.excerpt-only %}
+  {% assign abstract = seminar.excerpt %}
+  {%- comment -%}Create link to full abstract{%- endcomment -%}
+  {% capture forward_link %}{% link _pages/seminars.md %}#{{ seminar.speaker | append: '-' | append: seminar.title | slugify}}{% endcapture %}
+{% else %}
+  {% assign abstract = full_abstract %}
+{% endif %}
+{%- comment -%}Check if part of NOL{%- endcomment -%}
+{% if seminar.tags contains "NOL" and include.nol_tag %}
+  {% assign is_nol = true %}
+{% else %}
+  {% assign is_nol = false %}
+{% endif %}
+{%- comment -%}Check if part of LL{%- endcomment -%}
+{% if seminar.tags contains "LL" and include.LL_tag %}
+  {% assign is_LL = true %}
+{% else %}
+  {% assign is_LL = false %}
+{% endif %}
+{%- comment -%}POSTAMBLE{%- endcomment -%}
+<div class="seminar" id="{{ seminar.speaker | append: '-' | append: seminar.title | slugify }}">
+  <div class="seminar-lead">
+    <span class="seminar-speaker">{{ seminar.speaker }}</span>
+    {% if seminar.affil %}(<span class="seminar-affil">{{ seminar.affil }}</span>){% endif %} – <span class="seminar-title">{{ seminar.title }}</span>
+    <div class="seminar-date">{{ seminar.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div>
+  </div>
+  <div class="abstract">
+    {{ abstract }}
+    {% if include.excerpt-only and abstract != full_abstract %}
+      <div class="forward"><a href="{{ forward_link }}">(&#8230; read full abstract &#8230;)</a></div>
     {% endif %}
-    {% if include.nol %}
+    {% if is_nol %}
     {% assign nol = site.data.nol %}
     <div class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }}">{{ nol.title }}</a>.</div>
     {% endif %}

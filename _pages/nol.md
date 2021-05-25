@@ -21,6 +21,6 @@ NOL seminar organisers
 
 ## Talks in the Nordic Online Logic Seminar
 
-{% for talk in seminars %}
-{% include seminar-entry.html speaker=talk.speaker affil=talk.affil title=talk.title date=talk.date abstract=talk.content %}
+{% for nol-seminar in seminars %}
+  {% include seminar-entry.html talk=nol-seminar LL_tag=true %}
 {% endfor %}
