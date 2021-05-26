@@ -20,7 +20,9 @@ ali:
   full-name: Ali Enayat
   position: Emeritus Professor of Logic
   homepage: https://www.gu.se/en/about/find-staff/alienayat
-  description: 
+  description:  >
+    I am a mathematical logician, with a strong interest in the metamathematics of foundational axiomatic systems.
+    My research work is focused on the model theory of arithmetic, the model theory of set theory, and axiomatic theories of truth.
 
 fredrik:
   name: Fredrik Engström
