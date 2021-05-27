@@ -17,6 +17,7 @@ future: true
 exclude:
   - TODO.md
   - README.md
+  - logic-gu.*
 
 defaults:
   -
