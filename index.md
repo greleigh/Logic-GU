@@ -19,7 +19,7 @@ More detailed information is available through the [personal pages]({% link _pag
 {% assign build-date = site.time %}
 {% assign upcoming-seminars = site.categories['seminars'] | where_exp:"item", "build-date < item.date" | reverse %}
 {% if upcoming-seminars == empty %}New seminars will be published shortly.{% endif %}
-The list of past seminars is available [here]({% link _pages/seminars.md %}).
+Past talks can be found on the [seminar page]({% link _pages/seminars.md %}).
 
 {% for seminar in upcoming-seminars %}
   {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true %}
