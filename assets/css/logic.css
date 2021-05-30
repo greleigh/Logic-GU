@@ -1,3 +1,7 @@
+html {
+    font-feature-settings: 'onum' on;
+}
+
 .sidebar-footer {
     font-size: 15px;
 }
@@ -30,6 +34,10 @@
 .seminar-date {
     font-size: smaller;
     font-weight: lighter;
+}
+
+.seminar-date span {
+    font-feature-settings: 'c2sc' on, 'smcp' on;
 }
 
 .abstract {

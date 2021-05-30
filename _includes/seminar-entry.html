@@ -31,7 +31,7 @@
   <div class="seminar-lead">
     <span class="seminar-speaker">{{ seminar.speaker }}</span>
     {% if seminar.affil %}(<span class="seminar-affil">{{ seminar.affil }}</span>){% endif %} – <span class="seminar-title">{{ seminar.title }}</span>
-    <div class="seminar-date">{{ seminar.date | date: "%A, %d %B %Y at %H:%M (%Z)" }}</div>
+    <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ seminar.date | date: "%A, %d %B %Y at %H:%M <span>(%Z)</span>" }}</time></div>
   </div>
   <div class="abstract">
     {{ abstract }}
