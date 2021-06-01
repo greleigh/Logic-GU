@@ -56,19 +56,7 @@ collections:
 
   events:
     output: true
-    
-  seminars:
-    output: true
+    permalink: /:collection/:title
 
   projects:
-    output: true
-
-  members:
-    order:
-      - fredrik.md
-      - martin.md
-      - rasmus.md
-      - bahareh.md
-      - graham.md
-      - paul.md
-    # output: true
+    output: false
