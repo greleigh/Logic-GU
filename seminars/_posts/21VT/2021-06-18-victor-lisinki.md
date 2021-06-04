@@ -1,6 +1,6 @@
 ---
 speaker: Victor Lisinki
-affil: Oxford
+affil: Corpus Christi, Oxford
 title: Decidability problems in number theory
 date: 2021-06-18 10:15:00 +02:00
 ---
