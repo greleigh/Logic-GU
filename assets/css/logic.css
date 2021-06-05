@@ -3,7 +3,25 @@ html {
 }
 
 .sidebar-footer {
-    font-size: 15px;
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+.sidebar-footer p {
+    display: inline;
+    margin: 0em;
+    padding-right: .5rem;
+}
+
+@media (min-width: 48em) {
+    .sidebar-footer {
+        font-size: 15px;
+        margin-bottom: .5rem;
+    }
+    .sidebar-footer p {
+        display: block;
+        margin: 0em;
+    }
 }
 
 .seminar {

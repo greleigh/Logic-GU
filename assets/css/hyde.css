@@ -55,7 +55,7 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem .1em 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -90,9 +90,21 @@ html {
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
-  display: block;
+  display: inline;
+  padding-left: .5rem;
+  padding-right: .5rem;
   line-height: 1.75;
 }
+@media (min-width: 48em) {
+  .sidebar-nav {
+    margin-bottom: 1rem;
+  }
+  .sidebar-nav-item {
+    display: block;
+    line-height: 1.75;
+  }
+}
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
@@ -124,7 +136,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
