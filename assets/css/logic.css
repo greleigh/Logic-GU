@@ -73,7 +73,11 @@ html {
 }
 
 .abstract sup {
-    line-height: 0em;
+    line-height:0em;
+}
+
+.abstract sub {
+    line-height:0em;
 }
 
 .abstract p:last-of-type {
