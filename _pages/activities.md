@@ -3,7 +3,7 @@ layout: page
 title: Activities
 permalink: activities
 ---
-{% assign nat = "http://nat.morot.org" %}
+{% assign nat = "https://engstrom.morot.org/nat/" %}
 Below is a list of upcoming and recent activities of the research group.
 
 ## Seminars
