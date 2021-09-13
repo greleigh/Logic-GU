@@ -14,6 +14,7 @@ Below is a list of upcoming and recent activities of the research group.
 
 ## Conferences and workshops
 
+- [Workshop in Philosophy of Computing](https://www.ans.pw.edu.pl/Aktualnosci/Warsztaty-z-filozofii-obliczen/(language)/eng-GB), September 2021.
 - [Circularity in Syntax and Semantics]({% link _static_sites/ciss19/index.html %}) (CiSS), November 2019.
 - [Gothenburg--Warsaw Workshop on Truth]({% link  _events/2018-12-06-gu-war-workshop.markdown %}), December 2018.
 - [Tenth Scandinavian Logic Symposium]({% link  _events/2018-06-11-sls2018.md %}), June 2018.
