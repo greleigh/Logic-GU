@@ -49,7 +49,7 @@ martin:
 paul:
   name: Paul Kindvall Gorbow
   full-name: Paul Kindvall Gorbow
-  position: Postdoc
+  position: Former postdoc
   description: 
 
 graham:
@@ -89,3 +89,21 @@ anton:
   position: PhD student
   # homepage: https://www.gu.se/en/about/find-staff/antonpertunbroberg
   description: 
+
+dominik:
+  name: Dominik Wehr
+  full-name: Dominik Wehr
+  position: PhD student
+  homepage: https://dowehr.dortselb.st
+  # homepage: https://www.gu.se/en/about/find-staff/dominikwehr
+  description: 
+
+paulaquinon:
+  name: Paula Quinon
+  full-name: Paula Quinon
+  email: paula.quinon@gu.se
+  position: Visiting researcher
+  homepage: https://www.paulaquinon.com/
+  description: >
+    I am a philosopher of mathematics interested in arithmetical concepts.
+    I study the concept of natural number, but also adjacent concepts such as “arithmetic function”, “recursive function”, “computation”, “computability”, “encoding”, “equality”, “identity”, or “infinity”.
