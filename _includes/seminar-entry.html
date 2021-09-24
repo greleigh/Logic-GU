@@ -30,7 +30,10 @@
 <div class="seminar" id="{{ seminar.speaker | append: '-' | append: seminar.title | slugify }}">
   <div class="seminar-lead">
     <span class="seminar-speaker">{{ seminar.speaker }}</span>
-    {% if seminar.affil %}(<span class="seminar-affil">{{ seminar.affil }}</span>){% endif %} {% if seminar.draft != true %} – <span class="seminar-title">{{ seminar.title }}</span>{% endif %}
+    {% if seminar.affil %}(<span class="seminar-affil">{{ seminar.affil }}</span>)
+    {% endif %}
+    {% if seminar.title != "" %} – <span class="seminar-title">{{ seminar.title }}</span>
+    {% endif %}
     <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ seminar.date | date: "%A, %d %B %Y at %H:%M <span>(%Z)</span>" }}</time></div>
   </div>
   <div class="abstract">
