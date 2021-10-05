@@ -30,6 +30,18 @@ defaults:
       permalink: /:categories/:year-:month-:day-:title:output_ext
       title: ""
       speaker: Logic Seminar
+    
+  -
+    scope:
+      path: "seminars/_posts/nol"
+      type: "posts"
+    values:
+      layout: seminar
+      excerpt_separator: <!--more-->
+      permalink: /:categories/:year-:month-:day-:title:output_ext
+      title: ""
+      speaker: Nordic Online Logic Seminar
+      tags: NOL
 
   -
     scope:

@@ -29,6 +29,7 @@
 {%- comment -%}POSTAMBLE{%- endcomment -%}
 <div class="seminar" id="{{ seminar.speaker | append: '-' | append: seminar.title | slugify }}">
   <div class="seminar-lead">
+    {% if is_nol %}<div>Nordic Online Logic Seminar</div>{% endif %}
     <span class="seminar-speaker">{{ seminar.speaker }}</span>
     {% if seminar.affil %}(<span class="seminar-affil">{{ seminar.affil }}</span>)
     {% endif %}
