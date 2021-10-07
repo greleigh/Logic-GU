@@ -1,7 +1,7 @@
 ---
 speaker: Erich Grädel
 affil: RWTH Aachen University
-title: Semiring Semantics for Logical Statements with Applications to the Strategy Analysis of Games
+title: Semiring semantics for logical statements with applications to the strategy analysis of games
 date: 2021-10-25 16:00:00 +02:00
 ---
 Semiring semantics of logical formulae generalises the classical Boolean semantics by permitting multiple truth values from certain semirings.
