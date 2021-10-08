@@ -4,13 +4,13 @@ title: The Lindström Lectures
 permalink: lindstrom-lectures
 ---
 
-The Department of Philosophy, Linguistics and Theory of Science at the University of Gothenburg launched a lecture series in 2013 to celebrate the singular achievements of Pelle Lindström, former professor of logic at the department.
+The Department of Philosophy, Linguistics and Theory of Science at the University of Gothenburg launched a lecture series in 2013 to celebrate the singular achievements of Per Lindström, former professor of logic at the department.
 
 Annually, a distinguished logician is invited to deliver a general lecture to the public, and a specialized presentation at the logic seminar.
 
 [About Per (Pelle) Lindström]({% link _pages/lindstrom-lectures/per-lindstrom.md %})
 
-## Next seminar
+## Next Lindström Lecture
 
 The 2020 instalment was postponed due to the Corona virus situation. New dates will be announced in due course.
 
