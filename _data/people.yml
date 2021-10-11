@@ -96,7 +96,9 @@ dominik:
   position: PhD student
   homepage: https://dowehr.dortselb.st
   # homepage: https://www.gu.se/en/about/find-staff/dominikwehr
-  description: 
+  description: >
+    I am interested in the exploration of foundational systems by means of proof theory and (constructive) reverse mathematics.
+    At the moment I work in cyclic proof theory, focusing on the soundness conditions of cyclic derivation systems.
 
 paulaquinon:
   name: Paula Quinon
