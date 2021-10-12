@@ -11,6 +11,7 @@ For example, the Boolean semiring over {0,1} corresponds classical semantics, th
 the tropical semiring is used for cost analysis, and min-max-semirings (A, max, min, a, b) for a totally ordered set
 (A,<) can model different access levels. Most importantly, semirings of polynomials, such as N[X], allow us to track certain literals by mapping them
 to different indeterminates. The overall value of the formula is then a polynomial that describes precisely what combinations of literals prove the truth of the formula.
+<!--more-->
 
 This can also be used for strategy analysis in games.
 Evaluating formulae that define winning regions in a given game in an appropriate
