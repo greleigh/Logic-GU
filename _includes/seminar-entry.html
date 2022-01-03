@@ -49,7 +49,7 @@
       <div>Lindström Lecture</div>
     {%- endif -%}
     <span class="seminar-speaker">{{ seminar.speaker }}</span>
-    {%- if seminar.affil -%}
+    {% if seminar.affil -%}
       (<span class="seminar-affil">{{ seminar.affil }}</span>)
     {%- endif -%}
     {% if seminar.title != "" %} – <span class="seminar-title">{{ seminar.title }}</span>
