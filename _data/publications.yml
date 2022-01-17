@@ -1,0 +1,1148 @@
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  id: 312095
+  pubyear: 2020
+  sourceissue: null
+  sourcetitle: 13th Conference on Advances in Modal Logic, AiML 2020, Helsinki, Finland,
+    August 24-28, 2020
+  sourcevolume: null
+  title: Cyclic Proof Systems for Modal Logics
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 305839
+  pubyear: 2021
+  sourceissue: '3'
+  sourcetitle: The Review of Symbolic Logic
+  sourcevolume: '14'
+  title: Hierarchical incompleteness results for arithmetically definable extensions
+    of fragments of arithmetic
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Guillermo
+    id: 988223
+    last_name: "Men\xE9ndez Turata"
+    year_of_birth: null
+  id: 309546
+  pubyear: 2021
+  sourceissue: null
+  sourcetitle: " Automated Reasoning with Analytic Tableaux and Related Methods, 30th\
+    \ International Conference, TABLEAUX 2021, Birmingham, UK, September 6\u20139,\
+    \ 2021, Proceedings /  Anupam Das, Sara Negri (eds.)"
+  sourcevolume: null
+  title: 'Uniform Interpolation from Cyclic Proofs: The Case of Modal Mu-Calculus'
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 295604
+  pubyear: 2020
+  sourceissue: null
+  sourcetitle: Applied Mathematics, Informatics And Mechanics
+  sourcevolume: '2020'
+  title: A logic with measurable spaces for natural language semantics
+- authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 306991
+  pubyear: 2021
+  sourceissue: null
+  sourcetitle: The Review of Symbolic Logic
+  sourcevolume: null
+  title: The Copernican Multiverse of Sets
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 285988
+  pubyear: 2020
+  sourceissue: null
+  sourcetitle: Loukanova R. (eds) Logic and Algorithms in Computational Linguistics
+    2018 (LACompLing2018). Studies in Computational Intelligence, vol 860.
+  sourcevolume: null
+  title: From Tree Adjoining Grammars to Higher Order Representations of Abstract
+    Meaning Representations via Abstract Categorial Grammars
+- authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  id: 289551
+  pubyear: 2020
+  sourceissue: null
+  sourcetitle: Archive for Mathematical Logic
+  sourcevolume: '59'
+  title: Rank-initial embeddings of non-standard models of set theory
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Stefan
+    id: 872887
+    last_name: Hetzl
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 290565
+  pubyear: 2020
+  sourceissue: '6'
+  sourcetitle: Annals of Pure and Applied Logic
+  sourcevolume: '171'
+  title: Herbrand's theorem as higher order recursion
+- authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  id: 281814
+  pubyear: 2019
+  sourceissue: '2'
+  sourcetitle: Journal of Symbolic Logic
+  sourcevolume: '84'
+  title: Algebraic New Foundations
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 762253
+    last_name: Lappin
+    year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 281054
+  pubyear: 2019
+  sourceissue: null
+  sourcetitle: Proceedings of the Eighth Joint Conference on Lexical and Computational
+    Semantics (*SEM),  6-7 June 2019, Minneapolis, Minnesota, USA / Rada Mihalcea,
+    Ekaterina Shutova, Lun-Wei Ku, Kilian Evang, Soujanya Poria (Editors)
+  sourcevolume: null
+  title: 'Bayesian Inference Semantics: A Modelling System and A Test Suite'
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Gerhard
+    id: 855293
+    last_name: "J\xE4ger"
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 286646
+  pubyear: 2019
+  sourceissue: null
+  sourcetitle: 'Lecture Notes in Computer Science 26th International Workshop, WoLLIC
+    2019, Utrecht, The Netherlands, July 2-5, 2019, Proceedings / editors: Iemhoff,
+    Rosalie, Moortgat, Michael, de Queiroz, Ruy '
+  sourcevolume: null
+  title: An infinitary treatment of full mu-calculus
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 762253
+    last_name: Lappin
+    year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 284232
+  pubyear: 2019
+  sourceissue: null
+  sourcetitle: Proceedings of the 22nd Nordic Conference on Computational Linguistics
+    (NoDaLiDa 2019), 30 September-2 October, 2019, Turku, Finland /  Mareike Hartmann,
+    Barbara Plank (Editors)
+  sourcevolume: null
+  title: Predicates as Boxes in Bayesian Semantics for Natural Language
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 284131
+  pubyear: 2019
+  sourceissue: null
+  sourcetitle: 'TbiLLC 2019: Thirteenth International Tbilisi Symposium on Language,
+    Logic and Computation,16-20 September 2019.'
+  sourcevolume: null
+  title: A Logic with Measurable Spaces for Natural Language Semantics
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  - first_name: Felix
+    id: 62706
+    last_name: Larsson
+    year_of_birth: 1968
+  id: 274708
+  pubyear: 2018
+  sourceissue: null
+  sourcetitle: "Semantics and Philosophy in Europe \u2013 SPE10"
+  sourcevolume: null
+  title: Neustic Nuances
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 271191
+  pubyear: 2018
+  sourceissue: null
+  sourcetitle: "Proceedings of the Symposium on Logic and Algorithms in Computational\
+    \ Linguistics 2018. Stockholm, 28\u201331 August 2018 / Krasimir Angelov, Kristina\
+    \ Liefke, Roussanka Loukanova, Michael Moortgat, Satoshi Tojo (eds.)"
+  sourcevolume: null
+  title: From TAG to HOL Representations of AMRs via ACGs
+- authors:
+  - first_name: Volker
+    id: 755762
+    last_name: Halbach
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 267627
+  pubyear: 2018
+  sourceissue: null
+  sourcetitle: Stanford Encyclopedia of Philosophy
+  sourcevolume: null
+  title: Axiomatic Theories of Truth
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 762253
+    last_name: Lappin
+    year_of_birth: 1950
+  id: 269415
+  pubyear: 2018
+  sourceissue: null
+  sourcetitle: Proceedings of the First International Workshop on Language Cognition
+    and Computational Models, COLING 2018, August 20, 2018 Santa Fe, New Mexico, USA
+  sourcevolume: null
+  title: A Compositional Bayesian Semantics for Natural Language
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Stefan
+    id: 687499
+    last_name: Hetzl
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 264495
+  pubyear: 2018
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: "Herbrand\u2019s Theorem as Higher Order Recursion"
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 256053
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS),
+    20-23 June 2017, Reykjavik Iceland
+  sourcevolume: null
+  title: Cut-free completeness for modal mu-calculus
+- authors:
+  - first_name: Ali
+    id: 208959
+    last_name: Enayat
+    year_of_birth: 1959
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  - first_name: Zachiri
+    id: 237309
+    last_name: McKenzie
+    year_of_birth: 1984
+  id: 262248
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: 'Feferman on Foundations  / Jaeger, Gerhard, Sieg, Wilfried (Eds.) '
+  sourcevolume: null
+  title: Feferman's Forays into the Foundations of Category Theory
+- authors:
+  - first_name: Dennis
+    id: 590410
+    last_name: Bonnay
+    year_of_birth: null
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 258049
+  pubyear: 2018
+  sourceissue: '1'
+  sourcetitle: Notre Dame Journal of Formal Logic
+  sourcevolume: '59'
+  title: Invariance and Definability, with and without Equality
+- authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  id: 262249
+  pubyear: 2017
+  sourceissue: '3'
+  sourcetitle: Filosofisk Tidskrift
+  sourcevolume: '38'
+  title: "Essens, att sammanfalla och karakt\xE4risering"
+- authors:
+  - first_name: Claes
+    id: 82706
+    last_name: "Stranneg\xE5rd"
+    year_of_birth: 1962
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Abdul Rahim
+    id: 173977
+    last_name: Nizamani
+    year_of_birth: 1981
+  - first_name: Lance
+    id: 188292
+    last_name: Rips
+    year_of_birth: null
+  id: 167490
+  pubyear: 2013
+  sourceissue: '1'
+  sourcetitle: Journal of Logic, Language and Information
+  sourcevolume: '22'
+  title: Reasoning about truth in first-order logic
+- authors:
+  - first_name: Claes
+    id: 82706
+    last_name: "Stranneg\xE5rd"
+    year_of_birth: 1962
+  - first_name: Abdul Rahim
+    id: 173977
+    last_name: Nizamani
+    year_of_birth: 1981
+  - first_name: "Sj\xF6berg"
+    id: 199657
+    last_name: Anders
+    year_of_birth: 1964
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 178586
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Lecture Notes of the Institute for Computer Sciences, Social Informatics
+    and Telecommunications Engineering
+  sourcevolume: '7999'
+  title: Bounded Kolmogorov Complexity Based on Cognitive Models
+- authors:
+  - first_name: Claes
+    id: 82706
+    last_name: "Stranneg\xE5rd"
+    year_of_birth: 1962
+  - first_name: Abdul Rahim
+    id: 173977
+    last_name: Nizamani
+    year_of_birth: 1981
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Olle
+    id: 1191
+    last_name: "H\xE4ggstr\xF6m"
+    year_of_birth: 1967
+  id: 199298
+  pubyear: 2014
+  sourceissue: null
+  sourcetitle: 36th Annual Conference of the Cognitive Science Society
+  sourcevolume: null
+  title: Symbolic Reasoning with Bounded Cognitive Resources
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Abdul Rahim
+    id: 173977
+    last_name: Nizamani
+    year_of_birth: 1981
+  - first_name: Claes
+    id: 82706
+    last_name: "Stranneg\xE5rd"
+    year_of_birth: 1962
+  id: 199308
+  pubyear: 2014
+  sourceissue: null
+  sourcetitle: 27th International Workshop on Description Logics. Vienna, Austria,
+    July 17-20, 2014
+  sourcevolume: null
+  title: Generating Comprehensible Explanations in Description Logic
+- authors:
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 256940
+  pubyear: 2016
+  sourceissue: '4'
+  sourcetitle: IfCoLog Journal of Logics and their Applications
+  sourcevolume: '3'
+  title: Reflecting on Truth
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Juha
+    id: 487803
+    last_name: Kontinen
+    year_of_birth: null
+  - first_name: Jouko
+    id: 487805
+    last_name: "V\xE4\xE4n\xE4nen"
+    year_of_birth: null
+  id: 254377
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: Journal of computer and system sciences
+  sourcevolume: '88'
+  title: 'Dependence logic with generalized quantifiers: Axiomatizations'
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 251372
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: 'Truth and Proof in the Long Run: Essays on Trial and-Error Logics'
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 253526
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: 'Contributions to the Metamathematics of Arithmetic: Fixed Points, Independence,
+    and Flexibility'
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Ali
+    id: 208959
+    last_name: Enayat
+    year_of_birth: 1959
+  id: 251504
+  pubyear: 2017
+  sourceissue: '1'
+  sourcetitle: Journal of Symbolic Logic
+  sourcevolume: '82'
+  title: Marginalia on a theorem of Woodin
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 246686
+  pubyear: 2016
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: "Finitary Proof Systems for Kozen\u2019s \u03BC"
+- authors:
+  - first_name: Leon
+    id: 416731
+    last_name: Horsten
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 250707
+  pubyear: 2017
+  sourceissue: '501'
+  sourcetitle: Mind
+  sourcevolume: '126'
+  title: Truth is Simple
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Richard W.
+    id: 182656
+    last_name: Kaye
+    year_of_birth: null
+  id: 161320
+  pubyear: 2012
+  sourceissue: '3'
+  sourcetitle: Notre Dame Journal of Formal Logic
+  sourcevolume: '53'
+  title: 'Transplendent models : Expansions omitting a type '
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 250166
+  pubyear: 2016
+  sourceissue: null
+  sourcetitle: "Studies in Weak Arithmetics, Volume 3/ eds. Patrick C\xE9gielski,\
+    \ Ali Enayat, Roman Kossak"
+  sourcevolume: null
+  title: Flexibility in Fragments of Peano Arithmetic
+- authors:
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 241506
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: Proof-theoretic investigations into the Friedman-Sheard theories and other
+    theories of truth
+- authors:
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 241504
+  pubyear: 2010
+  sourceissue: '3'
+  sourcetitle: Bulletin of Symbolic Logic
+  sourcevolume: '16'
+  title: Five papers on axiomatic theories of truth
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 237343
+  pubyear: 2016
+  sourceissue: null
+  sourcetitle: "Journ\xE9es sur les Arithm\xE9tiques Faibles 35, 6/6-7/6 2016, Lisbon,\
+    \ Portugal"
+  sourcevolume: null
+  title: "A characterisation of \u03A0\u2081-conservativity over I\u03A3\u2081 "
+- authors:
+  - first_name: Anton
+    id: 253733
+    last_name: Pertun Broberg
+    year_of_birth: 1981
+  id: 228732
+  pubyear: 2015
+  sourceissue: null
+  sourcetitle: "Filosofidagarna 2015, June 12th-14th, Link\xF6ping"
+  sourcevolume: null
+  title: Formalizing Deflationary Truth
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 224180
+  pubyear: 2015
+  sourceissue: null
+  sourcetitle: Logic Colloquium 2015, 3-8 August 2015, Helsinki, Finland
+  sourcevolume: null
+  title: Flexible formulae and partial conservativity
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 223875
+  pubyear: 2015
+  sourceissue: '3'
+  sourcetitle: Journal of Logic, Language and Information
+  sourcevolume: '24'
+  title: A Logic for Trial and Error Classifiers
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 215743
+  pubyear: 2015
+  sourceissue: null
+  sourcetitle: Bristol-Gothenburg-Oxford Logic and Set Theory Postgraduate Student
+    Day, 22 April 2015, Bristol.
+  sourcevolume: null
+  title: "Flexibility and \u03A0\u2081-conservativity"
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 203266
+  pubyear: 2014
+  sourceissue: null
+  sourcetitle: "Id\xE9es Fixes (ed. Martin Kas\xE5)"
+  sourcevolume: null
+  title: Two consequences of Kripke's lemma
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 204216
+  pubyear: 2014
+  sourceissue: null
+  sourcetitle: "Id\xE9es Fixes. A Festschrift Dedicated to Chistian Bennet on the\
+    \ Occasion of His 60th Birthday. Martin Kas\xE5 (ed.)"
+  sourcevolume: null
+  title: Implicitly definable generalized quantifiers
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 203474
+  pubyear: 2014
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: "Id\xE9es Fixes. A festschrift dedicated to Christian Bennet on the occasion\
+    \ of his 60th birthday."
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 199385
+  pubyear: 2014
+  sourceissue: null
+  sourcetitle: "Journ\xE9es sur les Arithm\xE9tiques Faibles 33, 16/6-18/6 2014, G\xF6\
+    teborg"
+  sourcevolume: null
+  title: Flexible formulae of arithmetic
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 130855
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: Sino-European Winter School in Logic, Language and Computation, Sun
+    Yat-Sen University, Guangzhou, China, Dec. 3-18, 2010
+  sourcevolume: null
+  title: Sets of fixed points
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 184198
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Swedish Congress of Philosophy
+  sourcevolume: null
+  title: On logic and dependence
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Richard W.
+    id: 182656
+    last_name: Kaye
+    year_of_birth: null
+  id: 184196
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Helsinki logic seminar, Helsinki 3 mars 2013
+  sourcevolume: null
+  title: Models of arithmetic, standardness and expansions
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Juha
+    id: 196232
+    last_name: Kontinen
+    year_of_birth: null
+  - first_name: Jouko
+    id: 124309
+    last_name: "V\xE4\xE4n\xE4nen"
+    year_of_birth: null
+  id: 184195
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Logic, Language, Information, and Computation
+  sourcevolume: '8071'
+  title: 'Dependence Logic with Generalized Quantifiers: Axiomatizations'
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 184201
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Logic seminar, Gothenburg
+  sourcevolume: null
+  title: Dependence and Axiomatazations
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 184197
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Intensionality in Mathematics
+  sourcevolume: null
+  title: On logicality, invariance, and definability
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 176789
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: Workshop on Intensionality in Mathematics, Lund, May 11-12
+  sourcevolume: null
+  title: Consistency statements in semi-euclidean systems
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Juha
+    id: 196232
+    last_name: Kontinen
+    year_of_birth: null
+  - first_name: Jouko
+    id: 124309
+    last_name: "V\xE4\xE4n\xE4nen"
+    year_of_birth: null
+  id: 175259
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: arXiv
+  sourcevolume: null
+  title: 'Dependence logic with Generalized quantifiers: Axiomatizations'
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Juha
+    id: 196232
+    last_name: Kontinen
+    year_of_birth: null
+  id: 175255
+  pubyear: 2013
+  sourceissue: '1'
+  sourcetitle: Journal of Symbolic Logic
+  sourcevolume: '78'
+  title: Characterizing quantifier extensions of dependence logic
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 174312
+  pubyear: 2013
+  sourceissue: null
+  sourcetitle: DIP Colloquium, ILLC, Amsterdam
+  sourcevolume: null
+  title: Semantical considerations on experimental logics
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 167167
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: Gothenburg-Oslo Workshop on Philosophical Logic
+  sourcevolume: null
+  title: On Logicality
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 167166
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: Logikseminariet i Uppsala
+  sourcevolume: null
+  title: What is logic? On logicality, invariance and definability
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 167165
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: Logikseminariet GU
+  sourcevolume: null
+  title: On logicality, invariance and definability
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 162441
+  pubyear: 2012
+  sourceissue: '3'
+  sourcetitle: Theoria
+  sourcevolume: '78'
+  title: Experimental Logics, Mechanism and Knowable Consistency
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 161321
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: Logic Colloquium 2012, Manchester
+  sourcevolume: null
+  title: Generalized quantifiers in dependence logic
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 161319
+  pubyear: 2012
+  sourceissue: '3'
+  sourcetitle: 'Journal of Logic, Language and Information '
+  sourcevolume: '21'
+  title: 'Generalized quantifiers in dependence logic '
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 162422
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: Scandinavian Logic Symposium, Roskilde
+  sourcevolume: null
+  title: Invariance and definability, with or without equality
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 157962
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: "Logikseminariet p\xE5 GU"
+  sourcevolume: null
+  title: 'Dependence logic with generalized quantifiers '
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Juha
+    id: 173357
+    last_name: Kontinen
+    year_of_birth: 1977
+  id: 155372
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: arXiv
+  sourcevolume: null
+  title: Characterizing quantifier extensions of Dependence logic
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 155371
+  pubyear: 2012
+  sourceissue: null
+  sourcetitle: Logic seminar, Helsinki
+  sourcevolume: null
+  title: Branching quantifiers, compositionally
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Philipp
+    id: 142227
+    last_name: Schlicht
+    year_of_birth: null
+  id: 146123
+  pubyear: 2011
+  sourceissue: null
+  sourcetitle: Proceedings of the American Mathematical Society
+  sourcevolume: '139'
+  title: Non-isomorphism invariant Borel quantifiers
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 144315
+  pubyear: 2011
+  sourceissue: null
+  sourcetitle: Logical constants workshop, ESSLLI 2011, Ljubljana
+  sourcevolume: null
+  title: Dependence in Logic
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 141899
+  pubyear: 2011
+  sourceissue: null
+  sourcetitle: "Filosofidagarna 2011, G\xF6teborg"
+  sourcevolume: null
+  title: Dependence in Logic
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 141898
+  pubyear: 2011
+  sourceissue: null
+  sourcetitle: LINT Workshop, Oxford
+  sourcevolume: null
+  title: Multivalued dependencies and generalized quantifiers
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 141582
+  pubyear: 2011
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: Metamathematical fixed points
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 141584
+  pubyear: 2011
+  sourceissue: null
+  sourcetitle: "Filosofidagarna 2011, G\xF6teborg"
+  sourcevolume: null
+  title: "Fixpunktsm\xE4ngder"
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 131708
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: "Logikseminariet p\xE5 GU"
+  sourcevolume: null
+  title: Borel Quantifiers
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 131707
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: "Logikseminariet p\xE5 GU"
+  sourcevolume: null
+  title: Classification problems and models of arithmetic
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Philipp
+    id: 142227
+    last_name: Schlicht
+    year_of_birth: null
+  id: 131704
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: Workshop on Logic, Language and Computation &  The 9th International
+    Conference on Logic and Cognition
+  sourcevolume: null
+  title: Non-Permutation Invariant Borel Quantifiers
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 130983
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: Sino-European Winter School in Logic, Language and Computation, Sun
+    Yat-Sen University, Guangzhou, China, Dec. 3-18, 2010
+  sourcevolume: null
+  title: Experimental logics, mechanism and knowable consistency
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 122775
+  pubyear: 2010
+  sourceissue: null
+  sourcetitle: "Philosophy and Model Theory Conference, Universit\xE9 Paris Ouest\
+    \ & \xC9cole normale sup\xE9rieure, Paris June 2-5"
+  sourcevolume: null
+  title: Some results on experimental logics
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Philipp
+    id: 142227
+    last_name: Schlicht
+    year_of_birth: null
+  id: 118125
+  pubyear: 2010
+  sourceissue: REPORT No. 23, 2009/2010
+  sourcetitle: Insitut Mittag-Leffler preprint serie
+  sourcevolume: null
+  title: Non-permutation invariant Borel quantifiers
+- authors:
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 97466
+  pubyear: 2009
+  sourceissue: null
+  sourcetitle: Filosofidagarna, nationell konferens i filosofi, Lund, 12-14 juni,
+    2009
+  sourcevolume: null
+  title: "N\xE5gra resultat i experimentell logik"
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 105448
+  pubyear: 2009
+  sourceissue: null
+  sourcetitle: INSTITUT MITTAG-LEFFLER SEMINAR
+  sourcevolume: null
+  title: Logical constants and invariance
