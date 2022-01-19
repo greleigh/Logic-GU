@@ -9,7 +9,8 @@ Publications by the logic group of the [Department of Philosophy, Linguistics an
 
 ## Publications
 
-{% for pub in site.data.publications %}
+{% assign sorted_pubs = site.data.publications | sort:'pubyear' | reverse %}
+{% for pub in sorted_pubs %}
 {% assign person = site.data.people[member] %}
- - {% for author in pub.authors %}{% if forloop.last %}{% unless forloop.first %}and {% endunless %}{% endif %}{{ author.first_name }} {{ author.last_name }}{% if forloop.last %}.{% else %},{% endif %} {% endfor %} [{{ pub.title }}](https://gup.ub.gu.se/publications/show/{{ pub.id }}) {{ pub.sourcetitle }}, {{ pub.pubyear}}.
+ - {% for author in pub.authors %}{% if forloop.last %}{% unless forloop.first %}and {% endunless %}{% endif %}{{ author.first_name }} {{ author.last_name }}{% if forloop.last %}.{% else %},{% endif %} {% endfor %} [{{ pub.title }}](https://gup.ub.gu.se/publication/{{ pub.id }}) {{ pub.sourcetitle }}, {{ pub.pubyear}}.
 {% endfor %}

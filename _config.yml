@@ -18,6 +18,7 @@ exclude:
   - TODO.md
   - README.md
   - logic-gu.*
+  - scripts/*
 
 defaults:
   -
