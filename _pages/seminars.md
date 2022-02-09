@@ -25,7 +25,9 @@ The research seminar meets on alternate Fridays at 10.15. Talk locations (i.e., 
 ## {{ semester.name }}
 
 {% for seminar in seminars %}
+  {%- unless seminar.speaker == "Logic Seminar" -%}
   {% include seminar-entry.html talk=seminar nol_tag=true LL_tag=true %}
+  {%- endunless -%}
 {% endfor %}
 
 {% endunless %}
