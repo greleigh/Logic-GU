@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-seminarBlock: 21VT
 ---
 
 Welcome to the webpage of the logic group at the University of Gothenburg.
