@@ -58,9 +58,9 @@
   </div>
   <div class="abstract">
     {{ abstract }}
-    {% if include.excerpt-only and abstract != full_abstract %}
+    {%- if include.excerpt-only and abstract != full_abstract -%}
       <div class="forward"><a href="{{ forward_link }}">(&#8230; read full abstract &#8230;)</a></div>
-    {% endif %}
+    {%- endif -%}
     {%- if is_nol -%}
     {% assign nol = site.data.nol %}
     <div class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }}">{{ nol.title }}</a>.</div>
