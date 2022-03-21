@@ -10,12 +10,21 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 [About Per (Pelle) Lindström]({% link _pages/lindstrom-lectures/per-lindstrom.md %})
 
-## Next Lindström Lecture
+## The Lindström Lectures 2022 edition
 
-The 2020 instalment was postponed due to the Corona virus situation. New dates will be announced in due course.
+The 2022 edition of the Lindström Lectures will be given by **Sara Negri**, Professor of Mathematics at the University of Genoa.
+
+{% assign lectures = site.categories['seminars'] | where_exp:"item", "item.tags contains 'LL22'" %}
+{% assign public-lecture = lectures | find:"public", true %}
+{% assign research-lecture = lectures | find:"public", nil %}
+
+{% include lindstrom-entry.html talk=public-lecture public=true %}
+
+{% include lindstrom-entry.html talk=research-lecture public=false %}
 
 ## Previous Lindström Lectures
 
-{% assign LLs = site.pages | where:"lindstrom-lecture","true" | reverse %}
+{% assign LLs = site.pages | where:"lindstrom-lecture","true" | where_exp:"item","item.year < 2022" | reverse %}
 {% for lecture in LLs %}
-* [{{ lecture.title }}]({% link {{ lecture.path }} %}): {{ lecture.speaker }} {% endfor %}
+* [{{ lecture.title }}]({% link {{ lecture.path }} %}): {{ lecture.speaker }}
+{%- endfor %}
