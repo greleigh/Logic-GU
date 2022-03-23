@@ -12,7 +12,9 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 ## The Lindström Lectures 2022 edition
 
-The 2022 edition of the Lindström Lectures will be given by **Sara Negri**, Professor of Mathematics at the University of Genoa.
+The 2022 Lindström Lectures will be given by **Sara Negri**, Professor of Mathematics at the University of Genoa.
+
+The Public Lindström Lecture will take place on **Monday, 20 June 2022, 18--20:00** at Gothenburg University, [Faculty of Humanities](https://www.gu.se/en/humanities) (Humanisten building, Renströmsgatan 6, Gothenburg).
 
 {% assign lectures = site.categories['seminars'] | where_exp:"item", "item.tags contains 'LL22'" %}
 {% assign public-lecture = lectures | find:"public", true %}
