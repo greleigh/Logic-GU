@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Per (Pelle) Lindström
+title: Per (Pelle) Lindström
 lindstrom-lecture: false
 ---
 This is a much condensed version of [the obituary](http://onlinelibrary.wiley.com/doi/10.1111/j.1755-2567.2010.01069.x/pdf) by Väänänen and Westerståhl in Theoria 2010 (76) pages 100-107.
