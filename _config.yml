@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 tagline: The logic group at the University of Gothenburg
 
+markdown: kramdown
 
 baseurl: "/"
 # theme: jekyll-theme-slate
