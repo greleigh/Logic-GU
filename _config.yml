@@ -19,6 +19,7 @@ exclude:
   - TODO.md
   - README.md
   - logic-gu.*
+  - .gitignore
 
 defaults:
   -
