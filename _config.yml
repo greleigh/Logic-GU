@@ -20,6 +20,8 @@ exclude:
   - README.md
   - logic-gu.*
   - .gitignore
+  - .devcontainer
+  - .vscode
 
 defaults:
   -
