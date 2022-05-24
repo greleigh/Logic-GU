@@ -99,3 +99,7 @@ html {
 .abstract .tag {
     font-style: italic;
 }
+
+.abstract sc {
+    font-variant: small-caps;
+}
