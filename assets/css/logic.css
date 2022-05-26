@@ -2,6 +2,15 @@ html {
     font-feature-settings: 'onum' on;
 }
 
+/* Add context for external links */
+a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
+    /* Set the `content` property as mentioned in the first approach */
+    font-family: 'FontAwesome';
+    font-size: 50%;
+    content: ' \f08e';
+    alt: " (external page)"
+}
+
 .sidebar-footer {
     font-size: 12px;
     margin-bottom: .5rem;
