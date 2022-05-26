@@ -5,6 +5,6 @@ permalink: resources
 
 # Logic group resources
 
-* Link to our [page on GU.se]({{ site.data.links['flov-logic-group'].link }}).
-* Submit new posts and corrections through the [GitHub repository page](https://github.com/greleigh/Logic-GU)
-* Write your thesis using the [ACTA LaTeX template]({% link assets/tex/ACTA2021.zip %}) (designed and kindly shared by Rasmus Blanck)
+* Link to our [group page on GU.se]({{ site.data.links['flov-logic-group'].link }}).
+* Submit new posts and corrections at our [GitHub repository]({{ site.data.links['github-repo'].url }})
+* Write your thesis using the [ACTA LaTeX template]({% link assets/tex/ACTA2021.zip %}) (zip file, 300 kb) designed and kindly shared by Rasmus Blanck.

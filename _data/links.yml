@@ -1,3 +1,8 @@
+github-repo:
+  name: GitHub repository
+  short-name: GitHub repo
+  url: https://github.com/greleigh/Logic-GU
+
 gu-mailing-list:
   name: GU Logic mailing list
   short-name: Logic@GU
