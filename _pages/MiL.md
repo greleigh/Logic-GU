@@ -4,8 +4,8 @@ title: Master in Logic
 permalink: MiL
 published: true
 ---
-{% assign MiL_GU = site.data.links['MiL'].link %}
-{% assign MiL_canvas = site.data.links['MiL-canvas'].link %}
+{% assign MiL_GU = site.data.links['MiL'].url %}
+{% assign MiL_canvas = site.data.links['MiL-canvas'].url %}
 
 The purpose of the Master's Programme in Logic is to provide a new generation of students with thorough theoretical knowledge, and the ability to apply it, within a central intellectual field, which gets its theoretical interest and practical value from a unique combination of humanities, mathematics and information science. For the Faculty of Arts this is a commitment to promote and further develop the field of mathematical humanities.
 

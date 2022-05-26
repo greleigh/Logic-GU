@@ -6,33 +6,33 @@ github-repo:
 gu-mailing-list:
   name: GU Logic mailing list
   short-name: Logic@GU
-  link: https://listserv.gu.se/sympa/subscribe/logic
+  url: https://listserv.gu.se/sympa/subscribe/logic
 
 nol-mailing-list:
   name: Nordic Online Logic Seminar
   short-name: NOL Seminar
-  link: https://listserv.gu.se/sympa/subscribe/nordiclogic
+  url: https://listserv.gu.se/sympa/subscribe/nordiclogic
 
 sls:
   name: Scandinavian Logic Society
   short-name: SLS
-  link: https://www.scandinavianlogic.org
+  url: https://www.scandinavianlogic.org
 
 MiL:
   name: Master Programme in Logic
   short-name: MiL
-  link: https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log
+  url: https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log
 
 MiL-canvas:
   name: course page of the Master in Logic
   short-name: MiL
-  link: https://canvas.gu.se/courses/45028/assignments/syllabus
+  url: https://canvas.gu.se/courses/45028/assignments/syllabus
 
 flov-logic-group:
   name: university homepage
-  link: https://www.gu.se/en/flov/our-research/research-areas/research-in-logic-and-mathematical-methodology
+  url: https://www.gu.se/en/flov/our-research/research-areas/research-in-logic-and-mathematical-methodology
 
 flov:
   name: Department of Philosophy, Linguistics and Theory of Science
   short-name: FLoV
-  link: https://www.gu.se/flov
+  url: https://www.gu.se/flov

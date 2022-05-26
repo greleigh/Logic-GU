@@ -6,7 +6,7 @@ contact: graham
 ---
 {% assign contact = site.data.people[page.contact] %}
 {% assign MiL = site.data.links['MiL-canvas'] %}
-{% assign logic-ML = site.data.links['gu-mailing-list'].link %}
+{% assign logic-ML = site.data.links['gu-mailing-list'].url %}
 
 See below for a list of all previous and upcoming seminars in the _Gothenburg Research Seminar in Logic_ and the _Nordic Online Logic Seminar_. We also run a bi-weekly _Colloquium in Logic_ focused in the Masters in Logic; details and schedules are listed on the [course page of the Masters Programme]({{ MiL.link }}).
 
