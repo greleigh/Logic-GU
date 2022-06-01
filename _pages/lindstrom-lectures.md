@@ -3,6 +3,7 @@ layout: page
 title: The Lindström Lectures
 permalink: lindstrom-lectures
 ---
+{% assign logic-ML = site.data.links['gu-mailing-list'].url %}
 
 The Department of Philosophy, Linguistics and Theory of Science at the University of Gothenburg launched a lecture series in 2013 to celebrate the singular achievements of Per Lindström, former professor of logic at the department.
 
