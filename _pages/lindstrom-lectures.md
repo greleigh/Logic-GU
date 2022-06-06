@@ -3,6 +3,9 @@ layout: page
 title: The Lindström Lectures
 permalink: lindstrom-lectures
 ---
+{% assign logic-ML = site.data.links['gu-mailing-list'].url %}
+{% assign contact = site.data.people['graham'].name %}
+{% assign contact-email = site.data.people['graham'].email %}
 
 The Department of Philosophy, Linguistics and Theory of Science at the University of Gothenburg launched a lecture series in 2013 to celebrate the singular achievements of Per Lindström, former professor of logic at the department.
 
@@ -14,7 +17,9 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 The 2022 Lindström Lectures will be given by **Sara Negri**, Professor of Mathematics at the University of Genoa.
 
-The Public Lindström Lecture will take place on **Monday, 20 June 2022, 18--20:00** at Gothenburg University, [Faculty of Humanities](https://www.gu.se/en/humanities) (Humanisten building, Renströmsgatan 6, Gothenburg). Location of the Research Lecture will be circulate through the [GU Logic mailing list]({{ logic-ML }}).
+The Public Lindström Lecture will take place on **Monday, 20 June 2022, 18--20** at the [Faculty of Humanities](https://www.gu.se/en/humanities) of Gothenburg University and online. Details will be posted on the [GU page about the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
+
+The Research Lecture will take place on **Wednesday, 22 June 2022, 10--12**. The location of the Research Lecture will be circulated through the [GU Logic mailing list]({{ logic-ML }}) or contact [{{ contact }}](mailto:{{ contact-email }}).
 
 {% assign lectures = site.categories['seminars'] | where_exp:"item", "item.tags contains 'LL22'" %}
 {% assign public-lecture = lectures | find:"public", true %}
