@@ -1,0 +1,114 @@
+html {
+    font-feature-settings: 'onum' on;
+}
+
+/* Add context for external links */
+a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
+    /* Set the `content` property as mentioned in the first approach */
+    font-family: 'FontAwesome';
+    font-size: 50%;
+    content: ' \f08e';
+    alt: " (external page)"
+}
+
+.sidebar-footer {
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+.sidebar-footer p {
+    display: inline;
+    margin: 0em;
+    padding-right: .5rem;
+}
+
+@media (min-width: 48em) {
+    .sidebar-footer {
+        font-size: 15px;
+        margin-bottom: .5rem;
+    }
+    .sidebar-footer p {
+        display: block;
+        margin: 0em;
+    }
+}
+
+.seminar {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* font-size: medium; */
+}
+
+.seminar hr {
+    margin: 1rem 0;
+    background-color: #6a9fb5;
+    opacity: .3;
+    border: 0;
+    height: 1px;
+}
+
+.seminar-lead {
+    line-height: normal;
+    font-size: larger;
+}
+
+.seminar ul {
+    list-style-type: square;
+    padding: 0em;
+}
+
+.seminar-speaker {
+    font-weight: bold;
+}
+
+.seminar-title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.seminar-date {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.seminar-date span {
+    font-feature-settings: 'c2sc' on, 'smcp' on;
+}
+
+.abstract {
+    font-size: smaller;
+    line-height: 1.5;
+}
+
+.abstract h1 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.abstract p {
+    margin-bottom: 0.25rem;
+}
+
+.abstract sup {
+    line-height:0em;
+}
+
+.abstract sub {
+    line-height:0em;
+}
+
+.abstract p:last-of-type {
+    margin-bottom: 0em;
+}
+
+.abstract .forward {
+    margin-top: 0em;
+}
+
+.abstract .tag {
+    font-style: italic;
+}
+
+.abstract sc {
+    font-variant: small-caps;
+}
