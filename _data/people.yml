@@ -1,3 +1,5 @@
+# Members
+
 bahareh:
   name: Bahareh Afshari
   full-name: Bahareh Afshari
@@ -56,6 +58,8 @@ graham:
     My research interests sit at the interface between the fields of mathematical, philosophical and computational logic.
     In particular, formal theories of truth, non-classical and modal logics, computational content of theories, and notions of provability.
 
+# PhDs
+
 giacomo:
   name: Giacomo Barlucchi
   full-name: Giacomo Barlucchi
@@ -94,6 +98,8 @@ dominik:
     I am interested in the exploration of foundational systems by means of proof theory and (constructive) reverse mathematics.
     At the moment I work in cyclic proof theory, focusing on the soundness conditions of cyclic derivation systems.
 
+# Visitors
+
 paulaquinon:
   name: Paula Quinon
   full-name: Paula Quinon
@@ -103,6 +109,28 @@ paulaquinon:
   description: >
     I am a philosopher of mathematics interested in arithmetical concepts.
     I study the concept of natural number, but also adjacent concepts such as “arithmetic function”, “recursive function”, “computation”, “computability”, “encoding”, “equality”, “identity”, or “infinity”.
+
+lucaszenger:
+  name: Lucas Zenger
+  full-name: Lucas Zenger
+  position: Visiting PhD student
+  affiliation: Univerity of Bern
+  
+guillermomenendezturata:
+  name: Guillermo Menéndez Turata
+  full-name: Guillermo Menéndez Turata
+  position: Visiting PhD student
+  affiliation: Univerity of Amsertdam
+
+lide:
+  name: Lide
+  full-name: Lide
+  position: Visiting PhD student
+  affiliation: Univerity of Amsterdam
+
+#  Affiliated
+
+#  Past
 
 paulgorbow:
   name: Paul Kindvall Gorbow
