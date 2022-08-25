@@ -1,0 +1,31 @@
+{%- comment -%}PREAMBLE{%- endcomment -%}
+{% assign seminar = include.talk %}
+{%- comment -%}Seminar header{%- endcomment -%}
+{% capture header %}{{ seminar.speaker | append: '-' | append: seminar.title | slugify }}{% endcapture %}
+{%- comment -%}date-time presentation {%- endcomment -%}
+{%- capture datetime -%}
+  {{ seminar.date | date: "%A, %d %B %Y at %H:%M <span>(%Z)</span>" }}
+{%- endcapture -%}
+{%- comment -%}Prepare abstract{%- endcomment -%}
+{% assign abstract = seminar.content %}
+{%- comment -%}END PREAMBLE{%- endcomment -%}
+{%- comment -%}POSTAMBLE{%- endcomment -%}
+<div class="seminar" id="{{ header }}">
+  <div class="seminar-lead">
+    {%- if include.public -%}
+      <div>Public Lindström Lecture</div>
+    {%- else -%}
+      <div>Research Lindström Lecture</div>
+    {%- endif -%}
+    <span class="seminar-speaker">{{ seminar.speaker }}</span>
+    {% if seminar.affil -%}
+      (<span class="seminar-affil">{{ seminar.affil }}</span>)
+    {%- endif -%}
+    {% if seminar.title != "" %} – <span class="seminar-title">{{ seminar.title }}</span>
+    {% endif %}
+    <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
+  </div>
+  <div class="abstract">
+    {{ abstract }}
+  </div>
+</div>

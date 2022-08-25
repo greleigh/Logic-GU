@@ -11,7 +11,7 @@ Our group has a broad expertise in mathematical, philosophical and computational
 We organise a [bi-weekly research seminar]({% link _pages/seminars.md %}), the annual [Lindström Lectures]({% link _pages/lindstrom-lectures.md %}) and various other [logic-themed events]({% link _pages/activities.md %}).
 Group members also teach in the [Master in Logic programme]({% link _pages/MiL.md %}).
 
-We are one of the member groups of the [Scandinavian Logic Society]({{ site.data.links.sls.link }}) which organises a number of events promoting logic in the Nordic regions.
+We are one of the member groups of the [Scandinavian Logic Society]({{ site.data.links['sls'].url }}) which organises a number of events promoting logic in the Nordic regions, for instance the [Nordic Online Logic Seminar]({% link _pages/nol.md %}).
 
 ## Current members
 
@@ -19,7 +19,7 @@ We are one of the member groups of the [Scandinavian Logic Society]({{ site.data
 {% assign person = site.data.people[member] %}
  - **{% if person.homepage %}[{{ person.full-name }}]({{ person.homepage }} "{{ person.full-name }}"){% else %}{{ person.full-name }}{% endif %}** – _{{ person.position }}_
     {{ person.description | markdownify }}
-{% endfor %}
+    {% endfor %}
 
 ## Past and affiliate members
 
@@ -27,4 +27,4 @@ We are one of the member groups of the [Scandinavian Logic Society]({{ site.data
 {% assign person = site.data.people[member] %}
  - **{% if person.homepage %}[{{ person.full-name }}]({{ person.homepage }} "{{ person.full-name }}"){% else %}{{ person.full-name }}{% endif %}** – _{{ person.position }}_
     {{ person.description | markdownify }}
-{% endfor %}
+    {% endfor %}

@@ -4,11 +4,13 @@
   link: about
 - name: Seminars
   link: seminars
-- name: Activities
-  link: activities
-- name: Master in Logic
-  link: MiL
-- name: Nordic Online Seminar
+- name: NOL Seminar
   link: seminars/nol
 - name: Lindström Lectures
   link: lindstrom-lectures
+- name: Master in Logic
+  link: MiL
+- name: Activities
+  link: activities
+- name: Resources
+  link: resources

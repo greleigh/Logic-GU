@@ -46,12 +46,6 @@ martin:
       Recently, my research interests have shifted somewhat towards argumentation theory and (logical) philosophy of language.
       In particular the application of foundational theories in philosophical semantics and pragmatics to practically useful argumentation analysis.
 
-paulgorbow:
-  name: Paul Kindvall Gorbow
-  full-name: Paul Kindvall Gorbow
-  position: Postdoc (2018–2021)
-  description: 
-
 graham:
   name: Graham Leigh
   full-name: Graham E Leigh
@@ -109,3 +103,14 @@ paulaquinon:
   description: >
     I am a philosopher of mathematics interested in arithmetical concepts.
     I study the concept of natural number, but also adjacent concepts such as “arithmetic function”, “recursive function”, “computation”, “computability”, “encoding”, “equality”, “identity”, or “infinity”.
+
+paulgorbow:
+  name: Paul Kindvall Gorbow
+  full-name: Paul Kindvall Gorbow
+  position: Postdoc (2018--2021)
+  description: 
+
+daichihayashi:
+  name: Daichi Hayashi
+  full-name: Daichi Hayashi
+  position: Visiting researcher (Spring 2022)
