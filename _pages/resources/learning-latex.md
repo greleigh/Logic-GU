@@ -48,7 +48,7 @@ There are thousands of LaTeX packages. These can be adding new symbols, new desi
 ## Logic specific
 
 - **Alphabets** You can never have too many ‘x’s. The `amsmath` package implements the caligraphic and fraktur scripts. Use these sparingly: your work is to be read, not framed!
-- **Proof trees** Whether its natural deduction, tableaux or sequent calculus, we all need to typeset a formal proof at somepoint in our lifetime. The LaTeX for Logicians page has a separate entry on [typesetting natural deduction proofs]({{ latex4logic }}/nd/) with links to different packages. I recommend `ebproof` and `bussproofs`. The latter package (and its extension `bussproofs-extra`) is used in the [Open logic text]({{ site.data.links['open-logic'].url }}). 
+- **Proof trees** Whether its natural deduction, tableaux or sequent calculus, we all need to typeset a formal proof at somepoint in our lifetime. The LaTeX for Logicians page has a separate entry on [typesetting natural deduction proofs]({{ latex4logic }}/nd/) with links to different packages. I recommend `ebproof` and `bussproofs`. The latter package (and its extension `bussproofs-extra`) is used in the [Open Logic Text]({{ site.data.links['open-logic'].url }}). 
 - **Automata** The TikZ package provides an extensive (and quite scary) toolkit for building figures and graphics within LaTeX. Search the [TeXample database](https://texample.net) for what you need and adapt from there.
 
 ## General packages
