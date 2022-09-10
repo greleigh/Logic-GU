@@ -150,14 +150,14 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: cronos-pro, Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
-  font-size: 85%;
+  padding: 0em 0.1em;
+  font-size: 90%;
   color: #bf616a;
   background-color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 pre {
   display: block;
