@@ -1,22 +1,18 @@
+# TOC
+#   1 Local links
+#   2 GU links
+#   3 External logic links
+#   4 mailing lists
+#   5 files and other resources
+
+# 1 local links
+# Local github link
 github-repo:
   name: GitHub repository
   short-name: GitHub repo
   url: https://github.com/greleigh/Logic-GU
 
-gu-mailing-list:
-  name: GU Logic mailing list
-  short-name: Logic@GU
-  url: https://listserv.gu.se/sympa/subscribe/logic
-
-nol-mailing-list:
-  name: Nordic Online Logic Seminar
-  short-name: NOL Seminar
-  url: https://listserv.gu.se/sympa/subscribe/nordiclogic
-
-sls:
-  name: Scandinavian Logic Society
-  short-name: SLS
-  url: https://www.scandinavianlogic.org
+# 2 GU links
 
 MiL:
   name: Master Programme in Logic
@@ -36,3 +32,24 @@ flov:
   name: Department of Philosophy, Linguistics and Theory of Science
   short-name: FLoV
   url: https://www.gu.se/flov
+
+# 3 External logics
+sls:
+  name: Scandinavian Logic Society
+  short-name: SLS
+  url: https://www.scandinavianlogic.org
+
+# 4 mailing lists
+
+gu-mailing-list:
+  name: GU Logic mailing list
+  short-name: Logic@GU
+  url: https://listserv.gu.se/sympa/subscribe/logic
+
+nol-mailing-list:
+  name: Nordic Online Logic Seminar
+  short-name: NOL Seminar
+  url: https://listserv.gu.se/sympa/subscribe/nordiclogic
+
+# 5 Files and other resources
+
