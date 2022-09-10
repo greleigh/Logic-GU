@@ -14,7 +14,7 @@ title: Learning LaTeX
 
 [LaTeX]({{ latex }}) is a document preparation system for creating technical and scientific documents. It is especially useful for typesetting logic with its plethora of special symbols. The Logical Theory textbook, as well as most of our lecture notes/slides are all produced using LaTeX.
 
-Writing in LaTeX is much simpler than using a word processor like Word. A LaTeX file is just a plain text file containing the content of your document and a few special commands describing the structure of your document. If you are familiar with basic html or markdown (both used in designing webpages) you will find them similar to LaTeX. Feeding this text file to LaTeX will produce a pdf of the document.
+Writing in LaTeX is much simpler than using a word processor like Word. A LaTeX file is just a plain text file containing the content of your document and a few special commands describing the structure of your document. If you are familiar with basic html or markdown (both used extensively in web design) you will be at home with LaTeX. Feeding this text file to LaTeX will produce a pdf of the document.
 
 # Getting started
 
