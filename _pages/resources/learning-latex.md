@@ -34,7 +34,7 @@ LaTeX is an excellent tool for typesetting mathematical notation. The basics of 
 3. Visit the [TeX StackExchange]({{ tex-se }}) for answers to your LaTeX questions.
 4. See the [LaTeX miscellany](#a-latex-miscellany) below our own recommendations.
 
-# Beamer
+# Beam your logic with Beamer
 
 At some point you will want to present your labour to others. Beamer is a LaTeX class for creating presentations.
 
