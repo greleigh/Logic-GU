@@ -32,7 +32,8 @@ LaTeX is an excellent tool for typesetting mathematical notation. The basics of 
 1. Read the [documentation on typesetting mathematics in LaTeX]({{ ol-learn }}/Mathematical_expressions) provided by Overleaf. This guide also introduces the mathematics package `amsmath` that introduces the most common mathematical symbols, provides better support for equations, and much more. See also the [list of further reading]({{ ol-learn }}/Mathematical_expressions#Further_reading) provided at the end of the guide and the [LaTeX wikibook on using `amsmath`]({{ latex-wb }}/Advanced_Mathematics).
 2. Check out the logic related tips you can find at the [LaTeX for Logicians page]({{ latex4logic }}), ranging from logic-specific symbols to writing truth-tables and proof trees.
 3. Visit the [TeX StackExchange]({{ tex-se }}) for answers to your LaTeX questions.
-4. See the [LaTeX miscellany](#a-latex-miscellany) below our own recommendations.
+4. If you need to figure out how to display a particular symbol in LaTeX, [detexify](https://detexify.kirelabs.org/classify.html) is your tool: you just paste or draw the symbol you want and that site will tell you the command.
+5. See the [LaTeX miscellany](#a-latex-miscellany) below our own recommendations.
 
 # Beam your logic with Beamer
 
