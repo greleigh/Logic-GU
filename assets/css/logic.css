@@ -64,6 +64,7 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .seminar-title {
     font-weight: bold;
     font-style: italic;
+    display: block;
 }
 
 .seminar-date {

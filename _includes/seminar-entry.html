@@ -18,8 +18,8 @@
 {% else %}
   {% assign is_LL = false %}
 {% endif %}
-{%- comment -%}Seminar header{%- endcomment -%}
-{% capture header %}{{ seminar.speaker | append: '-' | append: seminar.title | slugify }}{% endcapture %}
+{%- comment -%}Seminar speaker-title{%- endcomment -%}
+{% capture speaker-title %}{{ seminar.speaker | append: "-" | append: seminar.title | slugify }}{% endcapture %}
 {%- comment -%}date-time presentation {%- endcomment -%}
 {%- capture datetime -%}
   {{ seminar.date | date: "%A, %d %B %Y at %H:%M <span>(%Z)</span>" }}
@@ -30,29 +30,29 @@
   {% assign abstract = seminar.excerpt %}
   {%- comment -%}Create link to full abstract{%- endcomment -%}
   {% if is_LL %}
-    {% capture forward_link %}{% link _pages/lindstrom-lectures.md %}#{{ header }}{% endcapture %}
+    {% capture forward_link %}{% link _pages/lindstrom-lectures.md %}#{{ speaker-title }}{% endcapture %}
   {% elsif is_nol %}
-    {% capture forward_link %}{% link _pages/nol.md %}#{{ header }}{% endcapture %}
+    {% capture forward_link %}{% link _pages/nol.md %}#{{ speaker-title }}{% endcapture %}
   {% else %}
-    {% capture forward_link %}{% link _pages/seminars.md %}#{{ header }}{% endcapture %}
+    {% capture forward_link %}{% link _pages/seminars.md %}#{{ speaker-title }}{% endcapture %}
   {% endif %}
 {% else %}
   {% assign abstract = full_abstract %}
 {% endif %}
 {%- comment -%}END PREAMBLE{%- endcomment -%}
 {%- comment -%}POSTAMBLE{%- endcomment -%}
-<div class="seminar" id="{{ header }}">
+<div class="seminar" id="{{ speaker-title }}">
   <div class="seminar-lead">
     {%- if is_nol -%}
-      <div>Nordic Online Logic Seminar</div>
+      <div class="series">Nordic Online Logic Seminar</div>
     {%- elsif is_LL -%}
-      <div>Lindström Lecture</div>
+      <div class="series">Lindström Lecture</div>
     {%- endif -%}
     <span class="seminar-speaker">{{ seminar.speaker }}</span>
     {% if seminar.affil -%}
       (<span class="seminar-affil">{{ seminar.affil }}</span>)
     {%- endif -%}
-    {% if seminar.title != "" %} – <span class="seminar-title">{{ seminar.title }}</span>
+    {% if seminar.title != "" %} <span class="seminar-title">{{ seminar.title }}</span>
     {% endif %}
     <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
   </div>
