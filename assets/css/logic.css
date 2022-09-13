@@ -54,7 +54,10 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 
 .seminar ul {
     list-style-type: square;
-    padding: 0em;
+}
+
+.seminar ul, ol {
+    padding: 0em 1.2em;
 }
 
 .seminar-speaker {
@@ -64,6 +67,7 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .seminar-title {
     font-weight: bold;
     font-style: italic;
+    display: block;
 }
 
 .seminar-date {
