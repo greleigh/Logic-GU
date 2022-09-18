@@ -56,7 +56,7 @@ nol-mailing-list:
 logical-theory:
   name: Logical Theory textbook
   short-name: LT
-  url: https://github.com/feffemannen/OpenLogic/tree/logicaltheory/courses/logicaltheory
+  url: https://github.com/feffemannen/LogicalTheory
 
 open-logic:
   name: Open Logic Text
