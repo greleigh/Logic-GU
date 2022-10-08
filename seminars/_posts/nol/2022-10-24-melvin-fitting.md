@@ -1,6 +1,6 @@
 ---
 speaker: Melvin Fitting
-affil: Professor Emeritus at City University of New York (Graduate Center)
+affil: City University of New York (Graduate Center)
 title: Strict/Tolerant Logic and Strict/Tolerant Logics
 date: 2022-10-24 16:00:00 +02:00
 ---
