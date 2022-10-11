@@ -1,6 +1,6 @@
 ---
 speaker: Guillermo Menéndez Turata
-affil: Amsterdam
+affil: University of Amsterdam
 title: A Cyclic Proof System for Full Computation Tree Logic
 date: 2022-10-14 10:15:00 +02:00
 ---
