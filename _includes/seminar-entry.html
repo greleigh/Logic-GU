@@ -41,8 +41,8 @@
 {% endif %}
 {%- comment -%}END PREAMBLE{%- endcomment -%}
 {%- comment -%}POSTAMBLE{%- endcomment -%}
-<div class="seminar" id="{{ speaker-title }}">
-  <div class="seminar-lead">
+<section class="seminar" id="{{ speaker-title }}">
+  <h2 class="seminar-lead">
     <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
     {%- if is_nol -%}
       <div class="series">Nordic Online Logic Seminar</div>
@@ -55,7 +55,7 @@
     {%- endif -%}
     {% if seminar.title != "" %} <span class="seminar-title">{{ seminar.title }}</span>
     {% endif %}
-  </div>
+  </h2>
   <div class="abstract">
     {{ abstract }}
     {%- if include.excerpt-only and abstract != full_abstract -%}
@@ -67,4 +67,4 @@
     {%- endif -%}
   </div>
   <hr>
-</div>
+</section>
