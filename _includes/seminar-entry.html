@@ -43,6 +43,7 @@
 {%- comment -%}POSTAMBLE{%- endcomment -%}
 <div class="seminar" id="{{ speaker-title }}">
   <div class="seminar-lead">
+    <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
     {%- if is_nol -%}
       <div class="series">Nordic Online Logic Seminar</div>
     {%- elsif is_LL -%}
@@ -54,7 +55,6 @@
     {%- endif -%}
     {% if seminar.title != "" %} <span class="seminar-title">{{ seminar.title }}</span>
     {% endif %}
-    <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
   </div>
   <div class="abstract">
     {{ abstract }}
