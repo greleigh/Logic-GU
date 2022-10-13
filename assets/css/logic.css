@@ -52,6 +52,17 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
     font-size: larger;
 }
 
+.seminar-lead h3 {
+    all: inherit;
+    color: inherit;
+    font-weight: bold;
+    display: block;
+}
+
+.seminar-affil {
+    font-weight: normal;
+}
+
 .seminar ul {
     list-style-type: square;
 }
@@ -73,6 +84,7 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .seminar-date {
     font-size: smaller;
     font-weight: lighter;
+    display: block;
 }
 
 .seminar-date span {
