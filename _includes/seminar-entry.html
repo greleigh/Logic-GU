@@ -43,12 +43,12 @@
 {%- comment -%}POSTAMBLE{%- endcomment -%}
 <section class="seminar" id="{{ speaker-title }}">
   <header class="seminar-lead">
-    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}</time>
     {%- if is_nol -%}
       <div class="series">Nordic Online Logic Seminar</div>
     {%- elsif is_LL -%}
       <div class="series">Lindström Lecture</div>
     {%- endif -%}
+    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}</time>
     <h3 class="seminar-speaker" >
       {{ seminar.speaker }}
       {% if seminar.affil -%}
