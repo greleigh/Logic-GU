@@ -1,6 +1,7 @@
 ---
-layout: poster
+layout: page
 title: You should study logic iff this sentence is true.
+permalink: MiL/poster
 ---
 {% assign wiki = "https://en.wikipedia.org/wiki/Liar_paradox" %}
 {% assign mil = "https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log" %}
