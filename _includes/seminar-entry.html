@@ -41,21 +41,23 @@
 {% endif %}
 {%- comment -%}END PREAMBLE{%- endcomment -%}
 {%- comment -%}POSTAMBLE{%- endcomment -%}
-<div class="seminar" id="{{ speaker-title }}">
-  <div class="seminar-lead">
+<section class="seminar" id="{{ speaker-title }}">
+  <header class="seminar-lead">
     {%- if is_nol -%}
       <div class="series">Nordic Online Logic Seminar</div>
     {%- elsif is_LL -%}
       <div class="series">Lindström Lecture</div>
     {%- endif -%}
-    <span class="seminar-speaker">{{ seminar.speaker }}</span>
-    {% if seminar.affil -%}
-      (<span class="seminar-affil">{{ seminar.affil }}</span>)
-    {%- endif -%}
-    {% if seminar.title != "" %} <span class="seminar-title">{{ seminar.title }}</span>
-    {% endif %}
-    <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
-  </div>
+    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}</time>
+    <h3 class="seminar-speaker" >
+      {{ seminar.speaker }}
+      {% if seminar.affil -%}
+        <span class="seminar-affil">({{ seminar.affil }})</span>
+      {%- endif -%}
+      {% if seminar.title != "" %} <em class="seminar-title">{{ seminar.title }}</em>
+      {% endif %}
+    </h3>
+  </header>
   <div class="abstract">
     {{ abstract }}
     {%- if include.excerpt-only and abstract != full_abstract -%}
@@ -67,4 +69,4 @@
     {%- endif -%}
   </div>
   <hr>
-</div>
+</section>
