@@ -3,22 +3,23 @@ layout: page
 title: "Colloquium in Logic: Schedule"
 ---
 
-- Fridays at 10:15 - 12:00.
-- The focus of these talks is to give an overview of different logic areas and their applications for master students. 
-- All are welcome.
+The Colloquium in Logic is a series of seminars focused on providing an overview of different areas of logic and their applications for the benefit of our master students. 
+
+- Fridays at 10:15 - 12:00. See the [schedule in TimeEdit](https://cloud.timeedit.net/gu/web/schema/riqQ622w9x7Z5qQ00v5Q0Y6Z6Z0136ZXQ0Y7ygYQZ5oQo.html).
+- Attendance is open to all.
 - Talks are around 45 minutes followed by discussions and social chat. 
 
 ### Fall 2022
 
 - 23 September, 10:15 - 12:00 (J406), **Vlad Lazar** on Aristotle's Term logic
 - 7 October, 10:15 - 12:00 (J442) **Ida Mattsson** on Non-monotonic Logics
-- 21 October, 10:15 - 12:00 (J303) **Aleksandar Babunovic**
+- 21 October, 10:15 - 12:00 (J442) **Aleksandar Babunovic** on Temporal Logic
 - 27 October (Thursday!), 10:15 - 12:00 (J309) **Vasileios Ganoselis**
-- 4 November ,10:15 - 12:00 (J406) **Maria Camila Collazos Chaves**
+- 4 November ,10:15 - 12:00 (J442) **Maria Camila Collazos Chaves**
 - 18 November, 10:15 - 12:00 (J406) **Yoann Morello**
 - 2 December, 10:15 - 12:00 (C364) **Armand Feuilleaubois**
-- 9 December, **13:15-15:00** (J309)
-- 16 December, 10:15 - 12:00 (J432)
+- 9 December, **13:15 - 15:00** (J442)
+- 16 December, 10:15 - 12:00 (J442)
 
 ### Spring 2022
 
