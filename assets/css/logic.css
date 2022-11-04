@@ -33,16 +33,15 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
     }
 }
 
-/* specifying '.seminar section' does give right result */
-section {
+.seminar {
     margin-top: 1em;
     /* margin-bottom: 1em; */ /* captured by section:after */
     /* font-size: medium; */
     position: relative;
 }
 
-/* '.seminar section::after' doesn't work */
-section::after {
+/* insert h-rule after seminars */
+.seminar::after {
     content: '';
     display: block;
     width: 100%;
