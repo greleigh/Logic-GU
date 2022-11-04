@@ -7,8 +7,8 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
     /* Set the `content` property as mentioned in the first approach */
     font-family: 'FontAwesome';
     font-size: 50%;
-    content: ' \f08e';
-    alt: " (external page)"
+    content: '\00a0\f08e';
+    alt: "\00a0(external page)"
 }
 
 .sidebar-footer {
