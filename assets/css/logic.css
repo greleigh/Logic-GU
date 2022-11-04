@@ -33,18 +33,25 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
     }
 }
 
-.seminar {
+/* specifying '.seminar section' does give right result */
+section {
     margin-top: 1em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */ /* captured by section:after */
     /* font-size: medium; */
+    position: relative;
 }
 
-.seminar hr {
-    margin: 1rem 0;
+/* '.seminar section::after' doesn't work */
+section::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
     background-color: #6a9fb5;
     opacity: .3;
     border: 0;
     height: 1px;
+    margin-top: 1em;
 }
 
 .seminar-lead {
