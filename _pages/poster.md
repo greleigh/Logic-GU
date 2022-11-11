@@ -6,8 +6,8 @@ permalink: poster
 {% assign wiki = "https://en.wikipedia.org/wiki/Liar_paradox" %}
 {% assign mil = site.data.links['MiL'].url %}
 
-![Master in Logic poster](/assets/poster.png){: width="50%" style="float: right; border: 15px solid #fff;"}
-If you intrigued by logic and have a bachelor's degree in
+[![Master in Logic poster](/assets/poster.png){: width="40%" style="float: right; border: 15px solid #fff;"}](/assets/poster.png)
+If you are intrigued by logic and have a bachelor's degree in
 Mathematics, Theoretical Philosophy, Computer Science or Linguistics consider
 applying to the [Master in Logic at University of Gothenburg]({{mil}}).
 
@@ -17,7 +17,7 @@ applying to the [Master in Logic at University of Gothenburg]({{mil}}).
 
 
 Observe that "iff" is a short-hand for "if and only if". Let's name the
-sentence $$A$$:
+sentence $$A$$&nbsp;:
 
 * $$A$$: "You should study logic iff this sentence is true."
 
