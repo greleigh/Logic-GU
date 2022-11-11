@@ -1,22 +1,30 @@
 {%- comment -%}
-  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true %}
+  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true %}
   where
     seminar: variable holding talk/abstract
     excerpt-only: true if want to show only abstract excerpt
+    nol_tag: show NOL seminar header (if relevant)
+    LL_tag: show LL header (if relevant)
 {%- endcomment -%}
 {%- comment -%}PREAMBLE{%- endcomment -%}
 {% assign seminar = include.talk %}
-{%- comment -%}Check if part of NOL{%- endcomment -%}
+{%- comment -%}UNSET (ALL) VARIABLES{%- endcomment -%}
+{%- assign is_nol = false -%}{%- assign is_ll = false -%}
+{%- assign hide_nol = empty -%}{%- assign hide_ll = empty -%}
+{%- assign ll_year = empty -%} {%- assign ll_kind = empty -%}
+{%- comment -%}ASSIGN NEW VALUES{%- endcomment -%}
+{%- comment -%}Check if part of NOL or LL{%- endcomment -%}
 {% if seminar.tags contains "NOL" and include.nol_tag %}
   {% assign is_nol = true %}
 {% else %}
-  {% assign is_nol = false %}
+  {% assign hide_nol = "hide" %}
 {% endif %}
-{%- comment -%}Check if part of LL{%- endcomment -%}
 {% if seminar.tags contains "LL" and include.LL_tag %}
-  {% assign is_LL = true %}
+  {% assign is_ll = true %}
+  {% assign ll_year = seminar.ll_year %}
+  {% assign ll_kind = seminar.ll_kind %}
 {% else %}
-  {% assign is_LL = false %}
+  {% assign hide_ll = "hide" %}
 {% endif %}
 {%- comment -%}Seminar speaker-title{%- endcomment -%}
 {% capture speaker-title %}{{ seminar.speaker | append: "-" | append: seminar.title | slugify }}{% endcapture %}
@@ -43,11 +51,8 @@
 {%- comment -%}POSTAMBLE{%- endcomment -%}
 <section class="seminar" id="{{ speaker-title }}">
   <header class="seminar-lead">
-    {%- if is_nol -%}
-      <div class="series">Nordic Online Logic Seminar</div>
-    {%- elsif is_LL -%}
-      <div class="series">Lindström Lecture</div>
-    {%- endif -%}
+      <div class="series {{ hide_nol }}">Nordic Online Logic Seminar</div>
+      <div class="series {{ hide_ll }}">Lindström {{ ll_kind | capitalize }} Lecture {{ ll_year }}</div>
     <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}</time>
     <h3 class="seminar-speaker" >
       {{ seminar.speaker }}
