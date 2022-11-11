@@ -1,7 +1,8 @@
 ---
 layout: page
 title: You should study logic iff this sentence is true.
-permalink: poster
+permalink: MiL/poster
+redirect_from: poster
 ---
 {% assign wiki = "https://en.wikipedia.org/wiki/Liar_paradox" %}
 {% assign mil = site.data.links['MiL'].url %}
