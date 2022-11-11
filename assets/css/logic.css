@@ -134,3 +134,7 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .abstract sc {
     font-variant: small-caps;
 }
+
+.hide {
+    display: none;
+}
