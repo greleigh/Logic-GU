@@ -13,14 +13,10 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 [About Per (Pelle) Lindström]({% link _pages/lindstrom-lectures/per-lindstrom.md %})
 
-## The Lindström Lectures 2023 edition
+## The Lindström Lectures 2022 edition
 
-The 2023 Lindström Lectures will be given by **Rineke Verbrugge**, Professor of Logic and Cognition at the University of Groningen, Netherlands.
+The 2022 Lindström Lectures will be given by **Sara Negri**, Professor of Mathematics at the University of Genoa.
 
-The Public and Research Lectures will take place in **May, 2023**.
-Full details will be released in due course.
-
-{% comment %}
 The Public Lindström Lecture will take place on **Monday, 20 June 2022, 18--20** at the [Faculty of Humanities](https://www.gu.se/en/humanities) of Gothenburg University and online. Details will be posted on the [GU page about the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
 
 The Research Lecture will take place on **Wednesday, 22 June 2022, 10--12**. The location of the Research Lecture will be circulated through the [GU Logic mailing list]({{ logic-ML }}) or contact [{{ contact }}](mailto:{{ contact-email }}).
@@ -33,11 +29,9 @@ The Research Lecture will take place on **Wednesday, 22 June 2022, 10--12**. The
 
 {% include lindstrom-entry.html talk=research-lecture public=false %}
 
-{% endcomment %}
-
 ## Previous Lindström Lectures
 
-{% assign LLs = site.pages | where:"lindstrom-lecture","true" | where_exp:"item","item.year < 2023" | reverse %}
+{% assign LLs = site.pages | where:"lindstrom-lecture","true" | where_exp:"item","item.year < 2022" | reverse %}
 {% for lecture in LLs %}
 * [{{ lecture.title }}]({% link {{ lecture.path }} %}): {{ lecture.speaker }}
 {%- endfor %}
