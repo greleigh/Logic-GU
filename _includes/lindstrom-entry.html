@@ -21,7 +21,7 @@
     {% if seminar.affil -%}
       (<span class="seminar-affil">{{ seminar.affil }}</span>)
     {%- endif -%}
-    {% if seminar.title != "" %} – <span class="seminar-title">{{ seminar.title }}</span>
+    {% if seminar.title != "" %} <span class="seminar-title">{{ seminar.title }}</span>
     {% endif %}
     <div class="seminar-date"><time datetime="{{ seminar.date }}">{{ datetime }}</time></div>
   </div>
