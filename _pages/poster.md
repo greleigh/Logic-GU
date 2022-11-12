@@ -6,7 +6,7 @@ permalink: poster
 {% assign wiki = "https://en.wikipedia.org/wiki/Liar_paradox" %}
 {% assign mil = site.data.links['MiL'].url %}
 
-[![Master in Logic poster](/assets/poster.png){: width="40%" style="float: right; border: 15px solid #fff;"}](/assets/poster.png)
+[![Master in Logic poster](/assets/poster.png){: width="40%" style="float: right; border: 15px solid #fff;"}](/assets/poster.pdf)
 If you are intrigued by logic and have a bachelor's degree in
 Mathematics, Theoretical Philosophy, Computer Science or Linguistics consider
 applying to the [Master in Logic at University of Gothenburg]({{mil}}).
