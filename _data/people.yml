@@ -3,7 +3,7 @@
 bahareh:
   name: Bahareh Afshari
   full-name: Bahareh Afshari
-  position: Researcher
+  position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/baharehafshari
   description: >
     My expertise is in proof theory and its application to computational logic.
@@ -13,7 +13,7 @@ bahareh:
 rasmus:
   name: Rasmus Blanck
   full-name: Rasmus Blanck
-  position: Senior Lecturer
+  position: Associate Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
   description: >
     My research interests lie close to logic, philosophy, and linguistics. In particular, I have been working on the metamathematics of arithmetic, philosophy of mathematics, formal semantics and probabilistic semantics for natural language.
@@ -51,7 +51,7 @@ martin:
 graham:
   name: Graham Leigh
   full-name: Graham E Leigh
-  position: Researcher
+  position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/grahamleigh
   email: graham.leigh@gu.se
   description: >
