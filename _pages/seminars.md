@@ -18,7 +18,7 @@ The research seminar meets on alternate Fridays at 10.15. Talk locations (i.e., 
 {% endcomment %}
 {% for period in site.data.semesters %}
 {% assign semester = period[1] %}
-{% assign seminars = site.categories['seminars'] | where_exp:"item", "semester.start-date < item.date and item.date < semester.end-date" %}
+{% assign seminars = site.categories['seminars'] | where_exp:"item", "semester.start-date < item.date and item.date < semester.end-date" | where_exp:"item", "item.speaker != 'Logic Seminar'" %}
 
 {% unless seminars == empty %}
 
