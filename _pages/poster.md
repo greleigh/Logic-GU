@@ -3,7 +3,6 @@ layout: page
 title: Master in Logic in Gothenburg
 permalink: poster
 ---
-{% assign wiki = "https://en.wikipedia.org/wiki/Liar_paradox" %}
 {% assign mil = site.data.links['MiL'].url %}
 
 [![Master in Logic poster](/assets/poster.png){: width="40%" style="float: right; border: 15px solid #fff;"}](/assets/poster.pdf)
@@ -89,20 +88,3 @@ true is the first and third row. In both of these situations $$B$$ is true
 
 Therefore, in all circumstances $$B$$ is true and we have proved (without any
 assumptions) that **you should study logic**.
-
-## Paradoxes
-
-By modifying the argument and replacing $$B$$ with some other statement it
-seems that we can prove anything! Clearly something fishy is going on here.
-
-The statement $$A$$ is "self referential" (it mentions itself) and uses a
-"truth predicate" (it talks about truth of statements). Another such sentence
-is the liar sentence:
-
-* L: "This sentence is false."
-
-The liar sentence is paradoxical in that we can prove that if it is true, then
-it is false. And if it is false, then it is true. Thus, we can prove that it's
-both true and false at the same time.
-
-You can read more about the liar sentence at the [Wikipedia page]({{wiki}}).
