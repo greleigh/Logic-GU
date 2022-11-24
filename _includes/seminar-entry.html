@@ -9,9 +9,10 @@
 {%- comment -%}PREAMBLE{%- endcomment -%}
 {% assign seminar = include.talk %}
 {%- comment -%}UNSET (ALL) VARIABLES{%- endcomment -%}
-{%- assign is_nol = false -%}{%- assign is_ll = false -%}
-{%- assign hide_nol = empty -%}{%- assign hide_ll = empty -%}
-{%- assign ll_year = empty -%} {%- assign ll_kind = empty -%}
+  {%- assign is_nol = false -%}{%- assign is_ll = false -%}
+  {%- assign hide_nol = empty -%}{%- assign hide_ll = empty -%}
+  {%- assign ll_year = empty -%} {%- assign ll_kind = empty -%}
+  {%- assign location = empty -%}
 {%- comment -%}ASSIGN NEW VALUES{%- endcomment -%}
 {%- comment -%}Check if part of NOL or LL{%- endcomment -%}
 {% if seminar.tags contains "NOL" and include.nol_tag %}
@@ -25,6 +26,15 @@
   {% assign ll_kind = seminar.ll_kind %}
 {% else %}
   {% assign hide_ll = "hide" %}
+{% endif %}
+{% if include.show_loc and seminar.location %}
+  {% capture location -%}
+    {%- if seminar.location == "zoom" or seminar.location == "Zoom" -%}
+    on Zoom (see mailing list)
+    {%- else -%}
+    in {{ seminar.location }}
+    {%- endif -%}
+  {%- endcapture %}
 {% endif %}
 {%- comment -%}Seminar speaker-title{%- endcomment -%}
 {% capture speaker-title %}{{ seminar.speaker | append: "-" | append: seminar.title | slugify }}{% endcapture %}
@@ -53,7 +63,7 @@
   <header class="seminar-lead">
       <div class="series {{ hide_nol }}">Nordic Online Logic Seminar</div>
       <div class="series {{ hide_ll }}">{{ ll_kind | capitalize }} Lindström Lecture {{ ll_year }}</div>
-    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}</time>
+    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }} {{ location }}</time>
     <h3 class="seminar-speaker" >
       {{ seminar.speaker }}
       {% if seminar.affil -%}
