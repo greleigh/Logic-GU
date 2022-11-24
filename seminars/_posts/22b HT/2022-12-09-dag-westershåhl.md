@@ -3,6 +3,7 @@ speaker: Dag Westerståhl
 affil: Stockholm University and Tsinghua University, Beijing
 title: Carnap’s problem for intuitionistic propositional logic
 date: 2022-12-09 10:15:00 +01:00
+location: room J431
 ---
 I will first give a brief background, with some examples, on ‘Carnap’s
 problem’: to what extent a consequence relation in a formal language fixes the

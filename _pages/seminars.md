@@ -25,7 +25,7 @@ The research seminar meets on alternate Fridays at 10.15. Talk locations (i.e., 
 ## {{ semester.name }}
 
 {% for seminar in seminars %}
-  {% include seminar-entry.html talk=seminar nol_tag=true LL_tag=true %}
+  {% include seminar-entry.html talk=seminar nol_tag=true LL_tag=true show_loc=true %}
 {% endfor %}
 
 {% endunless %}
