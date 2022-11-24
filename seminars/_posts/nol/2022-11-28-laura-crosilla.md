@@ -3,6 +3,7 @@ speaker: Laura Crosilla
 affil: University of Oslo
 title: On Weyl's predicative concept of set
 date: 2022-11-28 16:00:00 +01:00
+location: zoom
 ---
 In the book Das Kontinuum (1918), Hermann Weyl presents a coherent and sophisticated approach to analysis from a predicativist perspective. In the first chapter of (Weyl 1918), Weyl introduces a predicative concept of set, according to which sets are built 'from the bottom up' starting from the natural numbers.
 Weyl clearly contrasts this predicative concept of set with the concept of arbitrary set, which he finds wanting, especially when working with infinite sets.
