@@ -21,5 +21,5 @@ More detailed information is available through the [personal pages of group memb
 Past talks can be found on the [seminar page]({% link _pages/seminars.md %}). Links to forthcoming talks are distributed via the [seminar mailing list]({{ site.data.links['gu-mailing-list'].url }}).
 
 {% for seminar in upcoming-seminars %}
-  {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true %}
+  {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true show_loc=true %}
 {% endfor %}
