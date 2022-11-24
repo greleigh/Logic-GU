@@ -1,10 +1,11 @@
 {%- comment -%}
-  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true %}
-  where
-    seminar: variable holding talk/abstract
-    excerpt-only: true if want to show only abstract excerpt
-    nol_tag: show NOL seminar header (if relevant)
-    LL_tag: show LL header (if relevant)
+  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true show_loc=true %}
+  providing
+    include.seminar: variable holding talk/abstract
+    include.excerpt-only: true if want to show only abstract excerpt
+    include.nol_tag: show NOL seminar header (if relevant)
+    include.LL_tag: show LL header (if relevant)
+    include.show_loc: display location data (if available)
 {%- endcomment -%}
 {%- comment -%}PREAMBLE{%- endcomment -%}
 {% assign seminar = include.talk %}
