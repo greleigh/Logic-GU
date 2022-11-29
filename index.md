@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Logic Group at GU
+title: Logic at GU
 ---
 
 Welcome to the webpage of the logic group at the University of Gothenburg.
