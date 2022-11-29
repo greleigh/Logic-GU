@@ -26,9 +26,9 @@
 {% if include.show_loc and seminar.location %}
   {% capture location -%}
     {%- if seminar.location == "zoom" or seminar.location == "Zoom" -%}
-    on Zoom (see mailing list)
+    , over Zoom
     {%- else -%}
-    in {{ seminar.location }}
+    , {{ seminar.location }}
     {%- endif -%}
   {%- endcapture %}
 {% endif %}
@@ -59,7 +59,7 @@
   <header class="seminar-lead">
       {%- if is_nol -%}<div class="series">Nordic Online Logic Seminar</div>{%- endif -%}
       {%- if is_ll -%}<div class="series">{{ ll_kind | capitalize }} Lindström Lecture {{ ll_year }}</div>{%- endif -%}
-    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }} {{ location }}</time>
+    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}{{ location }}</time>
     <h3 class="seminar-speaker" >
       {{ seminar.speaker }}
       {% if seminar.affil -%}
