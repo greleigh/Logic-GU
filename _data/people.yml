@@ -110,23 +110,6 @@ paulaquinon:
     I am a philosopher of mathematics interested in arithmetical concepts.
     I study the concept of natural number, but also adjacent concepts such as “arithmetic function”, “recursive function”, “computation”, “computability”, “encoding”, “equality”, “identity”, or “infinity”.
 
-lucaszenger:
-  name: Lucas Zenger
-  full-name: Lucas Zenger
-  position: Visiting PhD student
-  affiliation: Univerity of Bern
-  
-guillermomenendezturata:
-  name: Guillermo Menéndez Turata
-  full-name: Guillermo Menéndez Turata
-  position: Visiting PhD student
-  affiliation: Univerity of Amsertdam
-
-lidegrotenhuis:
-  name: Lide Grotenhuis
-  full-name: Lide Grotenhuis
-  position: Visiting PhD student
-  affiliation: Univerity of Amsterdam
 
 #  Affiliated
 
@@ -142,3 +125,21 @@ daichihayashi:
   name: Daichi Hayashi
   full-name: Daichi Hayashi
   position: Visiting researcher (Spring 2022)
+
+lucaszenger:
+  name: Lucas Zenger
+  full-name: Lucas Zenger
+  position: Visiting researcher (Autumn 2022)
+  affiliation: Univerity of Bern
+  
+guillermomenendezturata:
+  name: Guillermo Menéndez Turata
+  full-name: Guillermo Menéndez Turata
+  position: Visiting researcher (Autumn 2022)
+  affiliation: Univerity of Amsertdam
+
+lidegrotenhuis:
+  name: Lide Grotenhuis
+  full-name: Lide Grotenhuis
+  position: Visiting researcher (Autumn 2022)
+  affiliation: Univerity of Amsterdam
