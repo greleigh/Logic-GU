@@ -17,24 +17,19 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 The 2023 Lindström Lectures will be given by **Rineke Verbrugge**, Professor of Logic and Cognition at the Bernoulli Institute of Mathematics, Computer Science and Artifical Intelligence, University of Groningen, The Netherlands.
 
-The Public and Research Lectures will take at the [Faculty of Humanities](https://www.gu.se/en/humanities) on **11--12 May, 2023**.
-Full details will be released in due course.
+The Public Lindström Lecture will take place on **Thursday, 11 May 2022, 18--20** in the Faculty of Humanities. For room location, see the [homepage of the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
 
-{% comment %}
-The Public Lindström Lecture will take place on **Thursday, 11 May 2022, 18--20**  and online. Details will be posted on the [GU page about the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
+The Research Lecture will take place on **Friday, 12 May 2022, 10--12**.
+The location of the Research Lecture will be circulated through the [GU Logic mailing list]({{ logic-ML }}). Alternatively, contact [{{ contact }}](mailto:{{ contact-email }}).
 
-The Research Lecture will take place on **Friday, 12 May 2022**.
-The location of the Research Lecture will be circulated through the [GU Logic mailing list]({{ logic-ML }}) or contact [{{ contact }}](mailto:{{ contact-email }}).
-
-{% assign lectures = site.categories['seminars'] | where_exp:"item", "item.tags contains 'LL22'" %}
-{% assign public-lecture = lectures | find:"public", true %}
-{% assign research-lecture = lectures | find:"public", nil %}
+{% assign lectures = site.categories['seminars'] | where_exp:"item", "item.ll_year == 2023" %}
+{% assign public-lecture = lectures | find:"ll_kind", "public" %}
+{% assign research-lecture = lectures | find:"ll_kind", "research" %}
 
 {% include lindstrom-entry.html talk=public-lecture public=true %}
 
 {% include lindstrom-entry.html talk=research-lecture public=false %}
 
-{% endcomment %}
 
 ## Previous Lindström Lectures
 
