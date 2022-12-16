@@ -8,7 +8,7 @@ contact: graham
 {% assign MiL = site.data.links['MiL-canvas'] %}
 {% assign logic-ML = site.data.links['gu-mailing-list'].url %}
 
-See below for a list of all previous and upcoming seminars in the _Gothenburg Research Seminar in Logic_, _Nordic Online Logic Seminar_, and the _Lindström Lecture series_. We also run a bi-weekly _Colloquium in Logic_ for master students; details of the colloquium are listed on the [course page of the Masters Programme]({{ MiL.link }}).
+See below for a list of all previous and upcoming seminars in the _Gothenburg Research Seminar in Logic_, _Nordic Online Logic Seminar_, and the _Lindström Lecture series_. We also run a bi-weekly _Colloquium in Logic_ for master students; details of the colloquium are listed on the [course page of the Masters Programme]({{ MiL.url }}).
 
 The research seminar meets on alternate Fridays at 10.15. Unless otherwise stated, seminars are held at the department building (Humanisten). Details of online talks are distributed in the [GU Logic mailing list]({{ logic-ML }}). Alternatively, contact [{{ contact.name }}]({{ contact.homepage }}) directly.
 
