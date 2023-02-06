@@ -21,4 +21,4 @@ In the second part, we look at the iteration of fixed points in terms of closure
 A method for determining an upper bound on closure ordinals is presented and applied to formulas in fragments of the Σ1 class, with results that are in line with the already existing works.
 Annotated structures, to track how model changes affect the ordinals, and a pumping technique for these structures are the main tools used to establish an upper bound.
 
-A copy of the licentiate can be obtained by sending an email to the contact person Bahareh Afshari.
+A copy of Giacomo's thesis can be obtained by sending an email to the contact person Bahareh Afshari.
