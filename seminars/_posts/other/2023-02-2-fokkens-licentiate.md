@@ -5,7 +5,7 @@ title: "Modelling the logical mind – Using the cognitive architecture ACT-R to
 date: 2023-02-27 10:00:00 +01:00
 location: room J233
 ---
-Public defence of Tjeerd Fokkens's Licentiate thesis.
+Public defence of Tjeerd Fokkens' Licentiate thesis.
 
 **Examiner** Professor Simon Dobnik, Göteborgs universitet<br/>
 **Opponent** Dr Ing Stefan Borgwardt, Technische Universität Dresden
