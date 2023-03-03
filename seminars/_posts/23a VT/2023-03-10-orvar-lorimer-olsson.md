@@ -3,6 +3,7 @@ speaker: Orvar Lorimer Olsson
 affil: FLoV
 title: The propositional logic of teams
 date: 2023-03-10 10:15:00 +01:00
+location: room J412
 ---
 Starting from a logic given by traditional semantics formulated in terms of semantic objects (assignments, valuations or worlds) *team semantics* lifts the denotations of formulas to sets, or *teams*, of semantic objects instead enabling the formulation of properties, such as variable dependency, not available in the traditional setting.
 Since the introduction by Hodges, and refinement by Väänänen, team semantic constructions have been used to generate expressively enriched logics still conserving nice properties, such as compactness or decidability.
