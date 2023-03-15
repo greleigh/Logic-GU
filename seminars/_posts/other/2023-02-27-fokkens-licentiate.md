@@ -7,8 +7,8 @@ location: room J233
 ---
 Public defence of Tjeerd Fokkens' Licentiate thesis.
 
-**Examiner** Professor Simon Dobnik, Göteborgs universitet<br/>
-**Opponent** Dr Ing Stefan Borgwardt, Technische Universität Dresden
+**Opponent** Dr Ing Stefan Borgwardt, Technische Universität Dresden<br/>
+**Examiner** Professor Simon Dobnik, Göteborgs universitet
 <!--more-->
 
 
@@ -17,4 +17,4 @@ This results in the model SHARP which simulates the algorithm for deciding incon
 More precisely, SHARP enables predicting the inference time of this task, which is assumed to reflect cognitive load of a human agent.
 With the inference time, two complexity measures on ABoxes are defined that should correlate with cognitive load by design.
 
-A copy of Tjeerd's thesis can be obtained by sending an email to the contact person Fredrik Engström.
+A copy of Tjeerd's thesis can be obtained by sending an email to the contact person [Fredrik Engström]({{ site.data.people['fredrik'].homepage }}).

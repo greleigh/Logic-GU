@@ -7,8 +7,10 @@ location: room J439
 ---
 Public defence of Dominik Wehr's Licentiate thesis.
 
-**Opponent** Dr Anupam Das, University of Birmingham
-**Examiner** Dr Fredrik Engström, Göteborgs universitet<br/>
-<!-- more -->
+**Opponent** Associate Professor Anupam Das, University of Birmingham<br/>
+**Examiner** Docent Fredrik Engström, Göteborgs universitet
+<!--more-->
 
-A copy of Dominik's thesis can be obtained by sending an email to the contact person Graham E. Leigh.
+The abstract will be available shortly along with 
+
+For more information contact [Graham E. Leigh]({{ site.data.people['graham'].homepage }}).
