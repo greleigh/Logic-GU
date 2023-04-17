@@ -3,7 +3,7 @@ speaker: "Licentiate defence: Tjeerd Fokkens"
 affil: FLoV
 title: "Modelling the logical mind – Using the cognitive architecture ACT-R to model human symbolic reasoning in the description logic ALE"
 date: 2023-02-27 10:00:00 +01:00
-location: room J233
+location:  J233
 ---
 Public defence of Tjeerd Fokkens' Licentiate thesis.
 

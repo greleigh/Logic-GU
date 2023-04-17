@@ -6,7 +6,7 @@ date: 2023-05-11 18:00:00 +02:00
 tags: ["LL","LL23"]
 ll_year: 2023
 ll_kind: public
-location: in J439, Humanisten
+location:  J439, Humanisten
 ---
 It has been shown in the late 1960s that each formula of first-order logic without constants and function symbols obeys a zero-one law:
 As the number of elements of finite models increases, every formula holds either in almost all or in almost no models of that size.

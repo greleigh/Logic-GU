@@ -3,7 +3,7 @@ speaker: Anouk Oudshoorn
 affil: TU Wien
 title: Reconciling SHACL and Ontologies
 date: 2023-04-03 10:15:00 +02:00
-location: room J577
+location:  J577
 ---
 The World Wide Web Consortium (<sc>w3c</sc>) set Web Ontology Language (<sc>owl</sc>) and Shape Constraint Language (<sc>shacl</sc>) as international standards for managing semantically enriched data on the web.
 However, there is a difference in how these languages handle the completeness of data.
