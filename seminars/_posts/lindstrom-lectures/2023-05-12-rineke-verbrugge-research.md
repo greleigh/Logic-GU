@@ -6,6 +6,7 @@ date: 2023-05-12 10:00:00 +02:00
 tags: ["LL","LL23"]
 ll_year: 2023
 ll_kind: research
+location: in J439
 ---
 In 1994, Rineke Verbrugge did a postdoc in Gothenburg, as a scientific guest of Professor Per Lindström, who was writing his landmark book Aspects of Incompleteness at the time.
 Even though the two of them did not co-author any papers that year, there was still significant mutual influence and there were very lively discussions in the weekly seminars of the logic group.
