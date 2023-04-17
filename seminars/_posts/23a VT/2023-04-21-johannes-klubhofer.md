@@ -3,6 +3,7 @@ speaker: Johannes Kloibhofer
 affil: ILLC, Amsterdam
 title: Using automata theory to obtain a new proof system for the modal µ-calculus
 date: 2023-04-21 10:15:00 +02:00
+location: in J412
 ---
 Automata theory has various applications in the theory of the modal µ-calculus.
 One such application is for the tableaux games for the modal µ-calculus introduced by Niwinski and Walukiewicz,
