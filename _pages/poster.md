@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Master in Logic in Gothenburg
-permalink: poster
+permalink: MiL/poster
+redirect_from: poster
 ---
 {% assign mil = site.data.links['MiL'].url %}
 
