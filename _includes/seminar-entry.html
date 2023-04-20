@@ -1,30 +1,36 @@
 {%- comment -%}
-  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true %}
-  where
-    seminar: variable holding talk/abstract
-    excerpt-only: true if want to show only abstract excerpt
-    nol_tag: show NOL seminar header (if relevant)
-    LL_tag: show LL header (if relevant)
+  Usage: {% include seminar-entry.html talk=seminar excerpt-only=true nol_tag=true LL_tag=true show_loc=true %}
+  providing
+    include.seminar: variable holding talk/abstract
+    include.excerpt-only: true if want to show only abstract excerpt
+    include.nol_tag: show NOL seminar header (if relevant)
+    include.LL_tag: show LL header (if relevant)
+    include.show_loc: display location data (if available)
 {%- endcomment -%}
 {%- comment -%}PREAMBLE{%- endcomment -%}
 {% assign seminar = include.talk %}
 {%- comment -%}UNSET (ALL) VARIABLES{%- endcomment -%}
-{%- assign is_nol = false -%}{%- assign is_ll = false -%}
-{%- assign hide_nol = empty -%}{%- assign hide_ll = empty -%}
-{%- assign ll_year = empty -%} {%- assign ll_kind = empty -%}
+  {%- assign is_nol = false -%}{%- assign is_ll = false -%}
+  {%- assign ll_year = empty -%} {%- assign ll_kind = empty -%}
+  {%- assign location = empty -%}
 {%- comment -%}ASSIGN NEW VALUES{%- endcomment -%}
 {%- comment -%}Check if part of NOL or LL{%- endcomment -%}
 {% if seminar.tags contains "NOL" and include.nol_tag %}
   {% assign is_nol = true %}
-{% else %}
-  {% assign hide_nol = "hide" %}
 {% endif %}
 {% if seminar.tags contains "LL" and include.LL_tag %}
   {% assign is_ll = true %}
   {% assign ll_year = seminar.ll_year %}
   {% assign ll_kind = seminar.ll_kind %}
-{% else %}
-  {% assign hide_ll = "hide" %}
+{% endif %}
+{% if include.show_loc and seminar.location %}
+  {% capture location -%}
+    {%- if seminar.location == "zoom" or seminar.location == "Zoom" -%}
+     over Zoom
+    {%- else -%}
+     in {{ seminar.location }}
+    {%- endif -%}
+  {%- endcapture %}
 {% endif %}
 {%- comment -%}Seminar speaker-title{%- endcomment -%}
 {% capture speaker-title %}{{ seminar.speaker | append: "-" | append: seminar.title | slugify }}{% endcapture %}
@@ -51,9 +57,9 @@
 {%- comment -%}POSTAMBLE{%- endcomment -%}
 <section class="seminar" id="{{ speaker-title }}">
   <header class="seminar-lead">
-      <div class="series {{ hide_nol }}">Nordic Online Logic Seminar</div>
-      <div class="series {{ hide_ll }}">Lindström {{ ll_kind | capitalize }} Lecture {{ ll_year }}</div>
-    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }}</time>
+      {%- if is_nol -%}<div class="series">Nordic Online Logic Seminar</div>{%- endif -%}
+      {%- if is_ll -%}<div class="series">{{ ll_kind | capitalize }} Lindström Lecture {{ ll_year }}</div>{%- endif -%}
+    <time datetime="{{ seminar.date }}" class="seminar-date">{{ datetime }} {{ location }}</time>
     <h3 class="seminar-speaker" >
       {{ seminar.speaker }}
       {% if seminar.affil -%}
@@ -66,11 +72,11 @@
   <div class="abstract">
     {{ abstract }}
     {%- if include.excerpt-only and abstract != full_abstract -%}
-      <div class="forward"><a href="{{ forward_link }}">(&#8230; read full abstract &#8230;)</a></div>
+      <p class="forward"><a href="{{ forward_link }}">(&#8230; read full abstract &#8230;)</a></p>
     {%- endif -%}
     {%- if is_nol -%}
     {% assign nol = site.data.nol %}
-    <div class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }}">{{ nol.title }}</a>.</div>
+    <p class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }} Series">{{ nol.title }} Series</a>.</p>
     {%- endif -%}
   </div>
 </section>

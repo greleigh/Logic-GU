@@ -1,17 +1,23 @@
 ---
 layout: page
-title: You should study logic iff this sentence is true.
+title: Master in Logic in Gothenburg
 permalink: MiL/poster
 redirect_from: poster
 ---
-{% assign wiki = "https://en.wikipedia.org/wiki/Liar_paradox" %}
 {% assign mil = site.data.links['MiL'].url %}
 
-Observe that "iff" is a short-hand for "if and only if".
+[![Master in Logic poster](/assets/poster.png){: width="40%" style="float: right; border: 15px solid #fff;"}](/assets/poster.pdf)
+If you are intrigued by logic and have a bachelor's degree in
+Mathematics, Theoretical Philosophy, Computer Science or Linguistics consider
+applying to the [Master in Logic at University of Gothenburg]({{mil}}).
 
-## Understanding the statement
 
-Let's name the statement $$A$$ to easier talk about it:
+## You should study logic iff this sentence is true.
+
+
+
+Observe that "iff" is a short-hand for "if and only if". Let's name the
+sentence $$A$$&nbsp;:
 
 * $$A$$: "You should study logic iff this sentence is true."
 
@@ -19,13 +25,20 @@ Now, "this sentence" refers to the statement $$A$$ so we may rewrite $$A$$ as:
 
 * $$A$$: "You should study logic iff $$A$$ is true."
 
-We can now divide $$A$$ into two less complex statements combined with the
+If $$A$$ is true then "$$A$$ is true" is true and therefore "you should study
+logic" is true. But even if $$A$$ is false "you should study logic" has to be
+true. Let's see if we can make sense of this.
+
+## Using propositional logic
+
+
+We can divide $$A$$ into two less complex statements combined with the
 operator $$\leftrightarrow$$:
 
 * $$A$$: "You should study logic" $$\leftrightarrow$$ "$$A$$ is true."
 
-Since $$A$$ and "$$A$$ is true" has the same truth conditions we can simplify and
-rewrite it as
+Since $$A$$ and "$$A$$ is true" has the same truth conditions we can simplify
+and rewrite it as
 
 * $$A$$: $$B \leftrightarrow A$$
 
@@ -34,13 +47,11 @@ where $$B$$ is "You should study logic." As $$A$$ is the statement $$B
 
 *  <span>$$A \leftrightarrow (B \leftrightarrow A)$$</span>
 
-is true.
-
-## Analyzing it using propositional logic
+is true (even without knowing if $$A$$ or $$B$$ are true or false.)
 
 Propositional logic is the basic logic used to analyse complex statements in
-term atomic statements. In this case the atomic statements are $$A$$ and $$B$$ and
-these can be either true (T) or false (F):
+terms of atomic statements. In this case the atomic statements are $$A$$ and
+$$B$$ and these can be either true (T) or false (F):
 
 <table>
 <style>
@@ -72,27 +83,9 @@ td {
 </tbody>
 </table>
 
-The only two cases in which $$A \leftrightarrow (B \leftrightarrow A)$$ is the
-first and third row, where $$B$$ is true as well.
+The only two cases in which $$A \leftrightarrow (B \leftrightarrow A)$$ is
+true is the first and third row. In both of these situations $$B$$ is true
+(note that $$A$$ can be both true and false).
 
-Therefore, $$B$$ is true and **you should study logic**.
-
-## Paradoxes
-
-This statement is "self referential", but not paradoxical. However, it's easy
-to come with a self referential paradoxical statement:
-
-* L: "This sentence is false."
-
-That statement is paradoxical in that we can prove that if it is true, then it
-is false. And if it is false, then it is true. Thus, we can prove that it's
-both true and false at the same time.
-
-L is called the "Liar sentence", and you can read more about it and other
-paradoxes at the [Wikipedia page]({{wiki}}).
-
-## Study logic
-
-If you intrigued by logic and paradoxes and have a bachelor's degree in
-Mathematics, Theoretical Philosophy, Computer Science or Linguistics consider
-applying to the [Master in Logic at University of Gothenburg]({{mil}}).
+Therefore, in all circumstances $$B$$ is true and we have proved (without any
+assumptions) that **you should study logic**.
