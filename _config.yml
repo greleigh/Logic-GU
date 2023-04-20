@@ -16,9 +16,6 @@ timezone: Europe/Stockholm
 
 future: true
 
-plugins:
-  - jekyll-redirect-from
-
 exclude:
   - TODO.md
   - README.md
