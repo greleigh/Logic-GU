@@ -9,7 +9,7 @@ Public defence of Dominik Wehr's Licentiate thesis.
 
 **Opponent** Associate Professor Anupam Das, University of Birmingham<br/>
 **Examiner** Docent Fredrik Engström, Göteborgs universitet<br/>
-**Thesis**: Available at the [Gothenburg University Library](https://gupea.ub.gu.se/handle/2077/75984).
+Thesis available at the [Gothenburg University Library Archive](https://gupea.ub.gu.se/handle/2077/75984).
 
 <!--more-->
 
