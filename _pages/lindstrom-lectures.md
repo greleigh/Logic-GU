@@ -15,7 +15,7 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 ## The Lindström Lectures 2023 edition
 
-The 2023 Lindström Lectures will be given by **Rineke Verbrugge**, Professor of Logic and Cognition at the Bernoulli Institute of Mathematics, Computer Science and Artifical Intelligence, University of Groningen, The Netherlands.
+The 2023 Lindström Lectures will be given by **Rineke Verbrugge**, Professor of Logic and Cognition at the Bernoulli Institute of Mathematics, Computer Science and Artificial Intelligence, University of Groningen, The Netherlands.
 
 The Public Lindström Lecture will take place on **Thursday, 11 May 2023, 18--20** in the Faculty of Humanities. For room location, see the [homepage of the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
 
