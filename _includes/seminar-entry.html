@@ -76,7 +76,7 @@
     {%- endif -%}
     {%- if is_nol -%}
     {% assign nol = site.data.nol %}
-    <p class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }} Series">{{ nol.title }} Series</a>.</p>
+    <p class="tag">This talk is part of the <a href="{% link {{ nol.local-url }} %}" title="{{ nol.title }} Series">{{ nol.title }} Series</a>. Zoom link is shared via the <a href="{{ nol.mailing_list }}" title="NOL mailing list">NOL mailing list</a></p>
     {%- endif -%}
   </div>
 </section>
