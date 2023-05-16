@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Group
+title: The Logic Group
 permalink: about
 published: true
 ---

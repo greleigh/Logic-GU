@@ -4,6 +4,8 @@ affil: University of Genoa
 title: Syntax and semantics in synergy
 date: 2022-06-20 18:00:00 +02:00
 tags: ["LL","LL22"]
+ll_year: 2022
+ll_kind: public
 public: true
 ---
 

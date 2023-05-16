@@ -1,7 +1,9 @@
+# Members
+
 bahareh:
   name: Bahareh Afshari
   full-name: Bahareh Afshari
-  position: Researcher
+  position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/baharehafshari
   description: >
     My expertise is in proof theory and its application to computational logic.
@@ -11,7 +13,7 @@ bahareh:
 rasmus:
   name: Rasmus Blanck
   full-name: Rasmus Blanck
-  position: Senior Lecturer
+  position: Associate Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/rasmusblanck
   description: >
     My research interests lie close to logic, philosophy, and linguistics. In particular, I have been working on the metamathematics of arithmetic, philosophy of mathematics, formal semantics and probabilistic semantics for natural language.
@@ -49,12 +51,14 @@ martin:
 graham:
   name: Graham Leigh
   full-name: Graham E Leigh
-  position: Researcher
+  position: Senior Lecturer
   homepage: https://www.gu.se/en/about/find-staff/grahamleigh
   email: graham.leigh@gu.se
   description: >
     My research interests sit at the interface between the fields of mathematical, philosophical and computational logic.
     In particular, formal theories of truth, non-classical and modal logics, computational content of theories, and notions of provability.
+
+# PhDs
 
 giacomo:
   name: Giacomo Barlucchi
@@ -88,11 +92,14 @@ dominik:
   name: Dominik Wehr
   full-name: Dominik Wehr
   position: PhD student
+  email: dominik.wehr@gu.se
   homepage: https://dowehr.dortselb.st
   # homepage: https://www.gu.se/en/about/find-staff/dominikwehr
   description: >
     I am interested in the exploration of foundational systems by means of proof theory and (constructive) reverse mathematics.
     At the moment I work in cyclic proof theory, focusing on the soundness conditions of cyclic derivation systems.
+
+# Visitors
 
 paulaquinon:
   name: Paula Quinon
@@ -104,6 +111,11 @@ paulaquinon:
     I am a philosopher of mathematics interested in arithmetical concepts.
     I study the concept of natural number, but also adjacent concepts such as “arithmetic function”, “recursive function”, “computation”, “computability”, “encoding”, “equality”, “identity”, or “infinity”.
 
+
+#  Affiliated
+
+#  Past
+
 paulgorbow:
   name: Paul Kindvall Gorbow
   full-name: Paul Kindvall Gorbow
@@ -114,3 +126,21 @@ daichihayashi:
   name: Daichi Hayashi
   full-name: Daichi Hayashi
   position: Visiting researcher (Spring 2022)
+
+lukaszenger:
+  name: Lukas Zenger
+  full-name: Lukas Zenger
+  position: Visiting researcher (Autumn 2022)
+  affiliation: Univerity of Bern
+  
+guillermomenendezturata:
+  name: Guillermo Menéndez Turata
+  full-name: Guillermo Menéndez Turata
+  position: Visiting researcher (Autumn 2022)
+  affiliation: Univerity of Amsertdam
+
+lidegrotenhuis:
+  name: Lide Grotenhuis
+  full-name: Lide Grotenhuis
+  position: Visiting researcher (Autumn 2022)
+  affiliation: Univerity of Amsterdam

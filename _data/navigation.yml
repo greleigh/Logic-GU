@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Group
+- name: Logic Group
   link: about
 - name: Publications
   link: publications
@@ -16,3 +16,5 @@
   link: activities
 - name: Resources
   link: resources
+- name: Workshop on FP & IP
+  link: events/wofpip

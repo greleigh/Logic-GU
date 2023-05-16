@@ -1,5 +1,14 @@
+23VT:
+  name: Spring 2023
+  start-date: 2023-01-01 00:00:00 +02:00
+  end-date: 2023-07-31 00:00:00 +02:00
+
+22HT:
+  name: Autumn 2022
+  start-date: 2022-08-01 00:00:00 +02:00
+  end-date: 2022-12-31 00:00:00 +02:00
 22VT:
-  name: Spring 2021
+  name: Spring 2022
   start-date: 2022-01-01 00:00:00 +02:00
   end-date: 2022-07-31 00:00:00 +02:00
 

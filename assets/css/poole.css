@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  /* color: #313131; */
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -109,9 +109,9 @@ p {
   margin-bottom: 1rem;
 }
 
-strong {
+/* strong {
   color: #303030;
-}
+} */
 
 
 /* Lists */
@@ -150,14 +150,14 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: cronos-pro, Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
-  font-size: 85%;
+  padding: 0em 0.1em;
+  font-size: 90%;
   color: #bf616a;
   background-color: #f9f9f9;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 pre {
   display: block;
@@ -259,7 +259,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -337,7 +337,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  /* color: #303030; */
 }
 .page-title,
 .post-title {
