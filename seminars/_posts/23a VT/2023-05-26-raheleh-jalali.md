@@ -1,7 +1,6 @@
 ---
-speaker: 
-affil: 
+speaker: Raheleh Jalali
+affil: Czech Academy of Sciences
 title: 
-date: 2023-05-05 10:15:00 +02:00
-published: false
+date: 2023-05-26 13:15:00 +02:00
 ---
