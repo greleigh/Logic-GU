@@ -20,6 +20,7 @@ exclude:
   - TODO.md
   - README.md
   - logic-gu.*
+  - scripts/*
   - .gitignore
   - .devcontainer
   - .vscode

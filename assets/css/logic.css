@@ -138,3 +138,12 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .hide {
     display: none;
 }
+
+.publist ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.publist sourcetitle {
+    font-style: italic;
+}
