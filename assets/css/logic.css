@@ -112,3 +112,12 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .abstract sc {
     font-variant: small-caps;
 }
+
+.publist ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.publist sourcetitle {
+    font-style: italic;
+}
