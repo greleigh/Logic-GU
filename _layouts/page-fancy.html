@@ -11,7 +11,7 @@ layout: default
   </h1>
 
   {% if page.header-image %}
-    <img src="/assets/{{ page.header-image }}">
+    <img src="/assets/{{ page.header-image }}" alt="{% if page.header-image-alt %}{{ page.header-image-alt }}{% else %}{{ page.title }}{% endif %}">
   {% endif %}
 
   {{ content }}
