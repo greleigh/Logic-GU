@@ -3,6 +3,154 @@
     id: 444205
     last_name: Afshari
     year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Guillermo
+    id: 1125162
+    last_name: "Men\xE9ndez Turata"
+    year_of_birth: null
+  id: 324514
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Leibniz International Proceedings in Informatics, LIPIcs Volume 2521,
+    February 2023, EACSL Annual Conference on Computer Science Logic, CSL 2023, Warsaw,
+    13 February 2023 through 16 February 2023
+  sourcevolume: null
+  title: A Cyclic Proof System for Full Computation Tree Logic
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: S.
+    id: 1085876
+    last_name: Enqvist
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 319170
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: Logic Journal of the IGPL
+  sourcevolume: null
+  title: Cyclic proofs for the first-order mu-calculus
+- authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 306991
+  pubyear: 2022
+  sourceissue: '4'
+  sourcetitle: The Review of Symbolic Logic
+  sourcevolume: '15 '
+  title: The Copernican Multiverse of Sets
+- authors:
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  - first_name: Dominik
+    id: 970602
+    last_name: Kirst
+    year_of_birth: null
+  id: 321060
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: " Logic, Language, Information, and Computation, 28th International\
+    \ Workshop, WoLLIC 2022, Ia\u0219i, Romania, September 20\u201323, 2022, Proceedings\
+    \ / Editors: Agata Ciabattoni, Elaine Pimentel, Ruy J. G. B. de Queiroz"
+  sourcevolume: null
+  title: "Material Dialogues for\_First-Order Logic in\_Constructive Type Theory"
+- authors:
+  - first_name: Christian
+    id: 81121
+    last_name: Bennet
+    year_of_birth: 1954
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 316660
+  pubyear: 2022
+  sourceissue: '5'
+  sourcetitle: Theoria
+  sourcevolume: '88'
+  title: Never trust an unsound theory
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 320087
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: Information and Computation
+  sourcevolume: null
+  title: Exact Bounds for Acyclic Higher-Order Recursion Schemes
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 319472
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: "Lecture Notes in Computer Science, 28th International Workshop on\
+    \ Logic, Language, Information and Computation, Ia\u0219i, Romania, September\
+    \ 20\u201323, 2022, Proceedings"
+  sourcevolume: null
+  title: Abstract Cyclic Proofs
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 315326
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: " Language, Logic, and Computation, 13th International Tbilisi Symposium,\
+    \ TbiLLC 2019, Batumi, Georgia, September 16\u201320, 2019, Revised Selected Papers\
+    \ / editors: Ayb\xFCke \xD6zg\xFCn, Yulia Zinova"
+  sourcevolume: null
+  title: "Lyndon Interpolation for\_Modal \u03BC-Calculus"
+- authors:
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 315334
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: " \xD6zg\xFCn, A., Zinova, Y. (eds) Language, Logic, and Computation.\
+    \ TbiLLC 2019. Lecture Notes in Computer Science, vol 13206"
+  sourcevolume: null
+  title: From Paradox to Truth
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
   id: 312095
   pubyear: 2020
   sourceissue: null
@@ -62,21 +210,6 @@
   sourcetitle: Applied Mathematics, Informatics And Mechanics
   sourcevolume: '2020'
   title: A logic with measurable spaces for natural language semantics
-- authors:
-  - first_name: Paul
-    id: 664621
-    last_name: Kindvall Gorbow
-    year_of_birth: 1981
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 306991
-  pubyear: 2021
-  sourceissue: null
-  sourcetitle: The Review of Symbolic Logic
-  sourcevolume: null
-  title: The Copernican Multiverse of Sets
 - authors:
   - first_name: Rasmus
     id: 85180
