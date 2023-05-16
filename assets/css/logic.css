@@ -147,3 +147,9 @@ a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
 .publist sourcetitle {
     font-style: italic;
 }
+
+.logo-image {
+    height: 106px;
+    width: auto;
+    float: left;
+}
