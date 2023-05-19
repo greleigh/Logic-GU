@@ -6,7 +6,7 @@ on:
 #       - main
 #       
   schedule:
-    - cron: "0 10 * * *" #runs at 00:00 UTC everyday
+    - cron: "0 10 * * *" #runs at 10:00 UTC everyday
     
 jobs:
   build:
