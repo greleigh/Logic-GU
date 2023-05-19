@@ -2,11 +2,11 @@ name: Jekyll Deploy
 
 on:
   push:
-    branches:
+    branches: # run on commit
       - main
 
   schedule:
-    - cron: '1 1 * * *'
+    - cron: '1 07 * * *' # run at 07:01 UTC
 
 jobs:
   build_and_deploy:
