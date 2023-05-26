@@ -3,6 +3,21 @@
     id: 444205
     last_name: Afshari
     year_of_birth: 1981
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 320087
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Information and Computation
+  sourcevolume: '290'
+  title: Exact Bounds for Acyclic Higher-Order Recursion Schemes
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
   - first_name: Graham E.
     id: 269050
     last_name: Leigh
@@ -85,21 +100,6 @@
   sourcetitle: Theoria
   sourcevolume: '88'
   title: Never trust an unsound theory
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Dominik
-    id: 970600
-    last_name: Wehr
-    year_of_birth: 1998
-  id: 320087
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: Information and Computation
-  sourcevolume: null
-  title: Exact Bounds for Acyclic Higher-Order Recursion Schemes
 - authors:
   - first_name: Bahareh
     id: 444205
