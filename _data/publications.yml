@@ -19,12 +19,12 @@
     id: 770995
     last_name: Maskharashvili
     year_of_birth: 1987
-  id: 326499
+  id: 326498
   pubyear: 2022
   sourceissue: null
-  sourcetitle: Probabilistic Approaches to Linguistic Theory
+  sourcetitle: null
   sourcevolume: null
-  title: Bayesian Inference Semantics for Natural Language
+  title: Probabilistic Approaches to Linguistic Theory
 - authors:
   - first_name: Jean-Philippe
     id: 109532
@@ -46,12 +46,14 @@
     id: 770995
     last_name: Maskharashvili
     year_of_birth: 1987
-  id: 326498
+  id: 326499
   pubyear: 2022
   sourceissue: null
-  sourcetitle: null
+  sourcetitle: Probabilistic Approaches to Linguistic Theory  / edited by Jean-Philippe
+    Bernardy, Rasmus Blanck, Stergios Chatzikyriakidis, Shalom Lappin, Aleksandre
+    Maskharashvili.
   sourcevolume: null
-  title: Probabilistic Approaches to Linguistic Theory
+  title: Bayesian Inference Semantics for Natural Language
 - authors:
   - first_name: Bahareh
     id: 444205
