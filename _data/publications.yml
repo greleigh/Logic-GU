@@ -1,4 +1,19 @@
 - authors:
+  - first_name: Felix
+    id: 62706
+    last_name: Larsson
+    year_of_birth: 1968
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 327675
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Synthese
+  sourcevolume: '202'
+  title: 'Re: the rhetic'
+- authors:
   - first_name: Jean-Philippe
     id: 109532
     last_name: Bernardy
