@@ -1,4 +1,19 @@
 - authors:
+  - first_name: Mattias
+    id: 1143549
+    last_name: Granberg Olsson
+    year_of_birth: 1988
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 328010
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Archive for Mathematical Logic
+  sourcevolume: null
+  title: Revisiting the conservativity of fixpoints over intuitionistic arithmetic
+- authors:
   - first_name: Felix
     id: 62706
     last_name: Larsson
