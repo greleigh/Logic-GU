@@ -65,7 +65,7 @@ gianlucacurzi:
   position: Postdoctoral Researcher
   homepage: https://www.gu.se/en/about/find-staff/gianlucacurzi
   email: 
-  description: Starting September 2023
+  description: 
 
 ivandiliberti:
   name: Ivan Di Liberti
@@ -115,6 +115,13 @@ dominik:
   description: >
     I am interested in the exploration of foundational systems by means of proof theory and (constructive) reverse mathematics.
     At the moment I work in cyclic proof theory, focusing on the soundness conditions of cyclic derivation systems.
+
+orvar:
+  name: Orvar Lorimer Olsson
+  full-name: Orvar Lorimer Olsson
+  position: PhD student
+  homepage: https://www.gu.se/om-universitetet/hitta-person/orvarlorimerolsson
+  description: 
 
 # Visitors
 
