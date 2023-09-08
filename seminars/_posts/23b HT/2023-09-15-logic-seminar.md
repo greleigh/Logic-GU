@@ -2,7 +2,7 @@
 speaker: Gianluca Curzi
 affil: FLoV
 title: Infinitary cut-elimination via finite approximations
-date: 2023-09-15 09:00:00 +02:00
+date: 2023-09-15 10:15:00 +02:00
 location: J303
 ---
  We investigate non-wellfounded proof systems based on parsimonious logic, a weaker variant of linear logic where the exponential modality ! is interpreted as a constructor for streams over finite data.
