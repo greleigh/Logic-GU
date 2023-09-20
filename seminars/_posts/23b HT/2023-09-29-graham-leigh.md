@@ -1,7 +1,7 @@
 ---
 speaker: Graham E Leigh
 affil: FLoV
-title: A compositional theory of falsity
+title: An axiomatic theory of falsity
 date: 2023-09-29 10:15:00 +02:00
 location: J303
 ---
