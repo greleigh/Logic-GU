@@ -1,4 +1,27 @@
 - authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Lide
+    id: 1149082
+    last_name: Grotenhuis
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Lukas
+    id: 1149083
+    last_name: Zenger
+    year_of_birth: null
+  id: 329077
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Lecture Notes in Computer Science
+  sourcevolume: null
+  title: Ill-Founded Proof Systems for Intuitionistic Linear-Time Temporal Logic
+- authors:
   - first_name: Mattias
     id: 1143549
     last_name: Granberg Olsson
