@@ -15,6 +15,6 @@ More information can be found at group [members' pages]({% link _pages/about.md 
 {% assign sorted_pubs = site.data.publications | sort:'pubyear' | reverse %}
 {% for pub in sorted_pubs %}
 {% assign person = site.data.people[member] %}
- - {% for author in pub.authors %}{% if forloop.last %}{% unless forloop.first %}and {% endunless %}{% endif %}{{ author.first_name }} {{ author.last_name }}, {% endfor %} {{ pub.pubyear}}. [{{ pub.title }}](https://gup.ub.gu.se/publication/{{ pub.id }}), <sourcetitle>{{ pub.sourcetitle }}</sourcetitle>.
+ - {% for author in pub.authors %}{% unless forloop.first %}{% if forloop.last %} and {% else %}, {% endif %}{% endunless %}{{ author.first_name }} {{ author.last_name }}{% endfor %}<br/> {{ pub.title }}<br/> <sourcetitle>{{ pub.sourcetitle }}</sourcetitle>, {{ pub.pubyear}}.<br/>[See publication on GUP](https://gup.ub.gu.se/publication/{{ pub.id }})
 {% endfor %}
 </div>
