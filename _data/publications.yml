@@ -3,6 +3,165 @@
     id: 444205
     last_name: Afshari
     year_of_birth: 1981
+  - first_name: Lide
+    id: 1149082
+    last_name: Grotenhuis
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Lukas
+    id: 1149083
+    last_name: Zenger
+    year_of_birth: null
+  id: 329077
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Lecture Notes in Computer Science
+  sourcevolume: null
+  title: Ill-Founded Proof Systems for Intuitionistic Linear-Time Temporal Logic
+- authors:
+  - first_name: Felix
+    id: 62706
+    last_name: Larsson
+    year_of_birth: 1968
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 327675
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Synthese
+  sourcevolume: '202'
+  title: 'Re: the rhetic'
+- authors:
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 315334
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: " \xD6zg\xFCn, A., Zinova, Y. (eds) Language, Logic, and Computation.\
+    \ TbiLLC 2019. Lecture Notes in Computer Science, vol 13206"
+  sourcevolume: null
+  title: From Paradox to Truth
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 315326
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: " Language, Logic, and Computation, 13th International Tbilisi Symposium,\
+    \ TbiLLC 2019, Batumi, Georgia, September 16\u201320, 2019, Revised Selected Papers\
+    \ / editors: Ayb\xFCke \xD6zg\xFCn, Yulia Zinova"
+  sourcevolume: null
+  title: "Lyndon Interpolation for\_Modal \u03BC-Calculus"
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 305839
+  pubyear: 2021
+  sourceissue: '3'
+  sourcetitle: The Review of Symbolic Logic
+  sourcevolume: '14'
+  title: Hierarchical incompleteness results for arithmetically definable extensions
+    of fragments of arithmetic
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Stefan
+    id: 872887
+    last_name: Hetzl
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 290565
+  pubyear: 2020
+  sourceissue: '6'
+  sourcetitle: Annals of Pure and Applied Logic
+  sourcevolume: '171'
+  title: Herbrand's theorem as higher order recursion
+- authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  id: 281814
+  pubyear: 2019
+  sourceissue: '2'
+  sourcetitle: Journal of Symbolic Logic
+  sourcevolume: '84'
+  title: Algebraic New Foundations
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 256053
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS),
+    20-23 June 2017, Reykjavik Iceland
+  sourcevolume: null
+  title: Cut-free completeness for modal mu-calculus
+- authors:
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  - first_name: Juha
+    id: 487803
+    last_name: Kontinen
+    year_of_birth: null
+  - first_name: Jouko
+    id: 487805
+    last_name: "V\xE4\xE4n\xE4nen"
+    year_of_birth: null
+  id: 254377
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: Journal of computer and system sciences
+  sourcevolume: '88'
+  title: 'Dependence logic with generalized quantifiers: Axiomatizations'
+- authors:
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Ali
+    id: 208959
+    last_name: Enayat
+    year_of_birth: 1959
+  id: 251504
+  pubyear: 2017
+  sourceissue: '1'
+  sourcetitle: Journal of Symbolic Logic
+  sourcevolume: '82'
+  title: Marginalia on a theorem of Woodin
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
   - first_name: Sebastian
     id: 1151690
     last_name: Enqvist
@@ -37,29 +196,6 @@
   sourcevolume: null
   title: Representation matters in cyclic proof theory
 - authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Lide
-    id: 1149082
-    last_name: Grotenhuis
-    year_of_birth: null
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  - first_name: Lukas
-    id: 1149083
-    last_name: Zenger
-    year_of_birth: null
-  id: 329077
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: Lecture Notes in Computer Science
-  sourcevolume: null
-  title: Ill-Founded Proof Systems for Intuitionistic Linear-Time Temporal Logic
-- authors:
   - first_name: Mattias
     id: 1143549
     last_name: Granberg Olsson
@@ -74,21 +210,6 @@
   sourcetitle: Archive for Mathematical Logic
   sourcevolume: null
   title: Revisiting the conservativity of fixpoints over intuitionistic arithmetic
-- authors:
-  - first_name: Felix
-    id: 62706
-    last_name: Larsson
-    year_of_birth: 1968
-  - first_name: Martin
-    id: 127450
-    last_name: "Kas\xE5"
-    year_of_birth: 1974
-  id: 327675
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: Synthese
-  sourcevolume: '202'
-  title: 'Re: the rhetic'
 - authors:
   - first_name: Jean-Philippe
     id: 109532
@@ -269,35 +390,6 @@
     id: 444205
     last_name: Afshari
     year_of_birth: 1981
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 315326
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: " Language, Logic, and Computation, 13th International Tbilisi Symposium,\
-    \ TbiLLC 2019, Batumi, Georgia, September 16\u201320, 2019, Revised Selected Papers\
-    \ / editors: Ayb\xFCke \xD6zg\xFCn, Yulia Zinova"
-  sourcevolume: null
-  title: "Lyndon Interpolation for\_Modal \u03BC-Calculus"
-- authors:
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 315334
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: " \xD6zg\xFCn, A., Zinova, Y. (eds) Language, Logic, and Computation.\
-    \ TbiLLC 2019. Lecture Notes in Computer Science, vol 13206"
-  sourcevolume: null
-  title: From Paradox to Truth
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
   id: 312095
   pubyear: 2020
   sourceissue: null
@@ -305,18 +397,6 @@
     August 24-28, 2020
   sourcevolume: null
   title: Cyclic Proof Systems for Modal Logics
-- authors:
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  id: 305839
-  pubyear: 2021
-  sourceissue: '3'
-  sourcetitle: The Review of Symbolic Logic
-  sourcevolume: '14'
-  title: Hierarchical incompleteness results for arithmetically definable extensions
-    of fragments of arithmetic
 - authors:
   - first_name: Bahareh
     id: 444205
@@ -385,36 +465,6 @@
   sourcetitle: Archive for Mathematical Logic
   sourcevolume: '59'
   title: Rank-initial embeddings of non-standard models of set theory
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Stefan
-    id: 872887
-    last_name: Hetzl
-    year_of_birth: null
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 290565
-  pubyear: 2020
-  sourceissue: '6'
-  sourcetitle: Annals of Pure and Applied Logic
-  sourcevolume: '171'
-  title: Herbrand's theorem as higher order recursion
-- authors:
-  - first_name: Paul
-    id: 664621
-    last_name: Kindvall Gorbow
-    year_of_birth: 1981
-  id: 281814
-  pubyear: 2019
-  sourceissue: '2'
-  sourcetitle: Journal of Symbolic Logic
-  sourcevolume: '84'
-  title: Algebraic New Foundations
 - authors:
   - first_name: Jean-Philippe
     id: 109532
@@ -605,22 +655,6 @@
   sourcevolume: null
   title: "Herbrand\u2019s Theorem as Higher Order Recursion"
 - authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 256053
-  pubyear: 2017
-  sourceissue: null
-  sourcetitle: 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS),
-    20-23 June 2017, Reykjavik Iceland
-  sourcevolume: null
-  title: Cut-free completeness for modal mu-calculus
-- authors:
   - first_name: Ali
     id: 208959
     last_name: Enayat
@@ -767,25 +801,6 @@
   sourcevolume: '3'
   title: Reflecting on Truth
 - authors:
-  - first_name: Fredrik
-    id: 4350
-    last_name: "Engstr\xF6m"
-    year_of_birth: 1977
-  - first_name: Juha
-    id: 487803
-    last_name: Kontinen
-    year_of_birth: null
-  - first_name: Jouko
-    id: 487805
-    last_name: "V\xE4\xE4n\xE4nen"
-    year_of_birth: null
-  id: 254377
-  pubyear: 2017
-  sourceissue: null
-  sourcetitle: Journal of computer and system sciences
-  sourcevolume: '88'
-  title: 'Dependence logic with generalized quantifiers: Axiomatizations'
-- authors:
   - first_name: Martin
     id: 127450
     last_name: "Kas\xE5"
@@ -808,21 +823,6 @@
   sourcevolume: null
   title: 'Contributions to the Metamathematics of Arithmetic: Fixed Points, Independence,
     and Flexibility'
-- authors:
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Ali
-    id: 208959
-    last_name: Enayat
-    year_of_birth: 1959
-  id: 251504
-  pubyear: 2017
-  sourceissue: '1'
-  sourcetitle: Journal of Symbolic Logic
-  sourcevolume: '82'
-  title: Marginalia on a theorem of Woodin
 - authors:
   - first_name: Bahareh
     id: 444205
