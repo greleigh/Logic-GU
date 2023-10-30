@@ -13,16 +13,16 @@ Annually, a distinguished logician is invited to deliver a general lecture to th
 
 [About Per (Pelle) Lindström]({% link _pages/lindstrom-lectures/per-lindstrom.md %})
 
-## The Lindström Lectures 2023 edition
+## The 2024 Lindström Lectures
 
-The 2023 Lindström Lectures will be given by **Rineke Verbrugge**, Professor of Logic and Cognition at the Bernoulli Institute of Mathematics, Computer Science and Artificial Intelligence, University of Groningen, The Netherlands.
+We pleased to announce that the 2024 Lindström Lecture series is **Phokion Kolaitis**, Distinguished Research Professor at UC Santa Cruz and a Principal Research Staff Member at the IBM Almaden Research Center, US.
 
-The Public Lindström Lecture will take place on **Thursday, 11 May 2023, 18--20** in the Faculty of Humanities. For room location, see the [homepage of the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
+The Public Lindström Lecture will take place on **Monday, 15 April 2024, 18--20** in the Faculty of Humanities. For room location, see the [homepage of the Lindström Lectures](https://www.gu.se/en/flov/the-lindstrom-lectures).
 
-The Research Lecture will take place on **Friday, 12 May 2023, 10--12**.
+The Research Lecture will take place on **Wednesday, 17 April 2024, 10**.
 The location of the Research Lecture will be circulated through the [GU Logic mailing list]({{ logic-ML }}). Alternatively, contact [{{ contact }}](mailto:{{ contact-email }}).
 
-{% assign lectures = site.categories['seminars'] | where_exp:"item", "item.ll_year == 2023" %}
+{% assign lectures = site.categories['seminars'] | where_exp:"item", "item.ll_year == 2024" %}
 {% assign public-lecture = lectures | find:"ll_kind", "public" %}
 {% assign research-lecture = lectures | find:"ll_kind", "research" %}
 
