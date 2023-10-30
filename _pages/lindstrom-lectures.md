@@ -30,10 +30,9 @@ The location of the Research Lecture will be circulated through the [GU Logic ma
 
 {% include lindstrom-entry.html talk=research-lecture public=false %}
 
-
 ## Previous Lindström Lectures
 
-{% assign LLs = site.pages | where:"lindstrom-lecture","true" | where_exp:"item","item.year < 2023" | reverse %}
-{% for lecture in LLs %}
+{% assign LLs = site.pages | where:"lindstrom-lecture","true" | where_exp:"item","item.year < 2024" | reverse %}
+
 * [{{ lecture.title }}]({% link {{ lecture.path }} %}): {{ lecture.speaker }}
-{%- endfor %}
+{% endfor %}
