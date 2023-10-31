@@ -64,7 +64,7 @@ gianlucacurzi:
   full-name: Gianluca Curzi
   position: Postdoctoral Researcher
   homepage: https://www.gu.se/en/about/find-staff/gianlucacurzi
-  email: 
+  email: gianluca.curzi@gu.se
   description: 
 
 ivandiliberti:
@@ -72,8 +72,10 @@ ivandiliberti:
   full-name: Ivan Di Liberti
   position: Postdoctoral Researcher
   homepage: https://www.gu.se/en/about/find-staff/ivandiliberti
-  email: 
-  description: 
+  email: ivan.di.liberti@gu.se
+  description: >
+    Most of my research is motivated by logic, foundations of mathematics and foundations of geometry.
+    Concretely, my work is in categorical logic, syntax-semantics dualities, topos theory, general category theory and formal category theory.
 
 # PhDs
 
