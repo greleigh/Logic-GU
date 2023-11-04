@@ -1,4 +1,15 @@
 - authors:
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 329189
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: Representation matters in cyclic proof theory
+- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
@@ -184,17 +195,6 @@
   sourcetitle: Journal of Symbolic Logic
   sourcevolume: null
   title: Proof Systems for Two-Way Modal Mu-Calculus
-- authors:
-  - first_name: Dominik
-    id: 970600
-    last_name: Wehr
-    year_of_birth: 1998
-  id: 329189
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: null
-  sourcevolume: null
-  title: Representation matters in cyclic proof theory
 - authors:
   - first_name: Mattias
     id: 1143549
