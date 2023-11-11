@@ -1,15 +1,4 @@
 - authors:
-  - first_name: Dominik
-    id: 970600
-    last_name: Wehr
-    year_of_birth: 1998
-  id: 329189
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: null
-  sourcevolume: null
-  title: Representation matters in cyclic proof theory
-- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
@@ -29,9 +18,22 @@
   id: 329077
   pubyear: 2023
   sourceissue: null
-  sourcetitle: Lecture Notes in Computer Science
+  sourcetitle: " Automated Reasoning with Analytic Tableaux and Related Methods, 32nd\
+    \ International Conference, TABLEAUX 2023, Prague, Czech Republic, September 18\u2013\
+    21, 2023, Proceedings / Editors: Revantha Ramanayake, Josef Urban"
   sourcevolume: null
   title: Ill-Founded Proof Systems for Intuitionistic Linear-Time Temporal Logic
+- authors:
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 329189
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: Representation matters in cyclic proof theory
 - authors:
   - first_name: Felix
     id: 62706
