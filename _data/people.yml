@@ -65,7 +65,9 @@ gianlucacurzi:
   position: Postdoctoral Researcher
   homepage: https://www.gu.se/en/about/find-staff/gianlucacurzi
   email: gianluca.curzi@gu.se
-  description: 
+  description: >
+    My research interests range from proof theory, linear logic, lambda calculus and type theories to computational complexity, coinduction, and probabilistic computation. 
+    I am now working on the computational strength of cyclic proofs, with special attention to their complexity-theoretic aspects. 
 
 ivandiliberti:
   name: Ivan Di Liberti
