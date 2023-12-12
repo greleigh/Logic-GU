@@ -1,4 +1,20 @@
 - authors:
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  - first_name: D.
+    id: 1159742
+    last_name: Kirst
+    year_of_birth: null
+  id: 331334
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Mathematical Structures in Computer Science
+  sourcevolume: null
+  title: 'Material dialogues for first-order logic in constructive type theory: extended
+    version'
+- authors:
   - first_name: Fredrik
     id: 4350
     last_name: "Engstr\xF6m"
