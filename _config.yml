@@ -47,7 +47,7 @@ defaults:
       permalink: /:categories/:year-:month-:day-:title:output_ext
       title: ""
       speaker: Nordic Online Logic Seminar
-      tags: NOL
+      tags: [NOL]
 
   -
     scope:
