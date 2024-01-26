@@ -1,4 +1,34 @@
 - authors:
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  id: 289551
+  pubyear: 2020
+  sourceissue: null
+  sourcetitle: Archive for Mathematical Logic
+  sourcevolume: '59'
+  title: Rank-initial embeddings of non-standard models of set theory
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Stefan
+    id: 872887
+    last_name: Hetzl
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 290565
+  pubyear: 2020
+  sourceissue: '6'
+  sourcetitle: Annals of Pure and Applied Logic
+  sourcevolume: '171'
+  title: Herbrand's theorem as higher order recursion
+- authors:
   - first_name: Fredrik
     id: 4350
     last_name: "Engstr\xF6m"
@@ -121,25 +151,6 @@
   sourcevolume: '14'
   title: Hierarchical incompleteness results for arithmetically definable extensions
     of fragments of arithmetic
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Stefan
-    id: 872887
-    last_name: Hetzl
-    year_of_birth: null
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 290565
-  pubyear: 2020
-  sourceissue: '6'
-  sourcetitle: Annals of Pure and Applied Logic
-  sourcevolume: '171'
-  title: Herbrand's theorem as higher order recursion
 - authors:
   - first_name: Paul
     id: 664621
@@ -487,17 +498,6 @@
   sourcevolume: null
   title: From Tree Adjoining Grammars to Higher Order Representations of Abstract
     Meaning Representations via Abstract Categorial Grammars
-- authors:
-  - first_name: Paul
-    id: 664621
-    last_name: Kindvall Gorbow
-    year_of_birth: 1981
-  id: 289551
-  pubyear: 2020
-  sourceissue: null
-  sourcetitle: Archive for Mathematical Logic
-  sourcevolume: '59'
-  title: Rank-initial embeddings of non-standard models of set theory
 - authors:
   - first_name: Jean-Philippe
     id: 109532
