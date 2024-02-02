@@ -63,3 +63,8 @@ open-logic:
   short-name: OLT
   url: https://openlogicproject.org
   
+acta-template:
+  name: ACTA template
+  short-name: ACTA
+  url: https://github.com/RasmusBlanck/ACTA-template/
+  
