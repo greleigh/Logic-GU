@@ -1,4 +1,19 @@
 - authors:
+  - first_name: Christian
+    id: 81121
+    last_name: Bennet
+    year_of_birth: 1954
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  id: 316660
+  pubyear: 2022
+  sourceissue: '5'
+  sourcetitle: Theoria
+  sourcevolume: '88'
+  title: Never trust an unsound theory
+- authors:
   - first_name: Paul
     id: 664621
     last_name: Kindvall Gorbow
@@ -397,21 +412,6 @@
     \ / Editors: Agata Ciabattoni, Elaine Pimentel, Ruy J. G. B. de Queiroz"
   sourcevolume: null
   title: "Material Dialogues for\_First-Order Logic in\_Constructive Type Theory"
-- authors:
-  - first_name: Christian
-    id: 81121
-    last_name: Bennet
-    year_of_birth: 1954
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  id: 316660
-  pubyear: 2022
-  sourceissue: '5'
-  sourcetitle: Theoria
-  sourcevolume: '88'
-  title: Never trust an unsound theory
 - authors:
   - first_name: Bahareh
     id: 444205
