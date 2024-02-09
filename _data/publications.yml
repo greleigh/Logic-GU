@@ -1,4 +1,38 @@
 - authors:
+  - first_name: Leon
+    id: 416731
+    last_name: Horsten
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 250707
+  pubyear: 2017
+  sourceissue: '501'
+  sourcetitle: Mind
+  sourcevolume: '126'
+  title: Truth is Simple
+- authors:
+  - first_name: Ali
+    id: 208959
+    last_name: Enayat
+    year_of_birth: 1959
+  - first_name: Paul
+    id: 664621
+    last_name: Kindvall Gorbow
+    year_of_birth: 1981
+  - first_name: Zachiri
+    id: 237309
+    last_name: McKenzie
+    year_of_birth: 1984
+  id: 262248
+  pubyear: 2017
+  sourceissue: null
+  sourcetitle: 'Feferman on Foundations  / Jaeger, Gerhard, Sieg, Wilfried (Eds.) '
+  sourcevolume: null
+  title: Feferman's Forays into the Foundations of Category Theory
+- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
@@ -688,25 +722,6 @@
   sourcevolume: null
   title: "Herbrand\u2019s Theorem as Higher Order Recursion"
 - authors:
-  - first_name: Ali
-    id: 208959
-    last_name: Enayat
-    year_of_birth: 1959
-  - first_name: Paul
-    id: 664621
-    last_name: Kindvall Gorbow
-    year_of_birth: 1981
-  - first_name: Zachiri
-    id: 237309
-    last_name: McKenzie
-    year_of_birth: 1984
-  id: 262248
-  pubyear: 2017
-  sourceissue: null
-  sourcetitle: 'Feferman on Foundations  / Jaeger, Gerhard, Sieg, Wilfried (Eds.) '
-  sourcevolume: null
-  title: Feferman's Forays into the Foundations of Category Theory
-- authors:
   - first_name: Dennis
     id: 590410
     last_name: Bonnay
@@ -871,21 +886,6 @@
   sourcetitle: null
   sourcevolume: null
   title: "Finitary Proof Systems for Kozen\u2019s \u03BC"
-- authors:
-  - first_name: Leon
-    id: 416731
-    last_name: Horsten
-    year_of_birth: null
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 250707
-  pubyear: 2017
-  sourceissue: '501'
-  sourcetitle: Mind
-  sourcevolume: '126'
-  title: Truth is Simple
 - authors:
   - first_name: Fredrik
     id: 4350
