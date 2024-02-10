@@ -1,4 +1,22 @@
 - authors:
+  - first_name: Jelle Tjeerd
+    id: 1160818
+    last_name: Fokkens
+    year_of_birth: 1992
+  - first_name: Fredrik
+    id: 4350
+    last_name: "Engstr\xF6m"
+    year_of_birth: 1977
+  id: 331156
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: CEUR Workshop Proceedings. Joint of the 2nd Workshop on Knowledge Diversity
+    and the 2nd Workshop on Cognitive Aspects of Knowledge Representation, KoDis +
+    CAKR 2023, Rhodes, Greece, September 3-4, 2023  / Baker C., Alvarez L.G., Heyninck
+    J., Heyninck J., Meyer T., Penaloza R., Vesic S. (eds.)
+  sourcevolume: null
+  title: Cognitively adequate complexity of reasoning in a description logic
+- authors:
   - first_name: Leon
     id: 416731
     last_name: Horsten
@@ -119,21 +137,6 @@
   sourcetitle: Annals of Pure and Applied Logic
   sourcevolume: '171'
   title: Herbrand's theorem as higher order recursion
-- authors:
-  - first_name: Fredrik
-    id: 4350
-    last_name: "Engstr\xF6m"
-    year_of_birth: 1977
-  - first_name: Jelle Tjeerd
-    id: 1160818
-    last_name: Fokkens
-    year_of_birth: 1992
-  id: 331156
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: CEUR Workshop Proceedings
-  sourcevolume: null
-  title: Cognitively adequate complexity of reasoning in a description logic
 - authors:
   - first_name: Dominik
     id: 970600
