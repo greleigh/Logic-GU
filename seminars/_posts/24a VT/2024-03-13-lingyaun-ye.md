@@ -3,6 +3,7 @@ speaker: Lingyuan Ye
 affil: 
 title: Stack Representation of First-order Intuitionistic Theories
 date: 2024-03-13 09:15:00 +01:00
+location: J440, Humanisten
 ---
 There is a classical result of Pitts that propositional intuitionistic logic eliminates second order propositional quantifiers.
 Later, Ghilardi and Zawadowski have worked out a semantic proof of this by developing a sheaf representation of finitely presented Heyting algebras.
