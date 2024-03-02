@@ -1,4 +1,38 @@
 - authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: S.
+    id: 1085876
+    last_name: Enqvist
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 319170
+  pubyear: 2024
+  sourceissue: '1'
+  sourcetitle: Logic Journal of the IGPL
+  sourcevolume: '32'
+  title: Cyclic proofs for the first-order mu-calculus
+- authors:
+  - first_name: Mattias
+    id: 1143549
+    last_name: Granberg Olsson
+    year_of_birth: 1988
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 328010
+  pubyear: 2024
+  sourceissue: 1-2
+  sourcetitle: Archive for Mathematical Logic
+  sourcevolume: '63'
+  title: Revisiting the conservativity of fixpoints over intuitionistic arithmetic
+- authors:
   - first_name: Jelle Tjeerd
     id: 1160818
     last_name: Fokkens
@@ -292,21 +326,6 @@
   sourcevolume: '82'
   title: Marginalia on a theorem of Woodin
 - authors:
-  - first_name: Mattias
-    id: 1143549
-    last_name: Granberg Olsson
-    year_of_birth: 1988
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 328010
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: Archive for Mathematical Logic
-  sourcevolume: null
-  title: Revisiting the conservativity of fixpoints over intuitionistic arithmetic
-- authors:
   - first_name: Jean-Philippe
     id: 109532
     last_name: Bernardy
@@ -398,25 +417,6 @@
     13 February 2023 through 16 February 2023
   sourcevolume: null
   title: A Cyclic Proof System for Full Computation Tree Logic
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: S.
-    id: 1085876
-    last_name: Enqvist
-    year_of_birth: null
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  id: 319170
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: Logic Journal of the IGPL
-  sourcevolume: null
-  title: Cyclic proofs for the first-order mu-calculus
 - authors:
   - first_name: Paul
     id: 664621
