@@ -3,6 +3,38 @@
     id: 444205
     last_name: Afshari
     year_of_birth: 1981
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 336772
+  pubyear: 2024
+  sourceissue: null
+  sourcetitle: Mathematical Structures in Computer Science
+  sourcevolume: null
+  title: Abstract Cyclic Proofs
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 319472
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: "Lecture Notes in Computer Science, 28th International Workshop on\
+    \ Logic, Language, Information and Computation, Ia\u0219i, Romania, September\
+    \ 20\u201323, 2022, Proceedings"
+  sourcevolume: null
+  title: Abstract Cyclic Proofs (Extended abstract)
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
   - first_name: S.
     id: 1085876
     last_name: Enqvist
@@ -449,23 +481,6 @@
     \ / Editors: Agata Ciabattoni, Elaine Pimentel, Ruy J. G. B. de Queiroz"
   sourcevolume: null
   title: "Material Dialogues for\_First-Order Logic in\_Constructive Type Theory"
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Dominik
-    id: 970600
-    last_name: Wehr
-    year_of_birth: 1998
-  id: 319472
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: "Lecture Notes in Computer Science, 28th International Workshop on\
-    \ Logic, Language, Information and Computation, Ia\u0219i, Romania, September\
-    \ 20\u201323, 2022, Proceedings"
-  sourcevolume: null
-  title: Abstract Cyclic Proofs
 - authors:
   - first_name: Bahareh
     id: 444205
