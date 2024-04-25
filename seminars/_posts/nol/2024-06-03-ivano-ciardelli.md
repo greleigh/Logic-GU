@@ -1,5 +1,5 @@
 ---
-speaker: Ivan Ciardelli
+speaker: Ivano Ciardelli
 affil: University of Padua
 title: "Inquisitive modal logic: an overview"
 date: 2024-06-03 16:00:00 +02:00
