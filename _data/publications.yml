@@ -3,6 +3,33 @@
     id: 444205
     last_name: Afshari
     year_of_birth: 1981
+  - first_name: Sebastian
+    id: 1151690
+    last_name: Enqvist
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Johannes
+    id: 1151691
+    last_name: Marti
+    year_of_birth: null
+  - first_name: Yde
+    id: 1151692
+    last_name: Venema
+    year_of_birth: null
+  id: 329699
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Journal of Symbolic Logic
+  sourcevolume: null
+  title: Proof Systems for Two-Way Modal Mu-Calculus
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
   - first_name: Dominik
     id: 970600
     last_name: Wehr
@@ -116,33 +143,6 @@
   sourcetitle: 'Feferman on Foundations  / Jaeger, Gerhard, Sieg, Wilfried (Eds.) '
   sourcevolume: null
   title: Feferman's Forays into the Foundations of Category Theory
-- authors:
-  - first_name: Bahareh
-    id: 444205
-    last_name: Afshari
-    year_of_birth: 1981
-  - first_name: Sebastian
-    id: 1151690
-    last_name: Enqvist
-    year_of_birth: null
-  - first_name: Graham E.
-    id: 269050
-    last_name: Leigh
-    year_of_birth: 1983
-  - first_name: Johannes
-    id: 1151691
-    last_name: Marti
-    year_of_birth: null
-  - first_name: Yde
-    id: 1151692
-    last_name: Venema
-    year_of_birth: null
-  id: 329699
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: Journal of Symbolic Logic
-  sourcevolume: null
-  title: Proof Systems for Two-Way Modal Mu-Calculus
 - authors:
   - first_name: Felix
     id: 62706
