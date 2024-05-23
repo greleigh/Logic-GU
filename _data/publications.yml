@@ -1,4 +1,20 @@
 - authors:
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  - first_name: D.
+    id: 1159742
+    last_name: Kirst
+    year_of_birth: null
+  id: 331334
+  pubyear: 2023
+  sourceissue: null
+  sourcetitle: Mathematical Structures in Computer Science
+  sourcevolume: null
+  title: 'Material dialogues for first-order logic in constructive type theory: extended
+    version'
+- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
@@ -25,6 +41,21 @@
   sourcetitle: Journal of Symbolic Logic
   sourcevolume: null
   title: Proof Systems for Two-Way Modal Mu-Calculus
+- authors:
+  - first_name: Felix
+    id: 62706
+    last_name: Larsson
+    year_of_birth: 1968
+  - first_name: Martin
+    id: 127450
+    last_name: "Kas\xE5"
+    year_of_birth: 1974
+  id: 327675
+  pubyear: 2023
+  sourceissue: '2'
+  sourcetitle: Synthese
+  sourcevolume: '202'
+  title: 'Re: the rhetic'
 - authors:
   - first_name: Bahareh
     id: 444205
@@ -144,21 +175,6 @@
   sourcevolume: null
   title: Feferman's Forays into the Foundations of Category Theory
 - authors:
-  - first_name: Felix
-    id: 62706
-    last_name: Larsson
-    year_of_birth: 1968
-  - first_name: Martin
-    id: 127450
-    last_name: "Kas\xE5"
-    year_of_birth: 1974
-  id: 327675
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: Synthese
-  sourcevolume: '202'
-  title: 'Re: the rhetic'
-- authors:
   - first_name: Christian
     id: 81121
     last_name: Bennet
@@ -203,22 +219,6 @@
   sourcetitle: Annals of Pure and Applied Logic
   sourcevolume: '171'
   title: Herbrand's theorem as higher order recursion
-- authors:
-  - first_name: Dominik
-    id: 970600
-    last_name: Wehr
-    year_of_birth: 1998
-  - first_name: D.
-    id: 1159742
-    last_name: Kirst
-    year_of_birth: null
-  id: 331334
-  pubyear: 2023
-  sourceissue: null
-  sourcetitle: Mathematical Structures in Computer Science
-  sourcevolume: null
-  title: 'Material dialogues for first-order logic in constructive type theory: extended
-    version'
 - authors:
   - first_name: Bahareh
     id: 444205
