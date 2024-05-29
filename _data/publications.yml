@@ -1,4 +1,142 @@
 - authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 218889
+    last_name: Lappin
+    year_of_birth: 1950
+  id: 269415
+  pubyear: 2018
+  sourceissue: null
+  sourcetitle: Proceedings of the First International Workshop on Language Cognition
+    and Computational Models, COLING 2018, August 20, 2018 Santa Fe, New Mexico, USA
+  sourcevolume: null
+  title: A Compositional Bayesian Semantics for Natural Language
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 218889
+    last_name: Lappin
+    year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 284232
+  pubyear: 2019
+  sourceissue: null
+  sourcetitle: Proceedings of the 22nd Nordic Conference on Computational Linguistics
+    (NoDaLiDa 2019), 30 September-2 October, 2019, Turku, Finland /  Mareike Hartmann,
+    Barbara Plank (Editors)
+  sourcevolume: null
+  title: Predicates as Boxes in Bayesian Semantics for Natural Language
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 218889
+    last_name: Lappin
+    year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 281054
+  pubyear: 2019
+  sourceissue: null
+  sourcetitle: Proceedings of the Eighth Joint Conference on Lexical and Computational
+    Semantics (*SEM),  6-7 June 2019, Minneapolis, Minnesota, USA / Rada Mihalcea,
+    Ekaterina Shutova, Lun-Wei Ku, Kilian Evang, Soujanya Poria (Editors)
+  sourcevolume: null
+  title: 'Bayesian Inference Semantics: A Modelling System and A Test Suite'
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 218889
+    last_name: Lappin
+    year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 326499
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: Probabilistic Approaches to Linguistic Theory  / edited by Jean-Philippe
+    Bernardy, Rasmus Blanck, Stergios Chatzikyriakidis, Shalom Lappin, Aleksandre
+    Maskharashvili.
+  sourcevolume: null
+  title: Bayesian Inference Semantics for Natural Language
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 218889
+    last_name: Lappin
+    year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 326498
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: Probabilistic Approaches to Linguistic Theory
+- authors:
   - first_name: Dominik
     id: 970600
     last_name: Wehr
@@ -358,62 +496,6 @@
   sourcevolume: '82'
   title: Marginalia on a theorem of Woodin
 - authors:
-  - first_name: Jean-Philippe
-    id: 109532
-    last_name: Bernardy
-    year_of_birth: 1978
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Stergios
-    id: 264616
-    last_name: Chatzikyriakidis
-    year_of_birth: 1980
-  - first_name: Shalom
-    id: 762253
-    last_name: Lappin
-    year_of_birth: 1950
-  - first_name: Aleksandre
-    id: 770995
-    last_name: Maskharashvili
-    year_of_birth: 1987
-  id: 326498
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: null
-  sourcevolume: null
-  title: Probabilistic Approaches to Linguistic Theory
-- authors:
-  - first_name: Jean-Philippe
-    id: 109532
-    last_name: Bernardy
-    year_of_birth: 1978
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Stergios
-    id: 264616
-    last_name: Chatzikyriakidis
-    year_of_birth: 1980
-  - first_name: Shalom
-    id: 762253
-    last_name: Lappin
-    year_of_birth: 1950
-  - first_name: Aleksandre
-    id: 770995
-    last_name: Maskharashvili
-    year_of_birth: 1987
-  id: 326499
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: Probabilistic Approaches to Linguistic Theory  / edited by Jean-Philippe
-    Bernardy, Rasmus Blanck, Stergios Chatzikyriakidis, Shalom Lappin, Aleksandre
-    Maskharashvili.
-  sourcevolume: null
-  title: Bayesian Inference Semantics for Natural Language
-- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
@@ -551,35 +633,6 @@
   title: From Tree Adjoining Grammars to Higher Order Representations of Abstract
     Meaning Representations via Abstract Categorial Grammars
 - authors:
-  - first_name: Jean-Philippe
-    id: 109532
-    last_name: Bernardy
-    year_of_birth: 1978
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Stergios
-    id: 264616
-    last_name: Chatzikyriakidis
-    year_of_birth: 1980
-  - first_name: Shalom
-    id: 762253
-    last_name: Lappin
-    year_of_birth: 1950
-  - first_name: Aleksandre
-    id: 770995
-    last_name: Maskharashvili
-    year_of_birth: 1987
-  id: 281054
-  pubyear: 2019
-  sourceissue: null
-  sourcetitle: Proceedings of the Eighth Joint Conference on Lexical and Computational
-    Semantics (*SEM),  6-7 June 2019, Minneapolis, Minnesota, USA / Rada Mihalcea,
-    Ekaterina Shutova, Lun-Wei Ku, Kilian Evang, Soujanya Poria (Editors)
-  sourcevolume: null
-  title: 'Bayesian Inference Semantics: A Modelling System and A Test Suite'
-- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
@@ -600,35 +653,6 @@
     Rosalie, Moortgat, Michael, de Queiroz, Ruy '
   sourcevolume: null
   title: An infinitary treatment of full mu-calculus
-- authors:
-  - first_name: Jean-Philippe
-    id: 109532
-    last_name: Bernardy
-    year_of_birth: 1978
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Stergios
-    id: 264616
-    last_name: Chatzikyriakidis
-    year_of_birth: 1980
-  - first_name: Shalom
-    id: 762253
-    last_name: Lappin
-    year_of_birth: 1950
-  - first_name: Aleksandre
-    id: 770995
-    last_name: Maskharashvili
-    year_of_birth: 1987
-  id: 284232
-  pubyear: 2019
-  sourceissue: null
-  sourcetitle: Proceedings of the 22nd Nordic Conference on Computational Linguistics
-    (NoDaLiDa 2019), 30 September-2 October, 2019, Turku, Finland /  Mareike Hartmann,
-    Barbara Plank (Editors)
-  sourcevolume: null
-  title: Predicates as Boxes in Bayesian Semantics for Natural Language
 - authors:
   - first_name: Jean-Philippe
     id: 109532
@@ -696,30 +720,6 @@
   sourcetitle: Stanford Encyclopedia of Philosophy
   sourcevolume: null
   title: Axiomatic Theories of Truth
-- authors:
-  - first_name: Jean-Philippe
-    id: 109532
-    last_name: Bernardy
-    year_of_birth: 1978
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Stergios
-    id: 264616
-    last_name: Chatzikyriakidis
-    year_of_birth: 1980
-  - first_name: Shalom
-    id: 762253
-    last_name: Lappin
-    year_of_birth: 1950
-  id: 269415
-  pubyear: 2018
-  sourceissue: null
-  sourcetitle: Proceedings of the First International Workshop on Language Cognition
-    and Computational Models, COLING 2018, August 20, 2018 Santa Fe, New Mexico, USA
-  sourcevolume: null
-  title: A Compositional Bayesian Semantics for Natural Language
 - authors:
   - first_name: Bahareh
     id: 444205
