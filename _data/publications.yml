@@ -15,6 +15,33 @@
     id: 218889
     last_name: Lappin
     year_of_birth: 1950
+  - first_name: Aleksandre
+    id: 770995
+    last_name: Maskharashvili
+    year_of_birth: 1987
+  id: 326498
+  pubyear: 2022
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: Probabilistic Approaches to Linguistic Theory
+- authors:
+  - first_name: Jean-Philippe
+    id: 109532
+    last_name: Bernardy
+    year_of_birth: 1978
+  - first_name: Rasmus
+    id: 85180
+    last_name: Blanck
+    year_of_birth: 1982
+  - first_name: Stergios
+    id: 264616
+    last_name: Chatzikyriakidis
+    year_of_birth: 1980
+  - first_name: Shalom
+    id: 218889
+    last_name: Lappin
+    year_of_birth: 1950
   id: 269415
   pubyear: 2018
   sourceissue: null
@@ -109,33 +136,6 @@
     Maskharashvili.
   sourcevolume: null
   title: Bayesian Inference Semantics for Natural Language
-- authors:
-  - first_name: Jean-Philippe
-    id: 109532
-    last_name: Bernardy
-    year_of_birth: 1978
-  - first_name: Rasmus
-    id: 85180
-    last_name: Blanck
-    year_of_birth: 1982
-  - first_name: Stergios
-    id: 264616
-    last_name: Chatzikyriakidis
-    year_of_birth: 1980
-  - first_name: Shalom
-    id: 218889
-    last_name: Lappin
-    year_of_birth: 1950
-  - first_name: Aleksandre
-    id: 770995
-    last_name: Maskharashvili
-    year_of_birth: 1987
-  id: 326498
-  pubyear: 2022
-  sourceissue: null
-  sourcetitle: null
-  sourcevolume: null
-  title: Probabilistic Approaches to Linguistic Theory
 - authors:
   - first_name: Dominik
     id: 970600
