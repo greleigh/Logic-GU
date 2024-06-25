@@ -19,7 +19,11 @@
 
       {% for node in site.data.navigation %}
         {% if node.name != "Home" %}
+          {% if node.link %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.link }}">{{ node.name }}</a>
+          {% elsif node.abs_url %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.abs_url }}">{{ node.name }}</a>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </nav>

@@ -14,6 +14,7 @@ Below is a list of upcoming and recent activities of the research group.
 
 ## Conferences and workshops
 
+- [Logic Colloquium 2024](https://lc2024.se), 24--28 June 2024.
 - [Workshop on Fixed Points and Ill-founded Proofs]({% link  _events/2023-04-27-wofpip.md %}), April 2023.
 - [Workshop in Philosophy of Computing](https://www.ans.pw.edu.pl/Aktualnosci/Warsztaty-z-filozofii-obliczen/(language)/eng-GB), September 2021.
 - [Circularity in Syntax and Semantics]({% link _static_sites/ciss19/index.html %}) (CiSS), November 2019.
