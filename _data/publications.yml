@@ -1,4 +1,19 @@
 - authors:
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Dominik
+    id: 970600
+    last_name: Wehr
+    year_of_birth: 1998
+  id: 339778
+  pubyear: 2024
+  sourceissue: '10'
+  sourcetitle: ANNALS OF PURE AND APPLIED LOGIC
+  sourcevolume: '175'
+  title: 'From GTC to RESET : Generating reset proof systems from cyclic proof systems'
+- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
