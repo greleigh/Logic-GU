@@ -1,6 +1,6 @@
 ---
 speaker: Eric Pacuit
-affil: University of Padua
+affil: University of Maryland
 title: "From paradox to principles: Splitting cycles and breaking ties"
 date: 2024-09-26 16:00:00 +02:00
 location: zoom
