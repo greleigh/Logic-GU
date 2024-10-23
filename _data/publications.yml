@@ -1,4 +1,42 @@
 - authors:
+  - first_name: Volker
+    id: 1238030
+    last_name: Halbach
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  id: 342330
+  pubyear: 2024
+  sourceissue: null
+  sourcetitle: null
+  sourcevolume: null
+  title: 'The Road to Paradox: A Guide to Syntax, Truth and Modality'
+- authors:
+  - first_name: Bahareh
+    id: 444205
+    last_name: Afshari
+    year_of_birth: 1981
+  - first_name: Lide
+    id: 1238028
+    last_name: Grotenhuis
+    year_of_birth: null
+  - first_name: Graham E.
+    id: 269050
+    last_name: Leigh
+    year_of_birth: 1983
+  - first_name: Lukas
+    id: 1238029
+    last_name: Zenger
+    year_of_birth: null
+  id: 342329
+  pubyear: 2024
+  sourceissue: null
+  sourcetitle: Advances in Modal Logic 2024
+  sourcevolume: null
+  title: Intuitionistic Master Modality
+- authors:
   - first_name: Bahareh
     id: 444205
     last_name: Afshari
