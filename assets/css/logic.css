@@ -1,0 +1,155 @@
+html {
+    font-feature-settings: 'onum' on;
+}
+
+/* Add context for external links */
+a:not([href*='gu.se']):not([href^='#']):not([href^='/']):after {
+    /* Set the `content` property as mentioned in the first approach */
+    font-family: 'FontAwesome';
+    font-size: 50%;
+    content: '\00a0\f08e';
+    alt: "\00a0(external page)"
+}
+
+.sidebar-footer {
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+.sidebar-footer p {
+    display: inline;
+    margin: 0em;
+    padding-right: .5rem;
+}
+
+@media (min-width: 54em) {
+    .sidebar-footer {
+        font-size: 15px;
+        margin-bottom: .5rem;
+    }
+    .sidebar-footer p {
+        display: block;
+        margin: 0em;
+    }
+}
+
+.seminar {
+    margin-top: 1em;
+    /* margin-bottom: 1em; */ /* captured by section:after */
+    /* font-size: medium; */
+    position: relative;
+}
+
+/* insert h-rule after seminars */
+.seminar::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+    background-color: #6a9fb5;
+    opacity: .3;
+    border: 0;
+    height: 1px;
+    margin-top: 1em;
+}
+
+.seminar-lead {
+    line-height: normal;
+    font-size: larger;
+}
+
+.seminar-lead h3 {
+    all: inherit;
+    color: inherit;
+    font-weight: bold;
+    display: block;
+}
+
+.seminar-affil {
+    font-weight: normal;
+}
+
+.seminar ul {
+    list-style-type: square;
+}
+
+.seminar ul, ol {
+    padding: 0em 1.2em;
+}
+
+.seminar-speaker {
+    font-weight: bold;
+}
+
+.seminar-title {
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+}
+
+.seminar-date {
+    font-size: smaller;
+    font-weight: lighter;
+    display: block;
+}
+
+.seminar-date span {
+    font-feature-settings: 'c2sc' on, 'smcp' on;
+}
+
+.abstract {
+    font-size: smaller;
+    line-height: 1.5;
+}
+
+.abstract h1 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.abstract p {
+    margin-bottom: 0.25rem;
+}
+
+.abstract sup {
+    line-height:0em;
+}
+
+.abstract sub {
+    line-height:0em;
+}
+
+.abstract p:last-of-type {
+    margin-bottom: 0em;
+}
+
+.abstract .forward {
+    margin-top: 0em;
+}
+
+.abstract .tag {
+    font-style: italic;
+}
+
+.abstract sc {
+    font-variant: small-caps;
+}
+
+.hide {
+    display: none;
+}
+
+.publist ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.publist sourcetitle {
+    font-style: italic;
+}
+
+.logo-image {
+    height: 106px;
+    width: auto;
+    float: left;
+}

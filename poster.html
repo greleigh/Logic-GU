@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+  
+    Master in Logic in Gothenburg &middot; Logic@GU
+  
+</title>
+
+<!-- CSS styles -->
+<link rel="stylesheet" href="/assets/css/poole.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/hyde.css">
+<link rel="stylesheet" href="/assets/css/logic.css">
+<!-- CSS typography -->
+<link rel="stylesheet" href="https://use.typekit.net/tqt7eiw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/logic-gu-144.png">
+  <link rel="shortcut icon" type="image/png" sizes="64x64" href="/assets/logic-gu-64.png">
+  
+
+<!-- RSS -->
+<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Logic@GU
+        </a>
+      </h1>
+      <p class="lead">Homepage of the Logic Group at the University of Gothenburg.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+
+      
+
+      
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/about">The Logic Group</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/publications">Publications</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars">Seminars</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars/nol">NOL Seminar</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/lindstrom-lectures">Lindström Lectures</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/MiL">Master in Logic</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/activities">Activities</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/resources">Resources</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="https://lc2024.se">Logic Colloquium</a>
+          
+        
+      
+    </nav>
+
+    <div class="sidebar-footer"><p>&copy; 2025. All rights reserved.</p>
+      <!-- Maintained by <a href="https://www.gu.se/en/about/find-staff/grahamleigh">Graham Leigh</a>.<br/> -->
+      <p>Created with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://hyde.getpoole.com">Hyde</a>.</p></div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <main class="page">
+  <h1 class="page-title">Master in Logic in Gothenburg</h1>
+  
+<p><a href="/assets/poster.pdf"><img src="/assets/poster.png" alt="Master in Logic poster" width="40%" style="float: right; border: 15px solid #fff;" /></a>
+If you are intrigued by logic and have a bachelor’s degree in
+Mathematics, Theoretical Philosophy, Computer Science or Linguistics consider
+applying to the <a href="https://www.gu.se/en/study-gothenburg/logic-masters-programme-h2log">Master in Logic at University of Gothenburg</a>.</p>
+
+<h2 id="you-should-study-logic-iff-this-sentence-is-true">You should study logic iff this sentence is true.</h2>
+
+<p>Observe that “iff” is a short-hand for “if and only if”. Let’s name the
+sentence \(A\) :</p>
+
+<ul>
+  <li>\(A\): “You should study logic iff this sentence is true.”</li>
+</ul>
+
+<p>Now, “this sentence” refers to the statement \(A\) so we may rewrite \(A\) as:</p>
+
+<ul>
+  <li>\(A\): “You should study logic iff \(A\) is true.”</li>
+</ul>
+
+<p>If \(A\) is true then “\(A\) is true” is true and therefore “you should study
+logic” is true. But even if \(A\) is false “you should study logic” has to be
+true. Let’s see if we can make sense of this.</p>
+
+<h2 id="using-propositional-logic">Using propositional logic</h2>
+
+<p>We can divide \(A\) into two less complex statements combined with the
+operator \(\leftrightarrow\):</p>
+
+<ul>
+  <li>\(A\): “You should study logic” \(\leftrightarrow\) “\(A\) is true.”</li>
+</ul>
+
+<p>Since \(A\) and “\(A\) is true” has the same truth conditions we can simplify
+and rewrite it as</p>
+
+<ul>
+  <li>\(A\): \(B \leftrightarrow A\)</li>
+</ul>
+
+<p>where \(B\) is “You should study logic.” As \(A\) is the statement \(B
+\leftrightarrow A\) the proposition</p>
+
+<ul>
+  <li><span>\(A \leftrightarrow (B \leftrightarrow A)\)</span></li>
+</ul>
+
+<p>is true (even without knowing if \(A\) or \(B\) are true or false.)</p>
+
+<p>Propositional logic is the basic logic used to analyse complex statements in
+terms of atomic statements. In this case the atomic statements are \(A\) and
+\(B\) and these can be either true (T) or false (F):</p>
+
+<table>
+<style>
+td {
+  text-align: center;
+}
+</style>
+<thead>
+<tr class="header">
+<th>$$A$$</th>
+<th>$$B$$</th>
+<th> $$B \leftrightarrow A$$ </th>
+<th>$$A \leftrightarrow (B \leftrightarrow A)$$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>T</td><td>T</td><td>T</td><td><strong>T</strong></td>
+</tr>
+<tr>
+	<td>T</td><td>F</td><td>F</td><td>F</td>
+</tr>
+<tr>
+	<td>F</td><td>T</td><td>F</td><td><strong>T</strong></td>
+</tr>
+<tr>
+	<td>F</td><td>F</td><td>T</td><td>F</td>
+</tr>
+</tbody>
+</table>
+
+<p>The only two cases in which \(A \leftrightarrow (B \leftrightarrow A)\) is
+true is the first and third row. In both of these situations \(B\) is true
+(note that \(A\) can be both true and false).</p>
+
+<p>Therefore, in all circumstances \(B\) is true and we have proved (without any
+assumptions) that <strong>you should study logic</strong>.</p>
+
+</main>
+
+    </div>
+
+  </body>
+
+</html>

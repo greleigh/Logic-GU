@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+  
+    Foundational principles of team semantics &middot; Logic@GU
+  
+</title>
+
+<!-- CSS styles -->
+<link rel="stylesheet" href="/assets/css/poole.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/hyde.css">
+<link rel="stylesheet" href="/assets/css/logic.css">
+<!-- CSS typography -->
+<link rel="stylesheet" href="https://use.typekit.net/tqt7eiw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/logic-gu-144.png">
+  <link rel="shortcut icon" type="image/png" sizes="64x64" href="/assets/logic-gu-64.png">
+  
+
+<!-- RSS -->
+<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Logic@GU
+        </a>
+      </h1>
+      <p class="lead">Homepage of the Logic Group at the University of Gothenburg.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+
+      
+
+      
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/about">The Logic Group</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/publications">Publications</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars">Seminars</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars/nol">NOL Seminar</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/lindstrom-lectures">Lindström Lectures</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/MiL">Master in Logic</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/activities">Activities</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/resources">Resources</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="https://lc2024.se">Logic Colloquium</a>
+          
+        
+      
+    </nav>
+
+    <div class="sidebar-footer"><p>&copy; 2025. All rights reserved.</p>
+      <!-- Maintained by <a href="https://www.gu.se/en/about/find-staff/grahamleigh">Graham Leigh</a>.<br/> -->
+      <p>Created with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://hyde.getpoole.com">Hyde</a>.</p></div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <p><a href="/seminars">Seminar archive</a></p>
+
+<div class="seminar">
+  <h1 class="seminar-title">Foundational principles of team semantics</h1>
+  <h2 class="seminar-speaker">Fredrik Engström</h2>
+  <span class="seminar-date">Fri, 29 Oct 2021 10:15:00 +0200</span>
+  <p>Team semantics is, when compared to standard Tarskian semantics, a more
+expressive framework that can be used to express logical connectives,
+operations and atoms that can’t be expressed in Tarskian semantics. This
+includes branching quantifiers, notions of dependence and independence, trace
+quantification in linear-time temporal logic (LTL), and probabilistic notions
+from quantum mechanics.</p>
+
+<p>Team semantics is based on the same notion of structure as Tarskian semantics,
+but instead of a single assignment satisfying a formula (or not), in team
+semantics a set, or a <em>team</em>, of assignments satisfies a formula (or not). In
+other words, the semantic value of a formula is lifted from a set of
+assignments (those that satisfy the formula) to a set of teams of
+assignments. 
+<!--more--></p>
+
+<p>In almost all (with only one exception that I’m aware of) logical systems
+based on team semantics this lifting operation is the power set operation,
+and as a result the set of teams satisfying a formula is closed downwards.
+This is often taken as a basic and foundational principle of team
+semantics.</p>
+
+<p>In this talk I will discuss this principle and present some ideas on why, or
+why not, the power set operation is the most natural lift operation. By using
+other lift operations we can get a more powerful semantics, but, it seems,
+also a more complicated one.</p>
+
+<p>References:</p>
+
+<ul>
+  <li>Engström, F. (2012) “Generalized quantifiers in dependence logic”</li>
+  <li>Nurmi, V. (2009) “Dependence Logic: Investigations into Higher-Order
+Semantics Defined on Teams”</li>
+  <li>Väänänen, J. (2007) “Dependence logic: A new approach to independence
+friendly logic”</li>
+</ul>
+
+</div>
+
+
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+  
+    Nordic Online Logic Seminars &middot; Logic@GU
+  
+</title>
+
+<!-- CSS styles -->
+<link rel="stylesheet" href="/assets/css/poole.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/hyde.css">
+<link rel="stylesheet" href="/assets/css/logic.css">
+<!-- CSS typography -->
+<link rel="stylesheet" href="https://use.typekit.net/tqt7eiw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/logic-gu-144.png">
+  <link rel="shortcut icon" type="image/png" sizes="64x64" href="/assets/logic-gu-64.png">
+  
+
+<!-- RSS -->
+<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Logic@GU
+        </a>
+      </h1>
+      <p class="lead">Homepage of the Logic Group at the University of Gothenburg.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+
+      
+
+      
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/about">The Logic Group</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/publications">Publications</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars">Seminars</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars/nol">NOL Seminar</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/lindstrom-lectures">Lindström Lectures</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/MiL">Master in Logic</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/activities">Activities</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/resources">Resources</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="https://lc2024.se">Logic Colloquium</a>
+          
+        
+      
+    </nav>
+
+    <div class="sidebar-footer"><p>&copy; 2025. All rights reserved.</p>
+      <!-- Maintained by <a href="https://www.gu.se/en/about/find-staff/grahamleigh">Graham Leigh</a>.<br/> -->
+      <p>Created with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://hyde.getpoole.com">Hyde</a>.</p></div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <main class="page">
+  <h1 class="page-title">Nordic Online Logic Seminars</h1>
+  <p>The Nordic Online Logic Seminar (NOL Seminar) is organised monthly over Zoom, with expository talks on topics of interest for the broader logic community.
+The seminar is open for professional or aspiring logicians and logic aficionados worldwide.</p>
+
+<p>The tentative time slot is Monday, 16.00-17.30 (Sweden).
+If you wish to receive the Zoom ID and password for it, as well as further announcements, please subscribe to the <a href="https://listserv.gu.se/sympa/subscribe/nordiclogic">NOL Seminar mailing list</a>.</p>
+
+<p>NOL seminar organisers<br />
+Valentin Goranko and Graham Leigh</p>
+
+<h2 id="talks-in-the-nordic-online-logic-seminar">Talks in the Nordic Online Logic Seminar</h2>
+
+<section class="seminar" id="eric-pacuit-from-paradox-to-principles-splitting-cycles-and-breaking-ties">
+  <header class="seminar-lead"><time datetime="2024-08-26 16:00:00 +0200" class="seminar-date">Monday, 26 August 2024 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Eric Pacuit
+      <span class="seminar-affil">(University of Maryland)</span> <em class="seminar-title">From paradox to principles: Splitting cycles and breaking ties</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Voting on two alternatives appears unproblematic compared to voting on three (or more). 
+When faced with only two alternatives,  many arguments show that Majority Rule distinguishes itself from all other ways of making a group decision. 
+For three or more alternatives, one faces the so-called “Paradox of Voting”: there may be elections with a <em>majority cycle</em> in which a majority of voters prefer <em>A</em> to <em>B</em>, a majority of voters prefer <em>B</em> to <em>C</em>, and a majority of voters prefer <em>C</em> to <em>A</em>. 
+In this talk, I will explain a series of results that axiomatically characterize rules for resolving majority cycles in elections. 
+These rules avoid the “Strong No Show Paradox” by responding properly to the addition of new voters to an election and mitigate <em>spoiler effects</em> by responding properly to the addition of new candidates to an election.</p>
+
+<p>This talk is based on joint work with Wes Holliday.</p>
+</div>
+</section>
+
+<section class="seminar" id="ivano-ciardelli-inquisitive-modal-logic-an-overview">
+  <header class="seminar-lead"><time datetime="2024-06-03 16:00:00 +0200" class="seminar-date">Monday, 03 June 2024 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Ivano Ciardelli
+      <span class="seminar-affil">(University of Padua)</span> <em class="seminar-title">Inquisitive modal logic: an overview</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Inquisitive modal logic is a generalization of standard modal logic where the language also contains questions, and modal operators that can be applied to them.
+In this talk, I will provide an introductory overview of inquisitive modal logic.
+I will review some motivations for the approach, present some prominent examples of inquisitive modal logics, mention some results about them, and outline directions for future work.</p>
+</div>
+</section>
+
+<section class="seminar" id="ana-maría-mora-márquez-medieval-aristotelian-logic-is-scientific-method">
+  <header class="seminar-lead"><time datetime="2024-05-27 16:00:00 +0200" class="seminar-date">Monday, 27 May 2024 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Ana María Mora-Márquez
+      <span class="seminar-affil">(University of Gothenburg)</span> <em class="seminar-title">Medieval Aristotelian Logic is Scientific Method</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>This presentation aims to show that medieval Aristotelian logic can be generally characterized as scientific method.
+To be sure, this method includes formal logic as one of its parts, but formal logic is by no means the crucial part.
+In fact, if, as I intend to show, the main aim of medieval Aristotelian logic is to provide methods for knowledge production and distribution, so its crucial parts are the methods for scientific proof provided in commentaries on Aristotle’s Posterior Analytics and Topics.
+<!--more--></p>
+
+<p>In the first part of the presentation, I argue for the possibility of talking of medieval ‘science’, ‘scientific knowledge’, and ‘scientific method’ from a modern perspective, and discuss how the modern perspective relates to the Latin ‘scientia’ in its different senses.
+In the second part, I show the progression from Nicholas of Paris (1240s) and Albert the Great (1250s), who see Aristotelian logic as a systematic scientific method where syllogistic argument is fundamental, but who struggle to coherently organize it around syllogistic argument, to Radulphus Brito (1290s) who, still seeing Aristotelian logic as scientific method, uses the notion of ‘second intention’ in order to coherently structure it around syllogistic argument.</p>
+</div>
+</section>
+
+<section class="seminar" id="albert-visser-restricted-sequential-theories">
+  <header class="seminar-lead"><time datetime="2024-03-25 16:00:00 +0100" class="seminar-date">Monday, 25 March 2024 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Albert Visser
+      <span class="seminar-affil">(Utrecht University)</span> <em class="seminar-title">Restricted Sequential Theories</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p><em>Sequential theories</em> form a fundamental class of theories in logic. They
+have full coding possibilities and allow us to build partial satisfaction predicates
+for formulas of bounded depth-of-quantifier-alernations. In many respects, they
+are the proper domain of Gödelian metamathematics. We explain the notion of sequential theory.</p>
+
+<p>A theory is <em>restricted</em> if it can be axiomatised by axioms of bounded depth-of-quantifier-alernations.
+All finitely axiomatised theories are restriced, but, for example, also Primitive Recursive Arithmetic. 
+We explain the small-is-very-small  principle for restricted sequential theories which says
+that, whenever the given theory shows that a definable property has a small
+witness, i.e., a witness in a sufficiently small definable cut, then it shows that the property has a
+very small witness, i.e., a witness below a given standard number.</p>
+
+<p>We sketch two proofs that restricted theories are incomplete (however complex the axiom set).
+One uses the small-is-very-small  principle and the other a direct Rosser argument.
+(The second argument was developed in collaboration with Ali Enayat.)</p>
+</div>
+</section>
+
+<section class="seminar" id="lauri-hella-game-characterizations-for-the-number-of-quantifiers">
+  <header class="seminar-lead"><time datetime="2024-03-04 16:00:00 +0100" class="seminar-date">Monday, 04 March 2024 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Lauri Hella
+      <span class="seminar-affil">(Tampere University)</span> <em class="seminar-title">Game characterizations for the number of quantifiers</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>A game that characterizes definability of classes of structures by first-order sentences
+containing a given number of quantifiers was introduced by Immerman in 1981. In this
+talk I describe two other games that are equivalent with the Immerman game in the sense
+that they characterize definability by a given number of quantifiers.</p>
+
+<p>In the Immerman game, Duplicator has a canonical optimal strategy, and hence Duplicator can
+be completely removed from the game by replacing her moves with default moves given
+by this optimal strategy. On the other hand, in the other two games there is no such optimal
+strategy for Duplicator. Thus, the Immerman game can be regarded as a one-player game, but
+the other two games are genuine two-player games.</p>
+
+<p>The talk is based on joint work with Kerkko Luosto.</p>
+</div>
+</section>
+
+<section class="seminar" id="peter-pagin-switcher-semantics-and-quantification">
+  <header class="seminar-lead"><time datetime="2024-01-29 16:00:00 +0100" class="seminar-date">Monday, 29 January 2024 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Peter Pagin
+      <span class="seminar-affil">(Stockholm University)</span> <em class="seminar-title">Switcher Semantics and quantification</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Switcher Semantics is a semantic framework that is basically characterised by allowing <em>switching</em>: when recursively applying a semantic function \(\mu\) to a complex term \(t\), the semantic function applying to an immediate subterm \(t'\) of \(t\) may be a function \(\mu'\), distinct from \(\mu\).
+An operator-argument-position pair is called a <em>switcher</em> if it induces such a switch.
+Switcher semantic systems do not satisfy the standard form of compositionality, but a generalized form, which allows greater flexibility.
+In earlier work (mostly published), some together with Kathrin Glüer, some with Dag Westerståhl, it has been applied to natural language constructions like proper names in modal contexts, general terms in modal contexts, indexicals in temporal contexts, quotation, and belief contexts.
+This talk will focus on quantifiers and quantification.
+First-order quantifiers can be regarded as switchers, switching from truth conditions to satisfaction conditions.
+The larger topic is quantification into switched contexts.
+I shall begin by giving an introduction to the framework.</p>
+</div>
+</section>
+
+<section class="seminar" id="göran-sundholm-curry-howard-a-meaning-explanation-or-just-another-realizability-interpretation">
+  <header class="seminar-lead"><time datetime="2023-12-18 16:00:00 +0100" class="seminar-date">Monday, 18 December 2023 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Göran Sundholm
+      <span class="seminar-affil">(Leiden University)</span> <em class="seminar-title">Curry-Howard: a meaning explanation or just another realizability interpretation?</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Around 1930 a major paradigm shift occurred in the foundations of mathematics; we may call it the METAMATHEMATICAL TURN. Until then the task of a logician had been to design and explain a full-scale formal language that was adequate for the practice of mathematical analysis in such a way that the axioms and rules of inference of the theory were rendered evident by the explanations.
+<!--more--></p>
+
+<p>The metamathematical turn changed the status of the formal languages: now they became (meta)mathematical objects of study. We no longer communicate <em>with</em> the aid of the formal systems – we communicate <em>about</em> them. Kleene’s realizability (JSL 1945) gave a metamathematical (re-)interpretation of arithmetic <em>inside</em> arithmetic. Heyting and Kolmogorov (1931-2), on the other hand, had used “proofs” of <em>propositions</em>, respectively “solutions” to <em>problems,</em> in order to explain the meaning of the mathematical language, rather than reinterpret it internally.</p>
+
+<p>We now have the choice to view the Curry-Howard isomorphism, say, as a variant of realizability, when it will be an <em>internal</em> mathematical re-interpretation, or to adopt an <em>atavistic,</em> Frege-like, viewpoint and look at the language as being rendered meaningful. This perspective will be used to discuss another paradigm shift, namely that of distinguishing <em>constructivism</em> and <em>intuitionism</em>. The hesitant attitude of Gödel, Kreisel, and Michael Dummett, will be spelled out, and, at the hand of unpublished source material, a likely reason given.</p>
+</div>
+</section>
+
+<section class="seminar" id="sonja-smets-reasoning-about-epistemic-superiority-and-data-exchange">
+  <header class="seminar-lead"><time datetime="2023-11-27 15:00:00 +0100" class="seminar-date">Monday, 27 November 2023 at 15:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Sonja Smets
+      <span class="seminar-affil">(Institute for Logic, Language and Computation, University of Amsterdam)</span> <em class="seminar-title">Reasoning about Epistemic Superiority and Data Exchange</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>In this presentation I focus on a framework that generalizes dynamic epistemic logic in order to model a wider range of scenarios including those in which agents read or communicate (or somehow gain access to) all the information stored at specific sources, or possessed by some other agents (including information of a non-propositional nature, such as data, passwords, secrets etc).
+The resulting framework allows one to reason about the state of affairs in which one agent (or group of agents) has ‘epistemic superiority’ over another agent (or group).
+I will present different examples of epistemic superiority and I will draw a connection to the logic of functional dependence by A. Baltag and J. van Benthem.
+At the level of group attitudes, I will further introduce the new concept of ‘common distributed knowledge’, which combines features of both common knowledge and distributed knowledge.
+This presentation is based on joint work with A. Baltag in [1].</p>
+
+<p>[1] A. Baltag and S. Smets, Learning what others know, in L. Kovacs and E. Albert (eds.), LPAR23 proceedings of the International Conference on Logic for Programming, AI and Reasoning, EPiC Series in Computing, 73:90-110, 2020. <a href="https://doi.org/10.29007/plm4">https://doi.org/10.29007/plm4</a></p>
+</div>
+</section>
+
+<section class="seminar" id="dag-westerståhl-from-consequence-to-meaning-the-case-of-intuitionistic-propositional-logic-ipl">
+  <header class="seminar-lead"><time datetime="2023-10-30 16:00:00 +0100" class="seminar-date">Monday, 30 October 2023 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Dag Westerståhl
+      <span class="seminar-affil">(Stockholm University, Tsinghua University)</span> <em class="seminar-title">From consequence to meaning: the case of intuitionistic propositional logic (IPL)</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>One quarter of the talk presents background on how facts about entailments and non-entailments can single out the constants in a language, and in particular on an idea originating with Carnap that the standard relation of logical consequence in a formal language should fix the (model-theoretic) meaning of its logical constants.
+Carnap’s focus was classical propositional logic (CPL), but his question can be asked for any logical language.
+The rest of the talk gives a very general positive answer to this question for IPL: the usual IPL consequence relation does indeed determine the standard intuitionistic meaning of the propositional connectives, according to most well-known semantics for IPL, such as Kripke semantics, Beth semantics, Dragalin semantics, topological semantics, and algebraic semantics.</p>
+</div>
+</section>
+
+<section class="seminar" id="thomas-bolander-epistemic-planning-logical-formalism-computational-complexity-and-robotic-implementations">
+  <header class="seminar-lead"><time datetime="2023-09-25 16:00:00 +0200" class="seminar-date">Monday, 25 September 2023 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Thomas Bolander
+      <span class="seminar-affil">(Technical University of Denmark)</span> <em class="seminar-title">Epistemic Planning: Logical formalism, computational complexity, and robotic implementations</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Dynamic Epistemic Logic (DEL) can be used as a formalism for agents to represent the mental states of other agents: their beliefs and knowledge, and potentially even their plans and goals.
+Hence, the logic can be used as a formalism to give agents, e.g. robots, a Theory of Mind, allowing them to take the perspective of other agents.
+In my research, I have combined DEL with techniques from automated planning in order to describe a theory of what I call Epistemic Planning: planning where agents explicitly reason about the mental states of others.
+The talk will introduce epistemic planning based on DEL, address issues of computational complexity, and demonstrate applications in cognitive robotics and human-robot collaboration.</p>
+</div>
+</section>
+
+<section class="seminar" id="thomas-ågotnes-somebody-knows-and-weak-conjunctive-closure-in-modal-logic">
+  <header class="seminar-lead"><time datetime="2023-08-28 16:00:00 +0200" class="seminar-date">Monday, 28 August 2023 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Thomas Ågotnes
+      <span class="seminar-affil">(University of Bergen and Shanxi University)</span> <em class="seminar-title">Somebody Knows and Weak Conjunctive Closure in Modal Logic</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Normal modal logics are closed under conjunctive closure.
+There are, however, interesting non-normal logics that are not, but which nevertheless satisfy a weak form of conjunctive closure. 
+One example is a notion of group knowledge in epistemic logic: somebody-knows.
+While something is general knowledge if it is known by <em>everyone</em>, this notion holds if it is known by <em>someone</em>.
+Somebody-knows is thus weaker than general knowledge but stronger than distributed knowledge.
+We introduce a modality for somebody-knows in the style of standard group knowledge modalities, and study its properties. 
+Unlike most other group knowledge modalities, somebody-knows is not a normal modality; in particular it lacks the conjunctive closure property.
+We provide an equivalent neighbourhood semantics for the language with a single somebody-knows modality, together with a completeness result: the somebody-knows modalities are completely characterised by the modal logic EMN extended with a particular weak conjunctive closure axiom.
+ The neighbourhood semantics and the completeness and complexity results also carry over other logics with weak conjunctive closure, including the logic of so-called local reasoning (Fagin et al., 1995) with bounded “frames of mind”, correcting an existing completeness result in the literature (Allen 2005).
+The talk is based on joint work with Yi N. Wang.</p>
+</div>
+</section>
+
+<section class="seminar" id="magdalena-ortiz-a-short-introduction-to-shacl-for-logicians">
+  <header class="seminar-lead"><time datetime="2023-05-22 16:00:00 +0200" class="seminar-date">Monday, 22 May 2023 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Magdalena Ortiz
+      <span class="seminar-affil">(Umeå University)</span> <em class="seminar-title">A Short Introduction to SHACL for Logicians</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>The SHACL Shapes Constraint Language was recommended in 2017 by the W3C for describing constraints on web data (specifically, on RDF graphs) and validating them.
+At first glance, it may not seem to be a topic for logicians, but as it turns out, SHACL can be approached as a formal logic, and actually quite an interesting one.
+In this paper, we give a brief introduction to SHACL tailored towards logicians and frame key uses of SHACL as familiar logic reasoning tasks.
+We discuss how SHACL relates to description logics, which are the basis of the OWL Web Ontology Languages, a related yet orthogonal standard for web data.
+Finally, we summarize some of our recent work in the SHACL world, hoping that this may shed light on how ideas, results, and techniques from well-established areas of logic can advance the state of the art in this emerging field.</p>
+</div>
+</section>
+
+<section class="seminar" id="neil-tennant-it-s-all-or-nothing-explosion-v-implosion">
+  <header class="seminar-lead"><time datetime="2023-04-24 16:00:00 +0200" class="seminar-date">Monday, 24 April 2023 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Neil Tennant
+      <span class="seminar-affil">(Ohio State University)</span> <em class="seminar-title">It's All or Nothing: Explosion v. Implosion</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>We set out five basic requirements for a logical system to be adequate for the regimentation of deductive reasoning in mathematics and science.
+We raise the question whether there are any further requirements, not entailed by these five, that ought to be imposed.
+One possible reply is dismissed: that the logical system should allow one to infer any proposition at all from an inconsistent set—i.e., it should have as primitive, or allow one to derive, the rule Ex Falso Quodlibet.
+We then propose that the logic should be implosive: it should not allow an inconsistent set to have any consequences other than absurdity.
+This proposal may appear to be very radical; but we hope to show that it is robust against objections.</p>
+</div>
+</section>
+
+<section class="seminar" id="ali-enayat-arithmetic-and-set-theory-through-the-lens-of-interpretability">
+  <header class="seminar-lead"><time datetime="2023-03-27 16:00:00 +0200" class="seminar-date">Monday, 27 March 2023 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Ali Enayat
+      <span class="seminar-affil">(University of Gothenburg)</span> <em class="seminar-title">Arithmetic and set theory through the lens of interpretability</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>The notion of (relative) interpretation for first order theories was introduced in a landmark 1953 monograph by Alfred Tarski, Andrzej Mostowski and Raphael Robinson, where it was developed as a powerful tool for establishing undecidability results.
+By now the domain of interest and applicability of interpretability theory far exceeds undecidability theory owing to its multifaceted interactions with both proof theory and model theory.
+Special attention will be paid to recent advances in the subject that indicate the distinctive character of Peano Arithmetic, Zermelo-Fraenkel set theory, and their higher order analogues in the realm of interpretability theory.
+This talk will present a personal overview of the interpretability analysis of arithmetical and set theoretical theories.</p>
+</div>
+</section>
+
+<section class="seminar" id="sven-ove-hansson-how-to-combine-probabilities-and-full-beliefs-in-a-formal-system">
+  <header class="seminar-lead"><time datetime="2023-02-27 16:00:00 +0100" class="seminar-date">Monday, 27 February 2023 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Sven Ove Hansson
+      <span class="seminar-affil">(KTH)</span> <em class="seminar-title">How to combine probabilities and full beliefs in a formal system</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>One of the major problems in formal epistemology is the difficulty of combining probabilistic and full (dichotomous, all-or-nothing) beliefs in one and the same formal framework. Major properties of actual human belief systems, including how they are impacted by our cognitive limitations, are used to introduce a series of desiderata for realistic models of such belief systems. This leads to a criticism of previous attempts to combine representations of both  probabilistic and full beliefs in one and the same formal model. Furthermore, a formal model is presented in which this is done differently. One of its major features is that contingent propositions can be transferred in both directions between full beliefs and lower degrees of belief, in a way that mirrors real-life acquisitions and losses of full beliefs. The subsystem consisting of full beliefs has a pattern of change that constitutes a credible system of dichotomous belief change.</p>
+</div>
+</section>
+
+<section class="seminar" id="vann-mcgee-boolean-degrees-of-truth-and-classical-rules-of-inference">
+  <header class="seminar-lead"><time datetime="2023-01-30 16:00:00 +0100" class="seminar-date">Monday, 30 January 2023 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Vann McGee
+      <span class="seminar-affil">(MIT)</span> <em class="seminar-title">Boolean Degrees of Truth and Classical Rules of Inference</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Compositional semantics that acknowledge vagueness by positing degrees of truth intermediate between truth and falsity can retain classical sentential calculus, provided the degrees form a Boolean algebra.
+A valid deduction guarantees that the degree of truth of the conclusion be at least as great as every lower bound on the degrees of the premises.
+If we extend the language to allow infinite disjunctions and conjunctions, the Boolean algebra will need to be complete and atomic.
+If we extend further by adding quantifiers ranging over a fixed domain, we get the supervaluations proposed by Bas van Fraassen.</p>
+</div>
+</section>
+
+<section class="seminar" id="alexandru-baltag-from-surprise-exams-to-topological-mu-calculus">
+  <header class="seminar-lead"><time datetime="2022-12-19 16:00:00 +0100" class="seminar-date">Monday, 19 December 2022 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Alexandru Baltag
+      <span class="seminar-affil">(University of Amsterdam)</span> <em class="seminar-title">From Surprise Exams to Topological Mu-Calculus</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>I present a topological epistemic logic, motivated by a famous epistemic puzzle: the Surprise Exam Paradox.
+It is a fixed-point modal logic, with modalities for knowledge (modelled as the universal modality), knowability of a proposition (represented by the topological interior operator), and (un)knowability of the actual world.
+The last notion has a non-self-referential reading (modelled by Cantor derivative: the set of limit points of a given set) and a self-referential one (modelled by the so-called perfect core of a given set: its largest subset which is a fixed point of relativized derivative).
+I completely axiomatize this logic, showing that it is decidable and PSPACE-complete, as well as briefly explain how the  same model-theoretic method can be elaborated to prove the completeness and decidability of the full topological mu-calculus.
+Finally, I apply it to the analysis of the Surprise Exam Paradox and other puzzles.
+<!--more--></p>
+
+<p>References:</p>
+
+<ul>
+  <li>A. Baltag, N. Bezhanishvili, D. Fernández-Duque. The Topology of Surprise. Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning. Vol. 19 (1), 33-42, 2022. Available online in ILLC Prepublication (PP) series <a href="https://eprints.illc.uva.nl/id/document/11528">PP-2022-06</a>.</li>
+  <li>A. Baltag, N. Bezhanishvili, D. Fernández-Duque. The Topological Mu-Calculus: Completeness and Decidability. LICS ‘21: Proceedings of the 36th Annual ACM/IEEE Symposium on Logic in Computer Science, vol 89: 1-13, 2021. <a href="https://doi.org/10.1109/LICS52264.2021.9470560">doi:10.1109/lics52264.2021.9470560</a>. Available online in ILLC Prepublication (PP) series <a href="https://eprints.illc.uva.nl/id/document/11192">PP-2021-07</a>.</li>
+</ul>
+</div>
+</section>
+
+<section class="seminar" id="laura-crosilla-on-weyl-s-predicative-concept-of-set">
+  <header class="seminar-lead"><time datetime="2022-11-28 16:00:00 +0100" class="seminar-date">Monday, 28 November 2022 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Laura Crosilla
+      <span class="seminar-affil">(University of Oslo)</span> <em class="seminar-title">On Weyl's predicative concept of set</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>In the book Das Kontinuum (1918), Hermann Weyl presents a coherent and sophisticated approach to analysis from a predicativist perspective. In the first chapter of (Weyl 1918), Weyl introduces a predicative concept of set, according to which sets are built ‘from the bottom up’ starting from the natural numbers.
+Weyl clearly contrasts this predicative concept of set with the concept of arbitrary set, which he finds wanting, especially when working with infinite sets.
+In the second chapter of Das Kontinuum, he goes on to show that large portions of 19th century analysis can be developed on the basis of his predicative concept of set.
+<!--more--></p>
+
+<p>Das Kontinuum inspired fundamental ideas in mathematical logic and beyond, such as the logical analysis of predicativity of the 1950-60’s, Solomon Feferman’s work on predicativity and Errett Bishop’s constructive mathematics.
+The seeds of Das Kontinuum are already visible in the early (Weyl 1910), where Weyl, among other things, offers a clarification of Zermelo’s axiom schema of Separation.</p>
+
+<p>In this talk, I examine Weyl’s predicative concept of set in (Weyl 1918) and discuss its origins in (Weyl 1910).</p>
+
+<p>Bibliography</p>
+
+<ul>
+  <li>Weyl, H., 1910, Über die Definitionen der mathematischen Grundbegriffe, Mathematischnaturwissenschaftliche Blätter, 7, pp. 93-95 and pp. 109-113.</li>
+  <li>Weyl, H., 1918, Das Kontinuum. Kritische Untersuchungen über die Grundlagen der Analysis, Veit, Leipzig. Translated in English, Dover Books on Mathematics, 2003.</li>
+</ul>
+</div>
+</section>
+
+<section class="seminar" id="melvin-fitting-strict-tolerant-logic-and-strict-tolerant-logics">
+  <header class="seminar-lead"><time datetime="2022-10-24 16:00:00 +0200" class="seminar-date">Monday, 24 October 2022 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Melvin Fitting
+      <span class="seminar-affil">(City University of New York (Graduate Center))</span> <em class="seminar-title">Strict/Tolerant Logic and Strict/Tolerant Logics</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Strict/tolerant logic, ST, has been of considerable interest in the last few years, in part because it forces consideration of what it means for two logics to be different, or the same.  And thus, of what it means to be a logic.  The basic idea behind ST is that it evaluates the premises and the conclusions of its consequence relation differently, with the premises held to stricter standards while conclusions are treated more tolerantly.  More specifically, ST is a three-valued logic with left sides of sequents understood as if in Kleene’s Strong Three Valued Logic, and right sides as if in Priest’s Logic of Paradox.  Surprisingly, this hybrid validates the same sequents that classical logic does, though it differs from classical logic at the metaconsequence level.  A version of this result has been extended to meta, metameta , etc. consequence levels, creating a very interesting hierarchy of logics.  All this is work of others, and I will summarize it.
+<!--more--></p>
+
+<p>My contribution to the subject is to show that the original ideas behind ST are, in fact, much more general than it first seemed, and an infinite family of many valued logics have Strict/Tolerant counterparts.  Besides classical logic, this family includes both Kleene’s and Priest’s logics themselves, as well as first degree entailment.   For instance, for both the Kleene and the Priest logic, the corresponding strict/tolerant logic is six-valued, but with differing sets of strictly and tolerantly designated truth values.  There is a reverse notion, of Tolerant/Strict logics, which exist for the same structures.  And the hierarchy going through meta, metameta, \ldots consequence levels exists for the same infinite family of many valued logics.  In a similar way all this work extends to modal and quantified many valued logics. In brief, we have here a very general phenomenon.</p>
+
+<p>I will present a sketch of the basic generalizations, of Strict/Tolerant and Tolerant/Strict, but I will not have time to discuss the hierarchies of such logics, nor will I have time to give proofs, beyond a basic sketch of the ideas involved.</p>
+</div>
+</section>
+
+<section class="seminar" id="jan-von-plato-gödel-s-work-in-logic-and-foundations-in-the-light-of-his-shorthand-notebooks">
+  <header class="seminar-lead"><time datetime="2022-09-26 16:00:00 +0200" class="seminar-date">Monday, 26 September 2022 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Jan von Plato
+      <span class="seminar-affil">(University of Helsinki)</span> <em class="seminar-title">Gödel's work in logic and foundations in the light of his shorthand notebooks</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>The study of Gödel’s shorthand notebooks in the ERC project GODELIANA has revealed two main aspects of his work: First, there is behind each of his relatively few published papers an enormous amount of notes. They typically reveal how he arrived at his results, as with the incompleteness theorem. An extreme case are Gödel’s 1938 results on set theory, preceded by some 700 pages of notes never studied before. Secondly, his threshold for publishing was by 1940 so high that some two thousand pages of developments and results remained unknown. One highlight here is a series of notebooks titled “Resultate Grundlagen” in which numerous anticipations of later results in set theory are found. A second main topic are the relations between modal and intuitionistic logic. In particular, Gödel gives a syntactic translation from S4 to intuitionistic logic by methods that are readily generalizable to any decent intermediate logics. These newly discovered methods are, even by today’s standards, a clear step ahead in the study of interrelations between systems of non-classical logics.</p>
+</div>
+</section>
+
+<section class="seminar" id="øystein-linnebo-potentialism-in-the-philosophy-and-foundations-of-mathematics">
+  <header class="seminar-lead"><time datetime="2022-05-30 16:00:00 +0200" class="seminar-date">Monday, 30 May 2022 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Øystein Linnebo
+      <span class="seminar-affil">(University of Oslo)</span> <em class="seminar-title">Potentialism in the philosophy and foundations of mathematics</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Aristotle famously claimed that the only coherent form of infinity is potential, not actual.
+However many objects there are, it is possible for there to be yet more; but it is impossible for there in fact to be infinitely many objects.
+Although this view was superseded by Cantor’s transfinite set theory, even Cantor regarded the collection of all sets as “unfinished” or incapable of “being together”.
+In recent years, there has been a revival of interest in potentialist approaches to the philosophy and foundations of mathematics.
+The lecture provides a survey of such approaches, covering both technical results and associated philosophical views, as these emerge both in published work and in work in progress.</p>
+</div>
+</section>
+
+<section class="seminar" id="michael-rathjen-completeness-turing-schütte-feferman-and-löb">
+  <header class="seminar-lead"><time datetime="2022-04-25 16:00:00 +0200" class="seminar-date">Monday, 25 April 2022 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Michael Rathjen
+      <span class="seminar-affil">(University of Leeds)</span> <em class="seminar-title">Completeness: Turing, Schütte, Feferman (and Löb)</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Progressions of theories along paths through Kleene’s Omega adding the consistency of the previous theory at every successor step, can deduce every true <span>\( \Pi^0_1 \)</span>-statement. This was shown by Turing in his 1938 thesis who called these progressions  “ordinal logics”. In 1962 Feferman proved the amazing theorem that progressions based on the “uniform reflection principle” can deduce every true arithmetic statement. In contrast to Turing’s, Feferman’s proof is very complicated, involving several cunning applications of self-reference via the recursion theorem. Using Schütte’s method of search trees (or decomposition trees) for omega-logic and reflexive induction, however, one can give a rather transparent proof.</p>
+</div>
+</section>
+
+<section class="seminar" id="juliette-kennedy-reading-syntax-off-semantics">
+  <header class="seminar-lead"><time datetime="2022-03-28 16:00:00 +0200" class="seminar-date">Monday, 28 March 2022 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Juliette Kennedy
+      <span class="seminar-affil">(University of Helsinki)</span> <em class="seminar-title">Reading syntax off semantics</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>The practice of foundations of mathematics is built around a firm distinction between syntax and semantics. But how stable is this distinction, and is it always the case that semantically presented mathematical objects in the form e.g. of a model class might give rise to a “natural logic”? In this talk I will investigate different scenarios from set and model theory in which an investigation of the notion of an implicit or internal logic or syntax becomes possible. Time permitting we will also discuss the question whether logics without a syntax can be considered logics at all.</p>
+</div>
+</section>
+
+<section class="seminar" id="thierry-coquand-formalization-of-mathematics-and-dependent-type-theory">
+  <header class="seminar-lead"><time datetime="2022-02-28 16:00:00 +0100" class="seminar-date">Monday, 28 February 2022 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Thierry Coquand
+      <span class="seminar-affil">(Gothenburg University)</span> <em class="seminar-title">Formalization of Mathematics and Dependent Type Theory</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>The first part will be about representation of mathematics on a computer. Questions that arise there are naturally reminiscent of issues that arise when teaching formal proofs in a basic logic course, e.g. how to deal with free and bound variables, and instantiation rules. As discussed in a 1962 paper of Tarski, these issues are “clearly experienced both in teaching an elementary course in mathematical logic and in formalizing the syntax of predicate logic for some theoretical purposes.” I will present two quite different approaches to this problem: one inspired by Tarski’s paper (N. Megill, system Metamath) and one using dependent type theory (N.G. de Bruijn).</p>
+
+<!--more-->
+
+<p>The second part will then try to explain how notations introduced by dependent type theory suggest new insights for old questions coming from Principia Mathematica (extensionality, reducibility axiom) through the notion of universe, introduced by Grothendieck for representing category theory in set theory, and introduced in dependent type theory by P. Martin-Löf.</p>
+</div>
+</section>
+
+<section class="seminar" id="johan-van-benthem-interleaving-logic-and-counting">
+  <header class="seminar-lead"><time datetime="2022-01-24 16:00:00 +0100" class="seminar-date">Monday, 24 January 2022 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Johan van Benthem
+      <span class="seminar-affil">(University of Amsterdam, Stanford University, and Tsinghua University)</span> <em class="seminar-title">Interleaving Logic and Counting</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Reasoning with generalized quantifiers in natural language combines logical and arithmetical features, transcending divides between qualitative and quantitative.
+This practice blends with inference patterns in ‘grassroots mathematics’ such as pigeon-hole principles.
+Our topic is this cooperation of logic and counting on a par, studied with small systems and gradually moving upward.
+<!--more-->
+We start with monadic first-order logic with counting.
+We provide normal forms that allow for axiomatization, determine which arithmetical notions are definable, and conversely, discuss which logical notions and reasoning principles can be defined out of arithmetical ones.
+Next we study a series of strengthenings in the same style, including second-order versions, systems with multiple counting, and a new modal logic with counting.
+As a complement to our fragment approach, we also discuss another way of controlling complexity: changing the semantics of counting to reason about ‘mass’ or other aggregating notions than cardinalities.
+Finally, we return to the basic reasoning practices that lie embedded in natural language, confronting our formal systems with linguistic quantifier vocabulary, monotonicity reasoning, and procedural semantics via semantic automata.
+We conclude with some pointers to further entanglements of logic and counting in the metamathematics of formal systems, the philosophy of logic, and cognitive psychology.
+(Joint work with Thomas Icard)</p>
+
+<p>Paper available at: <a href="https://eprints.illc.uva.nl/id/eprint/1813/1/Logic.Counting.pdf">https://eprints.illc.uva.nl/id/eprint/1813/1/Logic.Counting.pdf</a></p>
+</div>
+</section>
+
+<section class="seminar" id="lars-birkedal-iris-a-higher-order-concurrent-separation-logic-framework">
+  <header class="seminar-lead"><time datetime="2021-12-20 16:00:00 +0100" class="seminar-date">Monday, 20 December 2021 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Lars Birkedal
+      <span class="seminar-affil">(Aarhus University)</span> <em class="seminar-title">Iris: A Higher-Order Concurrent Separation Logic Framework</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>I will introduce some of our research on Iris, a higher-order concurrent separation logic framework, implemented and verified in the Coq proof assistant, which can be used for mathematical reasoning about safety and correctness of concurrent higher-order imperative programs. Iris has been used for many different applications; see iris-project.org for a list of research papers. However, in this talk I will focus on the Iris base logic (and its semantics) and sketch how one may define useful program logics on top of the base logic. The base logic is a higher-order intuitionistic modal logic, which, in particular, supports the definition of recursive predicates and whose type of propositions is itself recursively defined.</p>
+</div>
+</section>
+
+<section class="seminar" id="sara-l-uckelman-john-eliot-s-logick-primer-a-bilingual-english-wôpanâak-logic-textbook">
+  <header class="seminar-lead"><time datetime="2021-11-22 17:00:00 +0100" class="seminar-date">Monday, 22 November 2021 at 17:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Sara L. Uckelman
+      <span class="seminar-affil">(Durham University)</span> <em class="seminar-title">John Eliot’s Logick Primer: A bilingual English-Wôpanâak logic textbook</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>In 1672 John Eliot, English Puritan educator and missionary, published <em>The Logick Primer: Some Logical Notions to initiate the INDIANS in the knowledge of the Rule of Reason; and to know how to make use thereof</em> [1]. This roughly 80 page pamphlet focuses on introducing basic syllogistic vocabulary and reasoning so that syllogisms can be created from texts in the Psalms, the gospels, and other New Testament books. The use of logic for proselytizing purposes is not distinctive: What is distinctive about Eliot’s book is that it is bilingual, written in both English and Wôpanâak (Massachusett), an Algonquian language spoken in eastern coastal and southeastern Massachusetts. It is one of the earliest bilingual logic textbooks, it is the only textbook that I know of in an indigenous American language, and it is one of the earliest printed attestations of the Massachusett language.</p>
+
+<p>In this talk, I will:</p>
+
+<ul>
+  <li>Introduce John Eliot and the linguistic context he was working in.</li>
+  <li>Introduce the contents of the <em>Logick Primer</em>—vocabulary, inference patterns, and applications.</li>
+  <li>Discuss notions of “Puritan” logic that inform this primer.</li>
+  <li>Talk about the importance of his work in documenting and expanding the Massachusett language and the problems that accompany his colonial approach to this work.</li>
+</ul>
+
+<p>References</p>
+
+<p>[1] J.[ohn] E.[liot]. <em>The Logick Primer: Some Logical Notions to initiate the INDIANS in the knowledge of the Rule of Reason; and to know how to make use thereof</em>. Cambridge, MA: Printed by M.[armaduke] J.[ohnson], 1672.</p>
+</div>
+</section>
+
+<section class="seminar" id="erich-grädel-semiring-semantics-for-logical-statements-with-applications-to-the-strategy-analysis-of-games">
+  <header class="seminar-lead"><time datetime="2021-10-25 16:00:00 +0200" class="seminar-date">Monday, 25 October 2021 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Erich Grädel
+      <span class="seminar-affil">(RWTH Aachen University)</span> <em class="seminar-title">Semiring semantics for logical statements with applications to the strategy analysis of games</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Semiring semantics of logical formulae generalises the classical Boolean semantics by permitting multiple truth values from certain semirings. In the classical Boolean semantics, a model of a formula assigns to each (instantiated) literal a Boolean value.
+K-interpretations, for a semiring K, generalize this by assigning to each such literal a value from K. We then interpret 0 as false and
+all other semiring values as nuances of true, which provide additional information, depending on the semiring:
+For example, the Boolean semiring over {0,1} corresponds classical semantics, the Viterbi-semiring can model confidence scores,
+the tropical semiring is used for cost analysis, and min-max-semirings (A, max, min, a, b) for a totally ordered set
+(A,&lt;) can model different access levels. Most importantly, semirings of polynomials, such as N[X], allow us to track certain literals by mapping them
+to different indeterminates. The overall value of the formula is then a polynomial that describes precisely what combinations of literals prove the truth of the formula.
+<!--more--></p>
+
+<p>This can also be used for strategy analysis in games.
+Evaluating formulae that define winning regions in a given game in an appropriate
+semiring of polynomials provides not only the Boolean information on who wins, but also tells us how they win and which strategies they might use. For this approach,
+the case of Büchi games is of special interest, not only due to their practical importance, but also because it is the simplest case where
+the logical definition of the winning region involves a genuine alternation of a greatest and a least fixed point.
+We show that, in a precise sense, semiring semantics provide information about all absorption-dominant strategies – strategies that win with minimal effort,
+and we discuss how these relate to positional and the more general persistent strategies.
+This information enables further applications such as game synthesis or determining minimal modifications to the game needed to change its outcome.</p>
+</div>
+</section>
+
+<section class="seminar" id="anupam-das-on-the-proof-theoretic-strength-of-cyclic-reasoning">
+  <header class="seminar-lead"><time datetime="2021-09-27 16:00:00 +0200" class="seminar-date">Monday, 27 September 2021 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Anupam Das
+      <span class="seminar-affil">(University of Birmingham)</span> <em class="seminar-title">On the proof theoretic strength of cyclic reasoning</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Cyclic (or circular) proofs are now a common technique for demonstrating metalogical properties of systems incorporating (co)induction, including modal logics, predicate logics, type systems and algebras. Inspired by automaton theory, cyclic proofs encode a form of self-dependency of which induction/recursion comprise special cases. An overarching question of the area, the so-called ‘Brotherston-Simpson conjecture’, asks to what extent the converse holds.
+<!--more--></p>
+
+<p>In this talk I will discuss a line of work that attempts to understand the expressivity of circular reasoning via forms of proof theoretic strength. Namely, I address predicate logic in the guise of first-order arithmetic, and type systems in the guise of higher-order primitive recursion, and establish a recurring theme: circular reasoning buys precisely one level of ‘abstraction’ over inductive reasoning.</p>
+
+<p>This talk will be based on the following works:</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1807.10248">https://arxiv.org/abs/1807.10248</a></li>
+  <li><a href="https://arxiv.org/abs/2012.14421">https://arxiv.org/abs/2012.14421</a></li>
+</ul>
+</div>
+</section>
+
+<section class="seminar" id="dag-normann-an-alternative-perspective-on-reverse-mathematics">
+  <header class="seminar-lead"><time datetime="2021-06-21 16:00:00 +0200" class="seminar-date">Monday, 21 June 2021 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Dag Normann
+      <span class="seminar-affil">(Oslo)</span> <em class="seminar-title">An alternative perspective on Reverse Mathematics</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>In his address to the International Congress of Mathematics in Vancouver, 1974, Harvey Friedman launched a program where the aim would be to find the minimal set of axioms needed to prove theorems of ordinary mathematics. More than often, it turned out that the axioms then would be provable from the theorems, and the subject was named Reverse Mathematics.
+In this talk we will survey some of the philosophy behind, and results of, the early reverse mathematics, based on the formalisation of mathematics within second order number theory.
+<!--more--></p>
+
+<p>In 2005, Ulrich Kohlenbach introduced higher order reverse mathematics, and we give a brief explanation of the what and why? of Kohlenbach’s approach.
+In an ongoing project with Sam Sanders we have studied the strength of classical theorems of late 19th/early 20th century mathematics, partly within Kohlenbach’s formal typed theory and partly by their, in a generalised sense, constructive content. In the final part of the talk I will give some examples of results from this project, mainly from the perspective of higher order computability theory. No prior knowledge of higher order computability theory is needed.</p>
+</div>
+</section>
+
+<section class="seminar" id="wilfrid-hodges-how-the-teenage-avicenna-planned-out-several-new-logics">
+  <header class="seminar-lead"><time datetime="2021-05-24 16:00:00 +0200" class="seminar-date">Monday, 24 May 2021 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Wilfrid Hodges
+      <span class="seminar-affil">(Fellow of the British Academy)</span> <em class="seminar-title">How the teenage Avicenna planned out several new logics</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>Almost exactly a thousand years ago a teenager known today as Avicenna lived in what is now Uzbekistan.
+He made a resolution to teach himself Aristotelian logic, armed with an Arabic translation of Aristotle and a century-old Arabic textbook of logic.
+A couple of years later, around his eighteenth birthday, he wrote a brief report of what he had learned.
+<!--more-->
+Six months ago I started to examine this report - I suspect I am the first logician to do that.
+It contains many surprising things.
+Besides introducing some new ideas that readers of Avicenna know from his later works, it also identifies some specific points of modal logic where Avicenna was sure that Aristotle had made a mistake.
+People had criticised Aristotle’s logic before, but not at these points.
+At first Avicenna had no clear understanding of how to do modal logic, and it took him another thirty years to justify all the criticisms of Aristotle in his report.
+But meanwhile he discovered for himself how to defend a new logic by building new foundations.
+I think the logic itself is interesting, but the talk will concentrate on another aspect.
+These recent discoveries mean that Avicenna is the earliest known logician who creates new logics and tells us what he is doing, and why, at each stage along the way.</p>
+</div>
+</section>
+
+<section class="seminar" id="jouko-väänänen-dependence-logic-some-recent-developments">
+  <header class="seminar-lead"><time datetime="2021-04-26 16:00:00 +0200" class="seminar-date">Monday, 26 April 2021 at 16:00 <span>(CEST)</span> </time>
+    <h3 class="seminar-speaker">
+      Jouko Väänänen
+      <span class="seminar-affil">(Helsinki)</span> <em class="seminar-title">Dependence logic: Some recent developments</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>In the traditional so-called Tarski’s Truth Definition the semantics of first order logic is defined with respect to an assignment of values to the free variables.
+A richer family of semantic concepts can be modelled if semantics is defined with respect to a set (a “team”) of such assignments.
+This is called team semantics.
+<!--more-->
+Examples of semantic concepts available in team semantics but not in traditional Tarskian semantics are the concepts of dependence and independence.
+Dependence logic is an extension of first-order logic based on team semantics.
+It has emerged that teams appear naturally in several areas of sciences and humanities, which has made it possible to apply dependence logic and its variants to these areas.
+In my talk I will give a quick introduction to the basic ideas of team semantics and dependence logic as well as an overview of some new developments, such as quantitative analysis of team properties, a framework for a multiverse approach to set theory, and probabilistic independence logic inspired by the foundations of quantum mechanics.</p>
+</div>
+</section>
+
+<section class="seminar" id="dag-prawitz-validity-of-inference-and-argument">
+  <header class="seminar-lead"><time datetime="2021-03-22 16:00:00 +0100" class="seminar-date">Monday, 22 March 2021 at 16:00 <span>(CET)</span> </time>
+    <h3 class="seminar-speaker">
+      Dag Prawitz
+      <span class="seminar-affil">(Stockholm)</span> <em class="seminar-title">Validity of inference and argument</em>
+      
+    </h3>
+  </header>
+  <div class="abstract">
+    <p>An account of inferences should take into account not only inferences from established premisses but also inferences made under assumptions.
+This makes it necessary to consider arguments, chains of inferences in which assumptions and variables may become bound.
+<!--more-->
+An argument is valid when all its inferences are valid, and it then amounts to a proof in case it has no unbound assumptions or variables.
+The validity of an inference – not to confuse with the conclusion being a logical consequence of the premisses – seems in turn best explained in terms of proofs.
+This means that the concepts of valid inference and valid argument depend on each other and cannot be defined independently but have to be described by principles that state how they are related.
+A number of such principles will be proposed.
+It is conjectured that inferences that can be expressed in the language of first order intuitionistic predicate logic and are implied to be valid by these principles are all provable in that logic.</p>
+</div>
+</section>
+
+</main>
+
+    </div>
+
+  </body>
+
+</html>

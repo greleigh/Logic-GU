@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+  
+    Reconciling SHACL and Ontologies &middot; Logic@GU
+  
+</title>
+
+<!-- CSS styles -->
+<link rel="stylesheet" href="/assets/css/poole.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/hyde.css">
+<link rel="stylesheet" href="/assets/css/logic.css">
+<!-- CSS typography -->
+<link rel="stylesheet" href="https://use.typekit.net/tqt7eiw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/logic-gu-144.png">
+  <link rel="shortcut icon" type="image/png" sizes="64x64" href="/assets/logic-gu-64.png">
+  
+
+<!-- RSS -->
+<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Logic@GU
+        </a>
+      </h1>
+      <p class="lead">Homepage of the Logic Group at the University of Gothenburg.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+
+      
+
+      
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/about">The Logic Group</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/publications">Publications</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars">Seminars</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars/nol">NOL Seminar</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/lindstrom-lectures">Lindström Lectures</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/MiL">Master in Logic</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/activities">Activities</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/resources">Resources</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="https://lc2024.se">Logic Colloquium</a>
+          
+        
+      
+    </nav>
+
+    <div class="sidebar-footer"><p>&copy; 2025. All rights reserved.</p>
+      <!-- Maintained by <a href="https://www.gu.se/en/about/find-staff/grahamleigh">Graham Leigh</a>.<br/> -->
+      <p>Created with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://hyde.getpoole.com">Hyde</a>.</p></div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <p><a href="/seminars">Seminar archive</a></p>
+
+<div class="seminar">
+  <h1 class="seminar-title">Reconciling SHACL and Ontologies</h1>
+  <h2 class="seminar-speaker">Anouk Oudshoorn</h2>
+  <span class="seminar-date">Mon, 03 Apr 2023 10:15:00 +0200</span>
+  <p>The World Wide Web Consortium (<sc>w3c</sc>) set Web Ontology Language (<sc>owl</sc>) and Shape Constraint Language (<sc>shacl</sc>) as international standards for managing semantically enriched data on the web.
+However, there is a difference in how these languages handle the completeness of data.
+In <sc>owl</sc>, not all information has to be explicitly present; part of the information can be implied by logical rules.
+Whereas <sc>shacl</sc>, which enables us to check for certain structures in a given knowledge graph, assumes completeness of it.
+Thus, with <sc>shacl</sc> we can validate the given data, while with <sc>owl</sc> we can infer knowledge.
+Combining the functionalities of the two into one standard is relevant and not straightforward.
+<!--more--></p>
+
+<p>In this seminar talk, we will introduce a new semantics for validating stratified <sc>shacl</sc> constraints, a specific family of queries, in presence of an ontology.
+We developed a refined chase technique, producing for each ontology a minimal model, i.e., a labeled graph, in which we can evaluate <sc>shacl</sc> constraints.
+However, this technique might still produce infinite models.
+This can be avoided by rewriting the <sc>shacl</sc> constraints with respect to the ontology, resulting in a standalone set of <sc>shacl</sc> constraints that can directly be verified only over the data; our second contribution.</p>
+
+</div>
+
+
+
+    </div>
+
+  </body>
+
+</html>

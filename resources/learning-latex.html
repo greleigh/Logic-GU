@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+  
+    Learning LaTeX &middot; Logic@GU
+  
+</title>
+
+<!-- CSS styles -->
+<link rel="stylesheet" href="/assets/css/poole.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/hyde.css">
+<link rel="stylesheet" href="/assets/css/logic.css">
+<!-- CSS typography -->
+<link rel="stylesheet" href="https://use.typekit.net/tqt7eiw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/logic-gu-144.png">
+  <link rel="shortcut icon" type="image/png" sizes="64x64" href="/assets/logic-gu-64.png">
+  
+
+<!-- RSS -->
+<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+  });
+  MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Logic@GU
+        </a>
+      </h1>
+      <p class="lead">Homepage of the Logic Group at the University of Gothenburg.
+</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- <a class="sidebar-nav-item" href="/">Home</a> -->
+
+      
+
+      
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/about">The Logic Group</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/publications">Publications</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars">Seminars</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/seminars/nol">NOL Seminar</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/lindstrom-lectures">Lindström Lectures</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/MiL">Master in Logic</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/activities">Activities</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="/resources">Resources</a>
+          
+        
+      
+        
+          
+          <a class="sidebar-nav-item" href="https://lc2024.se">Logic Colloquium</a>
+          
+        
+      
+    </nav>
+
+    <div class="sidebar-footer"><p>&copy; 2025. All rights reserved.</p>
+      <!-- Maintained by <a href="https://www.gu.se/en/about/find-staff/grahamleigh">Graham Leigh</a>.<br/> -->
+      <p>Created with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://hyde.getpoole.com">Hyde</a>.</p></div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <main class="page">
+  <h1 class="page-title">Learning LaTeX</h1>
+  
+<p><a href="https://www.latex-project.org">LaTeX</a> is a document preparation system for creating technical and scientific documents. It is especially useful for typesetting logic with its plethora of special symbols. The Logical Theory textbook, as well as most of our lecture notes/slides are all produced using LaTeX.</p>
+
+<p>Writing in LaTeX is much simpler than using a word processor like Word. A LaTeX file is just a plain text file containing the content of your document and a few special commands describing the structure of your document. If you are familiar with basic html or markdown (both used extensively in web design) you will be at home with LaTeX. Feeding this text file to LaTeX will produce a pdf of the document.</p>
+
+<h1 id="getting-started">Getting started</h1>
+
+<p>Nowadays you can write LaTeX documents on the web without needing to download and install anything. A popular online LaTeX tool is <a href="https://www.overleaf.com/">Overleaf</a>.</p>
+
+<ol>
+  <li>Start with the <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><em>Learn LaTeX in 30 minutes</em></a> guide.</li>
+  <li>Learn the interface provided by Overleaf by <a href="https://www.overleaf.com/learn/how-to/Creating_a_document_in_Overleaf">creating a document in Overleaf</a>.</li>
+  <li>The <a href="https://en.wikibooks.org/wiki/LaTeX">LaTeX Wikibook</a> is an excellant resource for learning about the more advanced features of LaTeX.</li>
+</ol>
+
+<h1 id="logic-in-latex">Logic in LaTeX</h1>
+
+<p>LaTeX is an excellent tool for typesetting mathematical notation. The basics of this are covered in the <em>Learn LaTeX in 30 minutes</em> guide listed above. More functionality is provided through <em>packages</em> which is usually as simple as adding <code class="language-plaintext highlighter-rouge">\usepackage{package-name}</code> to the preamble of your document (i.e., somewhere above <code class="language-plaintext highlighter-rouge">\begin{document}</code>).</p>
+
+<ol>
+  <li>Read the <a href="https://www.overleaf.com/learn/latex//Mathematical_expressions">documentation on typesetting mathematics in LaTeX</a> provided by Overleaf. This guide also introduces the mathematics package <code class="language-plaintext highlighter-rouge">amsmath</code> that introduces the most common mathematical symbols, provides better support for equations, and much more. See also the <a href="https://www.overleaf.com/learn/latex//Mathematical_expressions#Further_reading">list of further reading</a> provided at the end of the guide and the <a href="https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics">LaTeX wikibook on using <code class="language-plaintext highlighter-rouge">amsmath</code></a>.</li>
+  <li>Check out the logic related tips you can find at the <a href="https://www.logicmatters.net/latex-for-logicians">LaTeX for Logicians page</a>, ranging from logic-specific symbols to writing truth-tables and proof trees.</li>
+  <li>Visit the <a href="https://tex.stackexchange.com">TeX StackExchange</a> for answers to your LaTeX questions.</li>
+  <li>If you need to figure out how to display a particular symbol in LaTeX, <a href="https://detexify.kirelabs.org/classify.html">detexify</a> is your tool: you just paste or draw the symbol you want and that site will tell you the command.</li>
+  <li>See the <a href="#a-latex-miscellany">LaTeX miscellany</a> below our own recommendations.</li>
+</ol>
+
+<h1 id="beam-your-logic-with-beamer">Beam your logic with Beamer</h1>
+
+<p>At some point you will want to present your labour to others. Beamer is a LaTeX class for creating presentations.</p>
+
+<ol>
+  <li>Learn how to <a href="https://www.overleaf.com/learn/latex//beamer">create a presentation</a> in Beamer.</li>
+  <li>Use a <a href="https://www.overleaf.com/latex/templates/beamer-presentation/jvmwtkmnqtpp">beamer template</a> to create your own presentation.</li>
+</ol>
+
+<h1 id="a-latex-miscellany">A LaTeX miscellany</h1>
+
+<p>There are thousands of LaTeX packages. These can be adding new symbols, new design templates, or new functionality. Here is a brief (and highly personal) recommendation. All of the following are included in the standard LaTeX setup and their documentation is available through the <a href="https://www.ctan.org">Comprehensive TeX Archive Network (CTAN)</a>; simply search for the package name on that site.</p>
+
+<h2 id="logic-specific">Logic specific</h2>
+
+<ul>
+  <li><strong>Alphabets</strong> You can never have too many ‘x’s. The <code class="language-plaintext highlighter-rouge">amsmath</code> package implements the caligraphic and fraktur scripts. Use these sparingly: your work is to be read, not framed!</li>
+  <li><strong>Proof trees</strong> Whether its natural deduction, tableaux or sequent calculus, we all need to typeset a formal proof at somepoint in our lifetime. The LaTeX for Logicians page has a separate entry on <a href="https://www.logicmatters.net/latex-for-logicians/nd/">typesetting natural deduction proofs</a> with links to different packages. I recommend <code class="language-plaintext highlighter-rouge">ebproof</code> and <code class="language-plaintext highlighter-rouge">bussproofs</code>. The latter package (and its extension <code class="language-plaintext highlighter-rouge">bussproofs-extra</code>) is used in the <a href="https://openlogicproject.org">Open Logic Text</a>.</li>
+  <li><strong>Automata</strong> The TikZ package provides an extensive (and quite scary) toolkit for building figures and graphics within LaTeX. Search the <a href="https://texample.net">TeXample database</a> for what you need and adapt from there.</li>
+</ul>
+
+<h2 id="general-packages">General packages</h2>
+
+<ul>
+  <li>Theorems, lemmas and proofs, oh my! The <code class="language-plaintext highlighter-rouge">amsthm</code> package is the classic. A modern alternative is provided by <code class="language-plaintext highlighter-rouge">thmtools</code>.</li>
+  <li>Internal links. The <code class="language-plaintext highlighter-rouge">hyperref</code> package to the rescue. I recommend the overview in <a href="https://en.wikibooks.org/wiki/LaTeX/Hyperlinks">the LaTeX wikibook</a>. To reduce the chance of another package conflictin with <code class="language-plaintext highlighter-rouge">hyperref</code> it is recommended to be the <em>last</em> package loaded.</li>
+</ul>
+
+</main>
+
+    </div>
+
+  </body>
+
+</html>
